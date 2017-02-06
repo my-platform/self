@@ -2,11 +2,14 @@
 
     <div class="row  ind-sec1 ">
 
-        <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2">
+        <div class="col-md-8 col-md-offset-2 col-xs-12">
             <div class="col-md-12 col-xs-12">
-                <div class="col-md-9 col-xs-12">
-                    <h1 class="headline">Hello Everyone </h1>
-
+                <h1 class="headline">Hello Everyone </h1>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-md-4 col-sm-12 col-xs-12 ">
+                        <img src="bootstrap/images/user.jpg"> </img>
+                    </div>
+                <div class=" col-md-8 col-xs-12">
                     <p class="paragraph"> Hi, I'm Fouad Fawzi. welcome to my online House let's take a quick
                         look at my some stuff.
                         Simply I'm a web and mobile application developer and that how I can enjoy in my
@@ -17,11 +20,8 @@
                         my experience.
                         The development for me is a job and life style</p>
                 </div>
-                <div class="col-md-3 col-xs-12 ">
-                    <img id="my_picture" class=" img-responsive img-rounded"
-                         src="bootstrap/images/pic.jpg"> </img>
-                </div>
 
+                </div>
             </div>
         </div>
     </div>
@@ -29,7 +29,7 @@
     <div class="row ind-sec2">
         <div class="col-lg-12 col-md-12 col-xs-12">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2">
+                <div class="col-md-8 col-md-offset-2 col-xs-12 ">
                     <div class="col-md-12 col-xs-12">
                         <h1 class="headline padding-bottom">More about me</h1>
 
