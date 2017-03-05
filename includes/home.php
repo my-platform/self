@@ -1,8 +1,8 @@
-<div id="content" class="row text-center custom_row">
+<div  class="row text-center custom_row">
 
-    <div class="row  ind-sec1 ">
+    <div  class="row  ind-sec1 ">
 
-        <div class="col-md-8 col-md-offset-2 col-xs-12">
+        <div id="content" class="col-md-8 col-md-offset-2 col-xs-12">
             <div class="col-md-12 col-xs-12">
                 <h1 class="headline">Hello Everyone </h1>
                 <div class="col-md-12 col-sm-12 col-xs-12">

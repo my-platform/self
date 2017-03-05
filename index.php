@@ -9,4 +9,3 @@ get_index_content();
 <?php
 get_footer();
 ?>
-  

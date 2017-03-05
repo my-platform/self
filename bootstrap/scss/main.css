@@ -1,11 +1,60 @@
+@font-face {
+  font-family: 'header-font';
+  src: url("../fonts/Roboto-Regular.ttf"); }
 .ind-sec1 img {
   width: 200px;
   height: 200px;
   border-radius: 999px;
-  border: 5px solid #a51c30;
+  border: 5px solid #A51C30;
   padding: 0;
-  margin-left: 0; }
+  margin: 0; }
 .ind-sec1 p {
   margin-top: 40px; }
+
+.nav-pages a:after {
+  -webkit-transform: scale(0, 1);
+  -ms-transform: scale(0, 1);
+  -o-transform: scale(0, 1);
+  transform: scale(0, 1);
+  -webkit-transform-origin: center center 0px;
+  -moz-transform-origin: center center 0px;
+  -ms-transform-origin: center center 0px;
+  transform-origin: center center 0px;
+  -webkit-transition: all 0.30s ease-out 0s;
+  -o-transition: all 0.30s ease-out 0s;
+  transition: all 0.30s ease-out 0s;
+  border: 1px solid;
+  content: "";
+  display: block;
+  height: 1px;
+  left: -1px;
+  margin-top: -3px;
+  position: relative;
+  top: 15px;
+  width: 100%;
+  color: #ffffff; }
+.nav-pages a:hover:after,
+.nav-pages a:focus:after {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1); }
+
+.red_button {
+  font-family: header-font;
+  font-size: 14px; }
+
+.red_button:after,
+.red_button:focus,
+.red_button:active:after,
+.red_button:hover {
+  color: #ffffff;
+  border: 2px solid #A51C30;
+  border-radius: 0;
+  background: #A51C30;
+  text-decoration: none;
+  -webkit-transition: all 0.20s ease-out 0s;
+  -o-transition: all 0.20s ease-out 0s;
+  transition: all 0.20s ease-out 0s; }
 
 /*# sourceMappingURL=main.css.map */

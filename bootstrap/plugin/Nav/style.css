@@ -1940,7 +1940,7 @@ html {
   .mbr-buttons--active .mbr-buttons__btn {
     font-size: 15px;
     margin-top: 9px;
-    padding: 15px 30px;
+    padding: 20px 30px;
   }
   .mbr-buttons--freeze.mbr-buttons--active .mbr-buttons__link {
     font-size: 25px !important;

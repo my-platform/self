@@ -41,7 +41,7 @@
     <div class="container-fluid">
         <div class="row">
             <div
-                class="mbr-navbar mbr-navbar--freeze mbr-navbar--absolute
+                class="mbr-navbar custom-nav mbr-navbar--freeze mbr-navbar--absolute
          mbr-navbar--transparent mbr-navbar--sticky mbr-navbar--auto-collapse" id="menu-0">
                 <div class="mbr-navbar__section mbr-section">
                     <div class="mbr-section__container container">
@@ -58,9 +58,10 @@
                             </div>
                             <div class="mbr-navbar__column mbr-navbar__menu">
                                 <nav class="mbr-navbar__menu-box mbr-navbar__menu-box--inline-right">
-                                    <div class="mbr-navbar__column">
-                                        <ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze
-                             mbr-buttons--right btn-decorator mbr-buttons--active">
+                                    <div class="nav-pages mbr-navbar__column">
+                                        <ul class=" mbr-navbar__items mbr-navbar__items--right
+                                         mbr-buttons mbr-buttons--freeze
+                             mbr-buttons--right mbr-buttons--active">
                                             <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white"
                                                                             href="index.php">HOME</a></li>
                                             <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white"
@@ -72,8 +73,10 @@
                                         </ul>
                                     </div>
                                     <div class="mbr-navbar__column">
-                                        <ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-inverse mbr-buttons--active">
-                                            <li class="mbr-navbar__item"><a class="mbr-buttons__link btn red_button"
+                                        <ul class="mbr-navbar__items mbr-navbar__items--right
+                                        mbr-buttons mbr-buttons--freeze mbr-buttons--right
+                                        btn-inverse mbr-buttons--active">
+                                            <li class="mbr-navbar__item"><a class="mbr-buttons__link  red_button"
                                                                             href="contact.php">CONTACT</a>
                                             </li>
                                         </ul>
