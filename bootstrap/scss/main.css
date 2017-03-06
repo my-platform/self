@@ -1,17 +1,12 @@
 @font-face {
   font-family: 'header-font';
   src: url("../fonts/Roboto-Regular.ttf"); }
-.ind-sec1 img {
-  width: 200px;
-  height: 200px;
-  border-radius: 999px;
-  border: 5px solid #A51C30;
-  padding: 0;
-  margin: 0; }
-.ind-sec1 p {
-  margin-top: 40px; }
-
-.nav-pages a:after {
+.nav-tab .nav-pages a {
+  float: right;
+  font-family: Header-font;
+  font-size: 13px;
+  font-weight: bold; }
+.nav-tab .nav-pages a:after {
   -webkit-transform: scale(0, 1);
   -ms-transform: scale(0, 1);
   -o-transform: scale(0, 1);
@@ -33,28 +28,55 @@
   top: 15px;
   width: 100%;
   color: #ffffff; }
-.nav-pages a:hover:after,
-.nav-pages a:focus:after {
+.nav-tab .nav-pages a:hover:after,
+.nav-tab .nav-pages a:focus:after {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   -o-transform: scale(1, 1);
   transform: scale(1, 1); }
-
-.red_button {
-  font-family: header-font;
-  font-size: 14px; }
-
-.red_button:after,
-.red_button:focus,
-.red_button:active:after,
-.red_button:hover {
+.nav-tab .contact-button a {
+  display: inline-block;
+  float: right;
+  font-size: 13px;
+  text-decoration: none;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  font-family: Header-font;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  white-space: nowrap;
+  padding: 8px 18px;
+  line-height: 160%;
+  border-radius: 0px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+.nav-tab .contact-button a:after,
+.nav-tab .contact-button a:focus,
+.nav-tab .contact-button a:active:after,
+.nav-tab .contact-button a:hover {
   color: #ffffff;
   border: 2px solid #A51C30;
   border-radius: 0;
   background: #A51C30;
   text-decoration: none;
-  -webkit-transition: all 0.20s ease-out 0s;
-  -o-transition: all 0.20s ease-out 0s;
-  transition: all 0.20s ease-out 0s; }
+  -webkit-transition: all 0.30s ease-out 0s;
+  -o-transition: all 0.30s ease-out 0s;
+  transition: all 0.30s ease-out 0s; }
+
+.ind-sec1 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 999px;
+  border: 5px solid #A51C30;
+  padding: 0;
+  margin: 0; }
+.ind-sec1 p {
+  margin-top: 40px; }
 
 /*# sourceMappingURL=main.css.map */

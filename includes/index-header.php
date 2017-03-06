@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="bootstrap/js/jquery.js"></script>
+    <link href="bootstrap/scss/main.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="bootstrap/css/custom.css" rel="stylesheet">
-    <link href="bootstrap/scss/main.css" rel="stylesheet">
+    <!--<link href="bootstrap/css/custom.css" rel="stylesheet">-->
+
     <link rel="stylesheet" href="bootstrap/font-awesome-4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="bootstrap/font-awesome-4.6.3/css/font-awesome.css">
 
@@ -56,27 +57,27 @@
                             </div>
                             <div class="mbr-navbar__hamburger mbr-hamburger text-white"><span class="mbr-hamburger__line"></span>
                             </div>
-                            <div class="mbr-navbar__column mbr-navbar__menu">
+                            <div class=" nav-tab mbr-navbar__column mbr-navbar__menu">
                                 <nav class="mbr-navbar__menu-box mbr-navbar__menu-box--inline-right">
-                                    <div class="nav-pages mbr-navbar__column">
+                                    <div class=" nav-pages mbr-navbar__column">
                                         <ul class=" mbr-navbar__items mbr-navbar__items--right
                                          mbr-buttons mbr-buttons--freeze
                              mbr-buttons--right mbr-buttons--active">
-                                            <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white"
+                                            <li class="mbr-navbar__item"><a class=" mbr-buttons__link btn text-white"
                                                                             href="index.php">HOME</a></li>
-                                            <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white"
+                                            <li class="mbr-navbar__item"><a class=" mbr-buttons__link btn text-white"
                                                                             href="portfolio.php">PORTFOLIO</a></li>
-                                            <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white"
+                                            <li class="mbr-navbar__item"><a class=" mbr-buttons__link btn text-white"
                                                                             href="about.php">ABOUT</a></li>
-                                            <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white"
+                                            <li class="mbr-navbar__item"><a class=" mbr-buttons__link btn text-white"
                                                                             href="resume.php">RESUME</a></li>
                                         </ul>
                                     </div>
-                                    <div class="mbr-navbar__column">
-                                        <ul class="mbr-navbar__items mbr-navbar__items--right
+                                    <div class=" contact-button mbr-navbar__column">
+                                        <ul class=" mbr-navbar__items mbr-navbar__items--right
                                         mbr-buttons mbr-buttons--freeze mbr-buttons--right
                                         btn-inverse mbr-buttons--active">
-                                            <li class="mbr-navbar__item"><a class="mbr-buttons__link  red_button"
+                                            <li class="mbr-navbar__item"><a class="mbr-buttons__link  btn"
                                                                             href="contact.php">CONTACT</a>
                                             </li>
                                         </ul>

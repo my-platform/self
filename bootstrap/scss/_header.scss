@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'header-font';
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+$red-degree:#A51C30;
+
+.nav-tab {
+  .nav-pages {
+    a{
+      float:right;
+      font-family: Header-font;
+      font-size: 13px;
+      font-weight: bold;
+    //margin:0;
+    }
+    a:after {
+      -webkit-transform: scale(0, 1);
+      -ms-transform: scale(0, 1);
+      -o-transform: scale(0, 1);
+      transform: scale(0, 1);
+      -webkit-transform-origin: center center 0px;
+      -moz-transform-origin: center center 0px;
+      -ms-transform-origin: center center 0px;
+      transform-origin: center center 0px;
+      -webkit-transition: all 0.30s ease-out 0s;
+      -o-transition: all 0.30s ease-out 0s;
+      transition: all 0.30s ease-out 0s;
+      border: 1px solid;
+      content: "";
+      display: block;
+      height: 1px;
+      left: -1px;
+      margin-top: -3px;
+      position: relative;
+      top: 15px;
+      width: 100%;
+      color: #ffffff;
+    }
+    a:hover:after,
+    a:focus:after {
+      -webkit-transform: scale(1, 1);
+      -ms-transform: scale(1, 1);
+      -o-transform: scale(1, 1);
+      transform: scale(1, 1);
+    }
+
+  }
+  //contact button
+  .contact-button {
+    a{
+      display: inline-block;
+      float: right;
+     // margin: 0 10px 13px 0;
+      font-size: 13px;
+      text-decoration: none;
+      color: #ffffff;
+      border: 2px solid #ffffff;
+      font-family: Header-font;
+      font-weight: bold;
+      //display: inline-block;
+      //margin-bottom: 0;
+      text-align: center;
+      vertical-align: middle;
+      touch-action: manipulation;
+      cursor: pointer;
+      background-image: none;
+      white-space: nowrap;
+      padding: 8px 18px;
+      line-height: 160%;
+      border-radius: 0px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    a:after,
+    a:focus,
+    a:active:after,
+    a:hover {
+      color: #ffffff;
+      border: 2px solid $red-degree;
+      border-radius: 0;
+      background: $red-degree;
+      text-decoration: none;
+      -webkit-transition: all 0.30s ease-out 0s;
+      -o-transition: all 0.30s ease-out 0s;
+      transition: all 0.30s ease-out 0s;
+    }
+  }
+}

@@ -1,7 +1,4 @@
-@font-face {
-  font-family: 'header-font';
-  src: url('../fonts/Roboto-Regular.ttf');
-}
+@import "header";
 $red-degree:#A51C30;
 
 .ind-sec1{
@@ -19,60 +16,8 @@ $red-degree:#A51C30;
   }
 }
 
-.nav-pages{
-  a:after {
-    -webkit-transform: scale(0, 1);
-    -ms-transform: scale(0, 1);
-    -o-transform: scale(0, 1);
-    transform: scale(0, 1);
-    -webkit-transform-origin: center center 0px;
-    -moz-transform-origin: center center 0px;
-    -ms-transform-origin: center center 0px;
-    transform-origin: center center 0px;
-    -webkit-transition: all 0.30s ease-out 0s;
-    -o-transition: all 0.30s ease-out 0s;
-    transition: all 0.30s ease-out 0s;
-    border: 1px solid ;
-    content: "";
-    display: block;
-    height: 1px;
-    left: -1px;
-    margin-top: -3px;
-    position: relative;
-    top: 15px;
-    width: 100%;
-    color: #ffffff;
-  }
-  a:hover:after,
-  a:focus:after {
-    -webkit-transform: scale(1, 1);
-    -ms-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
-    transform: scale(1, 1);
-  }
 
-}
-//contact button
-.red_button{
-  font-family: header-font;
-  font-size: 14px;
-}
-.red_button:after,
-.red_button:focus,
-.red_button:active:after,
-.red_button:hover{
-  color: #ffffff;
-  border: 2px solid $red-degree;
-  border-radius: 0;
-  background: $red-degree;
-  text-decoration: none;
-  -webkit-transition: all 0.20s ease-out 0s;
-  -o-transition: all 0.20s ease-out 0s;
-  transition: all 0.20s ease-out 0s;  }
-.custom-nav{
-  a{
-  }
-}
+
 
 
 
