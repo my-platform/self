@@ -322,44 +322,7 @@ h1 {
 .project_head1 {
     box-shadow: 6px 7px 8px 1px #222222;
 }
-/**
-.custom_button {
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
-    color: #222222;
-    background-color: #ffffff;
-    border: 2px solid #000;
-/ / font-family : Header_font;
-    font-size: 12px;
-    line-height: 1.42857143;
-    font-weight: bold;
-    padding: 8px 14px 8px 14px;
-    border-radius: 5px;
-}
-.custom_button:hover {
-    background-color: #222222;
-/ / border : 0 px;
-    color: #fff;
-    padding: 8px 14px 8px 14px;
-    text-decoration: none;
-    border: 2px solid #222222;
-}
 
-.custom_button:active {
-    background-color: #ffffff;
-    padding: 8px 14px 8px 14px;
-    text-decoration: none;
-
-}
-
-.custom_button:focus {
-    color: #222222;
-    background-color: #ffffff;
-    border: 2px solid #000;
-    font-weight: bold;
-    padding: 8px 14px 8px 14px;
-    text-decoration: none;
-}
-**/
 /*ssme*/
 .section1 {
     width: 100%;
@@ -436,40 +399,7 @@ h1 {
     width: 100%;
     padding: 0;
 }
-/**
-.visit_pro {
-    color: #fff;
-    border: 2px solid #fff;
-    border-radius: 0;
-    font-size: 20px;
-    padding: 10px;
-    text-decoration: none;
-}
 
-.visit_pro:hover {
-    color: #fff;
-    border: 2px solid #a51c30;
-    border-radius: 0;
-    background: #a51c30;
-    text-decoration: none;
-}
-
-.visit_pro:focus {
-    color: #fff;
-  //  border: 2px solid #fff;
-    border-radius: 0;
-    font-size: 20px;
-    padding: 10px;
-    text-decoration: none;
-}
-
-.visit_pro:active {
-    color: #fff;
-    border: 2px solid #a51c30;
-    border-radius: 0;
-    background: #a51c30;
-    text-decoration: none;
-}**/
 .section3 {
     background-color: #F5F5F5;
     width: 100%;
@@ -651,34 +581,6 @@ h1 {
     padding-top: 10px;
     font-family: subhead;
 }
-/***
-//red button
-.red_button {
-    display: inline-block;
-    margin: 0 10px 13px 0;
-    font-size: 13px;
-    text-decoration: none;
-    color: #ffffff;
-    border: 2px solid #ffffff;
-    display: inline-block;
-    //margin-bottom: 0;
-    font-weight: normal;
-    text-align: center;
-    vertical-align: middle;
-    touch-action: manipulation;
-    cursor: pointer;
-    background-image: none;
-    white-space: nowrap;
-    padding: 8px 21px;
-    line-height: 160%;
-    border-radius: 0px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-***/
-
 .social-logo{
     padding-right: 15px;
     font-size:18px;
