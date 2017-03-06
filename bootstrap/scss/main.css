@@ -96,9 +96,9 @@
   border-radius: 2px;
   background: #222222;
   text-decoration: none;
-  -webkit-transition: all 0.30s ease-out 0.10s;
-  -o-transition: all 0.30s ease-out 0.10s;
-  transition: all 0.30s ease-out 0.10s; }
+  -webkit-transition: all 0.15s ease-out 0.10s;
+  -o-transition: all 0.15s ease-out 0.10s;
+  transition: all 0.15s ease-out 0.10s; }
 
 .custom_button {
   border-radius: 5px;

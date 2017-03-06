@@ -37,9 +37,9 @@ $button-border-color:#222222;
   //background: #e74c3c;
   background: #222222;
   text-decoration: none;
-  -webkit-transition: all 0.30s ease-out 0.10s;
-  -o-transition: all 0.30s ease-out 0.10s;
-  transition: all 0.30s ease-out 0.10s;
+  -webkit-transition: all 0.15s ease-out 0.10s;
+  -o-transition: all 0.15s ease-out 0.10s;
+  transition: all 0.15s ease-out 0.10s;
 }
 .custom_button{
   @extend .learn_more;

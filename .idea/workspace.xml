@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="37b9a0ef-79b7-4d89-a858-c3e67f8ecc0e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/about.php" afterPath="$PROJECT_DIR$/includes/about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/scss/main.css" afterPath="$PROJECT_DIR$/bootstrap/scss/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/scss/main.scss" afterPath="$PROJECT_DIR$/bootstrap/scss/main.scss" />
     </list>
     <ignored path="untitled1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,17 +35,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bootstrap/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="320">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/about.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="560">
@@ -168,7 +169,6 @@
         <option value="$PROJECT_DIR$/includes/resume.php" />
         <option value="$PROJECT_DIR$/includes/contact.php" />
         <option value="$PROJECT_DIR$/includes/ssme.php" />
-        <option value="$PROJECT_DIR$/bootstrap/scss/main.scss" />
         <option value="$PROJECT_DIR$/includes/home.php" />
         <option value="$PROJECT_DIR$/includes/ssme-header.php" />
         <option value="$PROJECT_DIR$/includes/resume-header.php" />
@@ -177,6 +177,7 @@
         <option value="$PROJECT_DIR$/includes/contact-header.php" />
         <option value="$PROJECT_DIR$/includes/about-header.php" />
         <option value="$PROJECT_DIR$/includes/about.php" />
+        <option value="$PROJECT_DIR$/bootstrap/scss/main.scss" />
       </list>
     </option>
   </component>
@@ -443,12 +444,20 @@
       <workItem from="1487502157172" duration="1130000" />
       <workItem from="1487540016394" duration="892000" />
       <workItem from="1488741587036" duration="9632000" />
-      <workItem from="1488808901631" duration="21628000" />
+      <workItem from="1488808901631" duration="21879000" />
     </task>
+    <task id="LOCAL-00001" summary="correct some phrases in 'about' page">
+      <created>1488835621330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1488835621330</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73465000" />
+    <option name="totallyTimeSpent" value="73716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -856,18 +865,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/about.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="28" column="97" lean-forward="false" selection-start-line="28" selection-start-column="97" selection-end-line="28" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
