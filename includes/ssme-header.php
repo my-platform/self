@@ -33,7 +33,7 @@
 
     <!--<script src="bootstrap/plugin/SmoothScroll.js"></script>-->
 
-    <title>Home</title>
+    <title>SSME</title>
 </head>
 <body>
 
