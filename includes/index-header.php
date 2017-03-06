@@ -8,7 +8,7 @@
     <link href="bootstrap/scss/main.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-    <!--<link href="bootstrap/css/custom.css" rel="stylesheet">-->
+    <link href="bootstrap/css/custom.css" rel="stylesheet">
 
     <link rel="stylesheet" href="bootstrap/font-awesome-4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="bootstrap/font-awesome-4.6.3/css/font-awesome.css">
