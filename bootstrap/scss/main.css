@@ -82,7 +82,7 @@
 .learn_more, .custom_button, .visit_pro {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   color: #000;
-  font-weight: 600;
+  font-weight: 500;
   border: 2px solid #222222;
   border-radius: 2px;
   font-size: 15px;
@@ -123,27 +123,5 @@
   border-radius: 0;
   background: #A51C30;
   font-weight: normal; }
-
-/*
-.learn_more:focus {
-  color: #000;
-  border: 2px solid #222222;
-  border-radius: 0;
-  font-size: 16px;
-  padding: 10px;
-  text-decoration: none;
-}
-
-.learn_more:active {
-  color: #fff;
-  //border: 2px solid #222222;
-  border: 2px solid #222222;
-  border-radius: 0;
-  //background: #e74c3c;
-  background: #222222;
-  text-decoration: none;
-}
-
-*/
 
 /*# sourceMappingURL=main.css.map */

@@ -1,7 +1,7 @@
-<div id="content" class="row custom_row text-center">
+<div  class="row custom_row text-center">
     <!--some about-->
     <div class="row ind-sec1">
-        <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2">
+        <div id="content" class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2">
             <div class="col-md-12 col-xs-12">
                 <h1 class="headline">Some to know about me</h1>
 

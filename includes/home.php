@@ -225,7 +225,7 @@
                 </div>
             </div>
             <div class="row padding-top">
-                <a class="learn_more " href="about.html">LEARN MORE</a>
+                <a class="learn_more " href="about.php">LEARN MORE</a>
             </div>
         </div>
     </div>

@@ -1,7 +1,7 @@
 <div  class="row text-center custom_row ">
     <div class="col">
         <div class=" row info section1 ">
-            <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+            <div id="content" class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
 
                 <div class="row"><h1>Robot For Serving and Securing Elderly </h1></div>
                 <h3 class="head_group head2">Overview</h3>

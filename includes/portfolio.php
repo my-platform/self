@@ -1,8 +1,8 @@
 <!-- Content-->
-<div id="content" class="row custom_row text-center">
+<div  class="row custom_row text-center">
     <!--Contact info-->
     <div class="col-lg-12 block">
-        <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+        <div id="content" class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
             <div class="row"><h1>Look at my achievements</h1></div>
             <div class="row block">
                 <div class="col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3 ">
