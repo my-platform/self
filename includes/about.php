@@ -5,7 +5,8 @@
             <div class="col-md-12 col-xs-12">
                 <h1 class="headline">Some to know about me</h1>
 
-                <p class="paragraph">I named Fouad after my uncle, I like to hanging out with my old friends in an coffee shop from time to time,
+                <p class="paragraph">I named Fouad after my uncle, I like to hanging out with my old friends in
+                    an coffeehouse from time to time,
                     mango is my fresh drink and the cheese pizza is my favorite meal despite it's not healthy,
                     coffee latte
                     is my friend while working, the fruit salad is my dessert, black and brown and gray are my
@@ -22,11 +23,10 @@
             <div class="row">
                 <h1 class="headline">Hanging out after big day of work</h1>
 
-                <p class="paragraph">Coffee shops and Restraints is my places when I think in
-                    hanging oaut with my friends,
-                    and this way is kind of to recharge my power again to keep going on,
-                    and sometimes we're going out to barbecue and this is another way to get fun hanging around
-                    as well.</p>
+                <p class="paragraph">Coffeehouses and Restraints is my places when I think in
+                    hanging out with my friends,
+                    and this is kind of how I can recharge my power again to keep going on,
+                    and sometimes we're going out to barbecue and this is another way to get fun as well.</p>
             </div>
 
 
