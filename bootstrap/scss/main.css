@@ -69,14 +69,81 @@
   -o-transition: all 0.30s ease-out 0s;
   transition: all 0.30s ease-out 0s; }
 
-.ind-sec1 img {
+.tip img {
   width: 200px;
   height: 200px;
   border-radius: 999px;
   border: 5px solid #A51C30;
   padding: 0;
   margin: 0; }
-.ind-sec1 p {
+.tip p {
   margin-top: 40px; }
+
+.learn_more, .custom_button, .visit_pro {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-weight: 600;
+  border: 2px solid #222222;
+  border-radius: 2px;
+  font-size: 15px;
+  padding: 10px;
+  text-decoration: none;
+  line-height: 1.6; }
+
+.learn_more:hover, .custom_button:hover, .custom_button:focus, .custom_button:active, .custom_button:after, .visit_pro:hover, .visit_pro:focus, .visit_pro:active, .visit_pro:after, .learn_more:focus, .custom_button:focus, .visit_pro:focus, .learn_more:active, .custom_button:active, .visit_pro:active, .learn_more:after, .custom_button:after, .visit_pro:after {
+  color: #fff;
+  border: 2px solid #222222;
+  border-radius: 2px;
+  background: #222222;
+  text-decoration: none;
+  -webkit-transition: all 0.30s ease-out 0.10s;
+  -o-transition: all 0.30s ease-out 0.10s;
+  transition: all 0.30s ease-out 0.10s; }
+
+.custom_button {
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 8px 14px 8px 14px; }
+
+.custom_button:hover, .custom_button:focus, .custom_button:active, .custom_button:after {
+  border-radius: 5px; }
+
+.visit_pro {
+  color: #ffffff;
+  border: 2px solid #fff;
+  border-radius: 0;
+  font-size: 16px;
+  padding: 10px;
+  font-weight: normal; }
+
+.visit_pro:hover, .visit_pro:focus, .visit_pro:active, .visit_pro:after {
+  color: #fff;
+  border: 2px solid #A51C30;
+  border-radius: 0;
+  background: #A51C30;
+  font-weight: normal; }
+
+/*
+.learn_more:focus {
+  color: #000;
+  border: 2px solid #222222;
+  border-radius: 0;
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.learn_more:active {
+  color: #fff;
+  //border: 2px solid #222222;
+  border: 2px solid #222222;
+  border-radius: 0;
+  //background: #e74c3c;
+  background: #222222;
+  text-decoration: none;
+}
+
+*/
 
 /*# sourceMappingURL=main.css.map */

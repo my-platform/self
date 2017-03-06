@@ -1,0 +1,35 @@
+[33mcommit 4b5f2c74112daa1c8cc929685e12b53bd5aea610[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Mon Mar 6 19:13:07 2017 +0200
+
+    fixing all pages's hesder with splited desighn
+
+[33mcommit 1e752c5df9d8dbf1cb444faacfe3a84fbe5e1f14[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Mon Mar 6 19:01:47 2017 +0200
+
+    delete unused header code design from custom.css
+
+[33mcommit 2c1441779c98143bcd66422378b8ab6acc174be9[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Mon Mar 6 18:58:49 2017 +0200
+
+    fixing homepage header's design and split design from custom
+
+[33mcommit a870e85c110c4c43f87dde323f76c0591644b5d8[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Mon Mar 6 00:00:10 2017 +0200
+
+    index-header updates/ split scss design
+
+[33mcommit 01f6d7bf8a0b2609f1ba7170a392f30c0dd13625[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Tue Feb 7 00:00:07 2017 +0200
+
+    Home page / first updates
+
+[33mcommit 0ae71293347d7cc28fc3723df26a6b58161e13c3[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Mon Feb 6 21:44:19 2017 +0200
+
+    first checkpoint

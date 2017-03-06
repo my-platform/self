@@ -322,7 +322,7 @@ h1 {
 .project_head1 {
     box-shadow: 6px 7px 8px 1px #222222;
 }
-
+/**
 .custom_button {
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     color: #222222;
@@ -335,7 +335,6 @@ h1 {
     padding: 8px 14px 8px 14px;
     border-radius: 5px;
 }
-
 .custom_button:hover {
     background-color: #222222;
 / / border : 0 px;
@@ -360,7 +359,7 @@ h1 {
     padding: 8px 14px 8px 14px;
     text-decoration: none;
 }
-
+**/
 /*ssme*/
 .section1 {
     width: 100%;
@@ -437,7 +436,7 @@ h1 {
     width: 100%;
     padding: 0;
 }
-
+/**
 .visit_pro {
     color: #fff;
     border: 2px solid #fff;
@@ -470,7 +469,7 @@ h1 {
     border-radius: 0;
     background: #a51c30;
     text-decoration: none;
-}
+}**/
 .section3 {
     background-color: #F5F5F5;
     width: 100%;
@@ -642,45 +641,6 @@ h1 {
 }.padding-bottom40{
   padding-bottom: 40px;
 }
-.learn_more {
-
-    color: #000;
-    font-weight: 500;
-    border: 2px solid #000;
-    border-radius: 0;
-    font-size: 16px;
-    padding: 10px;
-    text-decoration: none;
-}
-
-.learn_more:hover {
-    color: #fff;
-//border: 2px solid #e74c3c;
-    border: 2px solid #222222;
-    border-radius: 0;
-//background: #e74c3c;
-    background: #222222;
-    text-decoration: none;
-}
-
-.learn_more:focus {
-    color: #000;
-    border: 2px solid #222222;
-    border-radius: 0;
-    font-size: 16px;
-    padding: 10px;
-    text-decoration: none;
-}
-
-.learn_more:active {
-    color: #fff;
-//border: 2px solid #222222;
-    border: 2px solid #222222;
-    border-radius: 0;
-//background: #e74c3c;
-    background: #222222;
-    text-decoration: none;
-}
 .padding-top{
     padding-top: 50px;
 }
@@ -691,7 +651,8 @@ h1 {
     padding-top: 10px;
     font-family: subhead;
 }
-/*red button*/
+/***
+//red button
 .red_button {
     display: inline-block;
     margin: 0 10px 13px 0;
@@ -716,8 +677,7 @@ h1 {
     -ms-user-select: none;
     user-select: none;
 }
-
-
+***/
 
 .social-logo{
     padding-right: 15px;
