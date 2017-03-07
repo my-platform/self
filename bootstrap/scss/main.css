@@ -69,6 +69,9 @@
   -o-transition: all 0.30s ease-out 0s;
   transition: all 0.30s ease-out 0s; }
 
+@font-face {
+  font-family: 'adv-font';
+  src: url("../fonts/LobsterTwo-BoldItalic.ttf"); }
 .tip img {
   width: 200px;
   height: 200px;
@@ -79,7 +82,7 @@
 .tip p {
   margin-top: 40px; }
 
-.learn_more, .custom_button, .visit_pro {
+.learn_more, .custom_button, .visit_pro, .adv-button {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   color: #000;
   font-weight: 500;
@@ -88,9 +91,10 @@
   font-size: 15px;
   padding: 10px;
   text-decoration: none;
-  line-height: 1.6; }
+  line-height: 1.6;
+  cursor: pointer; }
 
-.learn_more:hover, .custom_button:hover, .custom_button:focus, .custom_button:active, .custom_button:after, .visit_pro:hover, .visit_pro:focus, .visit_pro:active, .visit_pro:after, .learn_more:focus, .custom_button:focus, .visit_pro:focus, .learn_more:active, .custom_button:active, .visit_pro:active, .learn_more:after, .custom_button:after, .visit_pro:after {
+.learn_more:hover, .custom_button:hover, .custom_button:focus, .custom_button:active, .custom_button:after, .visit_pro:hover, .adv-button:hover, .adv-button:focus, .adv-button:active, .adv-button:after, .visit_pro:focus, .visit_pro:active, .visit_pro:after, .learn_more:focus, .custom_button:focus, .visit_pro:focus, .adv-button:focus, .learn_more:active, .custom_button:active, .visit_pro:active, .adv-button:active, .learn_more:after, .custom_button:after, .visit_pro:after, .adv-button:after {
   color: #fff;
   border: 2px solid #222222;
   border-radius: 2px;
@@ -109,7 +113,7 @@
 .custom_button:hover, .custom_button:focus, .custom_button:active, .custom_button:after {
   border-radius: 5px; }
 
-.visit_pro {
+.visit_pro, .adv-button {
   color: #ffffff;
   border: 2px solid #fff;
   border-radius: 0;
@@ -117,11 +121,32 @@
   padding: 10px;
   font-weight: normal; }
 
-.visit_pro:hover, .visit_pro:focus, .visit_pro:active, .visit_pro:after {
+.visit_pro:hover, .adv-button:hover, .adv-button:focus, .adv-button:active, .adv-button:after, .visit_pro:focus, .adv-button:focus, .visit_pro:active, .adv-button:active, .visit_pro:after, .adv-button:after {
   color: #fff;
   border: 2px solid #A51C30;
   border-radius: 0;
   background: #A51C30;
   font-weight: normal; }
+
+.adv-button {
+  font-size: 20px;
+  padding: 10px 30px 10px 30px; }
+
+.adv_block {
+  width: 100%;
+  margin: 0;
+  font-family: adv-font;
+  color: #FFFFFF;
+  font-size: 50px;
+  padding: 80px 0 80px 0;
+  background: url("../images/adv-keyboard.jpg"); }
+  .adv_block h1 {
+    font-family: adv-font; }
+  .adv_block h2 {
+    margin-bottom: 30px;
+    margin-top: 5px; }
+  .adv_block a {
+    margin-top: 70px;
+    font-family: adv-font; }
 
 /*# sourceMappingURL=main.css.map */

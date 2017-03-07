@@ -165,7 +165,14 @@
 
 
     </div>
-
+    <!--end of Hanging out-->
+    <div class="row ind-sec2 adv_block">
+        <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2">
+            <h1>Need an Online system or Mobile application?</h1>
+            <h2>Here You go</h2>
+            <a href="contact.php#message" class="adv-button"> Hire Me</a>
+        </div>
+    </div>
     <!--Hobbies and interests-->
     <div class="row ind-sec1 block">
         <div class="col-md-12 col-xs-12">
@@ -192,7 +199,7 @@
                 </div>
             </div>
             <!--kids gallery-->
-            <div class="row">
+            <!--<div class="row">
                 <div class = "col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3 gallery">
                     <div class = "row">
                         <ul class="thumbnails col-md-12 col-xs-12">
@@ -201,26 +208,25 @@
                                 <a class="thumbnail" href="#2lb-gallery1-9" data-slide-to="0" data-toggle="modal">
                                     <img class="group1 img-responsive" src="bootstrap/images/0k.jpg"/></a>
                             </li>
-                            <!--end thumb -->
+
                             <li class="col-md-3 col-xs-6">
                                 <a class="thumbnail" href="#2lb-gallery1-9" data-slide-to="1" data-toggle="modal">
                                     <img id="kid" class="group1 img-responsive" src="bootstrap/images/1k.jpg"/></a>
                             </li>
-                            <!--end thumb -->
+
                             <li class="col-md-3 col-xs-6">
                                 <a class="thumbnail" href="#2lb-gallery1-9" data-slide-to="2" data-toggle="modal">
                                     <img class="group1 img-responsive" src="bootstrap/images/2k.jpg"/></a>
                             </li>
-                            <!--end thumb -->
+
                             <li class="col-md-3 col-xs-6">
                                 <a class="thumbnail" href="#2lb-gallery1-9" data-slide-to="3" data-toggle="modal">
                                     <img class="group1 img-responsive" src="bootstrap/images/3k.jpg"/></a>
                             </li>
-                            <!--end thumb -->
+
 
                         </ul>
-                        <!--end thumbnails -->
-                        <!-- Lightbox -->
+
                         <section class="mbr-gallery mbr-section mbr-section--no-padding" id="2gallery1-9"
                                  style="background-color: rgb(255, 255, 255);">
 
@@ -289,7 +295,8 @@
                         </section>
                     </div>
                 </div>
-            </div>
+            </div>-->
+
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2">
                     <h3 class="head_group2 ">Photography and Football</h3>
