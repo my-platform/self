@@ -97,14 +97,20 @@ $button-border-color:#222222;
     font-family: adv-font;
   }
   h2{
-    margin-bottom: 30px;
     margin-top: 5px;
   }
   a {
     //font-size: 150%;
+    margin-bottom: 30px;
     margin-top: 70px;
     font-family: adv-font;
   }
+}
+.about-header{
+  background: url('../images/about-header.jpg');
+}
+.home-header{
+  background: url('../images/room.jpg');
 }
 
 

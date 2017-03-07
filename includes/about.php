@@ -189,12 +189,20 @@
                         <h3 class="head_group">Fishing</h3>
 
                         <p class="paragraph">Yes fishing is the most enjoyable thing I do in my life, when I need to get
-                            some
-                            relax and separated for everything just I take my fishing stuff and then I go to fishing. </p>
+                            some relax and get separated for everything just I take my fishing gear and then I go to fishing. </p>
+                        <!--
                         <h3 class="head_group">Kids</h3>
-
                         <p class="paragraph">One of the most interesting time when I get playing with the kid,
-                            when I be with an kid I don't feel the time.</p>
+                            when I be with an kid I don't feel the time.</p>-->
+                        <h3 class="head_group">Coding</h3>
+
+                        <p class="paragraph">Yep, don't wonder coding is one of my best funniest stuff I do ever, just
+                        give me a computer and a cup of latte and I gonna make the life easier</p>
+
+                        <h3 class="head_group">Photography and Football</h3>
+
+                        <p class="paragraph">Also I like photography but I'm not professional,
+                            and I'm playing football from time to time. </p>
                     </div>
                 </div>
             </div>
@@ -297,25 +305,16 @@
                 </div>
             </div>-->
 
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2">
-                    <h3 class="head_group2 ">Photography and Football</h3>
-
-                    <p class="paragraph">Also I like photography but I'm not professional,
-                        and I'm playing football from time to time. </p>
-                </div>
-            </div>
         </div>
     </div>
 
     <div class ="row ind-sec2 ">
         <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2 page_end">
 
-            <h3 class="head_group ">Still under building</h3>
-            <h3 class="head_group ">...............</h3><h3 class="head_group ">...............</h3>
-            <h3 class="head_group ">...............</h3><h3 class="head_group ">...............</h3>
-            <h3 class="head_group ">...............</h3>
-
+            <h1>Another day of fun </h1>
+            <p class="paragraph">Back again to work and keep working on my schedule and deadlines, and my plans.
+            <br/>for now I working as a freelancer, moving on from a project to
+                another and growing up my skills and having fun. </p>
 
 
         </div>

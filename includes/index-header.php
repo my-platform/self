@@ -49,7 +49,7 @@
                         <div class="mbr-navbar__container"><!---->
                             <div class="mbr-navbar__column mbr-navbar__column--s mbr-navbar__brand">
                     <span class="mbr-navbar__brand-link mbr-brand mbr-brand--inline">
-                        <span class="mbr-brand__logo"><a href="index.html"><img
+                        <span class="mbr-brand__logo"><a href="index.php"><img
                                     class="mbr-navbar__brand-img mbr-brand__img"
                                     src="bootstrap/images/Logo1.png"></a></span>
 
@@ -90,9 +90,8 @@
             </div>
 
             <div
-                class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--full-height
- mbr-section--bg-adapted mbr-parallax-background" id="header1-1"
-                style="background-image: url(bootstrap/images/room.jpg);">
+                class=" home-header mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--full-height
+ mbr-section--bg-adapted mbr-parallax-background" id="header1-1">
                 <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-left mbr-after-navbar">
 
                     <!--  <div class="mbr-box__container mbr-section__container container">

@@ -1,0 +1,77 @@
+[33mcommit e9349a2036e98aba722e15e09f8c4e3ad799032e[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Tue Mar 7 20:46:25 2017 +0200
+
+    adding adv-block to about
+
+[33mcommit 737ee01b108e17f3fc1e3b49ec2b8d095a10b341[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Mon Mar 6 23:32:29 2017 +0200
+
+    modifiy lear nmore button's time out effect
+
+[33mcommit 3a4d0d48a06a3f724eceffd5653f5d7dbd0eda73[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Mon Mar 6 23:27:01 2017 +0200
+
+    correct some phrases in 'about' page
+
+[33mcommit bb2ee06ae55e1b6333066c00ebef66b4d658e639[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Mon Mar 6 22:03:20 2017 +0200
+
+    page's names has been modified in browser's bar <title></title>
+
+[33mcommit 50e3141dcfe7d07fe698ecde684ea0f3f57334b2[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Mon Mar 6 21:54:47 2017 +0200
+
+    modified the button design in over the hole website
+
+[33mcommit f8ba14ec1f3b6fa58a80fd74a7c3591ac2c8732f[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Mon Mar 6 21:26:08 2017 +0200
+
+    clear/delete custom.css's buttons design
+
+[33mcommit ed0f0e79f7288b65b6e341f77be1179c2b865c68[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Mon Mar 6 21:24:16 2017 +0200
+
+    update all buttons ans design has been modified by scss
+
+[33mcommit 4b5f2c74112daa1c8cc929685e12b53bd5aea610[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Mon Mar 6 19:13:07 2017 +0200
+
+    fixing all pages's hesder with splited desighn
+
+[33mcommit 1e752c5df9d8dbf1cb444faacfe3a84fbe5e1f14[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Mon Mar 6 19:01:47 2017 +0200
+
+    delete unused header code design from custom.css
+
+[33mcommit 2c1441779c98143bcd66422378b8ab6acc174be9[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Mon Mar 6 18:58:49 2017 +0200
+
+    fixing homepage header's design and split design from custom
+
+[33mcommit a870e85c110c4c43f87dde323f76c0591644b5d8[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Mon Mar 6 00:00:10 2017 +0200
+
+    index-header updates/ split scss design
+
+[33mcommit 01f6d7bf8a0b2609f1ba7170a392f30c0dd13625[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Tue Feb 7 00:00:07 2017 +0200
+
+    Home page / first updates
+
+[33mcommit 0ae71293347d7cc28fc3723df26a6b58161e13c3[m
+Author: Fouad Fawzi <fouadfawzi@gmail.com>
+Date:   Mon Feb 6 21:44:19 2017 +0200
+
+    first checkpoint

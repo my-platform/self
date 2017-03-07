@@ -2,7 +2,6 @@
   font-family: 'header-font';
   src: url("../fonts/Roboto-Regular.ttf"); }
 .nav-tab .nav-pages a {
-  float: right;
   font-family: Header-font;
   font-size: 13px;
   font-weight: bold; }
@@ -36,7 +35,6 @@
   transform: scale(1, 1); }
 .nav-tab .contact-button a {
   display: inline-block;
-  float: right;
   font-size: 13px;
   text-decoration: none;
   color: #ffffff;
@@ -143,10 +141,16 @@
   .adv_block h1 {
     font-family: adv-font; }
   .adv_block h2 {
-    margin-bottom: 30px;
     margin-top: 5px; }
   .adv_block a {
+    margin-bottom: 30px;
     margin-top: 70px;
     font-family: adv-font; }
+
+.about-header {
+  background: url("../images/about-header.jpg"); }
+
+.home-header {
+  background: url("../images/room.jpg"); }
 
 /*# sourceMappingURL=main.css.map */

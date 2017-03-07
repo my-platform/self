@@ -7,7 +7,7 @@ $red-degree:#A51C30;
 .nav-tab {
   .nav-pages {
     a{
-      float:right;
+      //float:right;
       font-family: Header-font;
       font-size: 13px;
       font-weight: bold;
@@ -43,13 +43,12 @@ $red-degree:#A51C30;
       -o-transform: scale(1, 1);
       transform: scale(1, 1);
     }
-
   }
   //contact button
   .contact-button {
     a{
       display: inline-block;
-      float: right;
+      //float: right;
      // margin: 0 10px 13px 0;
       font-size: 13px;
       text-decoration: none;
