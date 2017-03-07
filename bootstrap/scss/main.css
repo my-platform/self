@@ -153,4 +153,9 @@
 .home-header {
   background: url("../images/room.jpg"); }
 
+.img-size {
+  min-width: 250px;
+  min-height: 170px;
+  padding-right: 30px; }
+
 /*# sourceMappingURL=main.css.map */
