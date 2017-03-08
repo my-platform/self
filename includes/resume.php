@@ -1,8 +1,9 @@
 <!-- Content-->
 <div  class="row custom_row">
-    <div class="col-lg-12 block ">
+
         <!--Skills-->
-        <div id="content" class="skills block row">
+    <div class="row ind-sec1">
+        <div id="content" class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
             <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
                 <div class="title col-md-4 col-xs-4">
                     <h2 class="title">Skills Summary</h2>
@@ -39,14 +40,9 @@
                 </div>
             </div>
         </div>
-        <!--divider-->
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
-                <div class="col-md-12 divider"></div>
-            </div>
-        </div>
+    </div>
         <!--Experience-->
-        <div class="row block">
+        <div class="row ind-sec2">
             <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
                 <div class="title col-md-4 col-xs-4">
                     <h2 class="title">Experience</h2>
@@ -87,13 +83,9 @@
 
         </div>
         <!--divider-->
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
-                <div class="divider"></div>
-            </div>
-        </div>
+
         <!--Qualifications-->
-        <div class="row block page_end">
+        <div class="row ind-sec1  page_end">
             <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
                 <div class="title col-md-4 col-xs-4">
                     <h2 class="title">Qualifications</h2>
@@ -113,5 +105,4 @@
                 </div>
             </div>
         </div>
-    </div>
 </div>
