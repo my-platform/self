@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="37b9a0ef-79b7-4d89-a858-c3e67f8ecc0e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/css/custom.css" afterPath="$PROJECT_DIR$/bootstrap/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/scss/_header.scss" afterPath="$PROJECT_DIR$/bootstrap/scss/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/scss/main.css" afterPath="$PROJECT_DIR$/bootstrap/scss/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/scss/main.css.map" afterPath="$PROJECT_DIR$/bootstrap/scss/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/scss/main.scss" afterPath="$PROJECT_DIR$/bootstrap/scss/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/about.php" afterPath="$PROJECT_DIR$/includes/about.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/footer.php" afterPath="$PROJECT_DIR$/includes/footer.php" />
     </list>
     <ignored path="untitled1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,31 +35,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="126" column="20" lean-forward="false" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+            <state relative-caret-position="437">
+              <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/about.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="427" column="67" lean-forward="false" selection-start-line="427" selection-start-column="67" selection-end-line="427" selection-end-column="67" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#!!top" expanded="false" />
-                <element signature="e#11846#17750#0#HTML" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#4;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-                <marker date="1488996009709" expanded="false" signature="13477:17677" ph="..." />
-                <marker date="1488996009709" expanded="false" signature="13518:13555" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -89,6 +65,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/about.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="65" column="54" lean-forward="false" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+              <folding>
+                <element signature="n#style#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#div#4;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#!!top" expanded="false" />
+                <marker date="1489006833789" expanded="false" signature="13787:17987" ph="..." />
+                <marker date="1489006833789" expanded="false" signature="13828:13865" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ssme.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/ssme.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,21 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bootstrap/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="578" column="19" lean-forward="false" selection-start-line="578" selection-start-column="19" selection-end-line="578" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap/scss/_header.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="53" column="28" lean-forward="true" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+            <state relative-caret-position="241">
+              <caret line="566" column="6" lean-forward="false" selection-start-line="566" selection-start-column="6" selection-end-line="566" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -122,7 +105,7 @@
       <file leaf-file-name="about-header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/about-header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
+            <state relative-caret-position="277">
               <caret line="75" column="55" lean-forward="true" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
               <folding />
             </state>
@@ -132,7 +115,7 @@
       <file leaf-file-name="index-header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/index-header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1220">
+            <state relative-caret-position="280">
               <caret line="61" column="55" lean-forward="false" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
               <folding />
             </state>
@@ -219,9 +202,9 @@
         <option value="$PROJECT_DIR$/includes/index-header.php" />
         <option value="$PROJECT_DIR$/includes/footer.php" />
         <option value="$PROJECT_DIR$/bootstrap/scss/_header.scss" />
-        <option value="$PROJECT_DIR$/bootstrap/css/custom.css" />
-        <option value="$PROJECT_DIR$/includes/about.php" />
         <option value="$PROJECT_DIR$/bootstrap/scss/main.scss" />
+        <option value="$PROJECT_DIR$/includes/about.php" />
+        <option value="$PROJECT_DIR$/bootstrap/css/custom.css" />
       </list>
     </option>
   </component>
@@ -238,8 +221,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="width" value="1370" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -319,25 +302,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fouadfawzi.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fouadfawzi.com" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -353,14 +318,14 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Fouad\PhpstormProjects\fouadfawzi.com" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp\www\fouadfawzi.com\bootstrap\images" />
       <recent name="C:\wamp\www\fouadfawzi.com\bootstrap\fonts" />
       <recent name="C:\wamp\www\fouadfawzi.com" />
       <recent name="C:\wamp\www\fouadfawzi.com\includes" />
+      <recent name="C:\Users\Fouad\PhpstormProjects\fouadfawzi.com" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Fouad\PhpstormProjects\fouadfawzi.com" />
     </key>
   </component>
@@ -492,7 +457,7 @@
       <workItem from="1488741587036" duration="9632000" />
       <workItem from="1488808901631" duration="21989000" />
       <workItem from="1488900417252" duration="16526000" />
-      <workItem from="1488991515680" duration="4945000" />
+      <workItem from="1488991515680" duration="10075000" />
     </task>
     <task id="LOCAL-00001" summary="correct some phrases in 'about' page">
       <created>1488835621330</created>
@@ -505,18 +470,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95297000" />
+    <option name="totallyTimeSpent" value="100427000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1370" height="772" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14787701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1491876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32222223" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32195845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -555,27 +520,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bootstrap/js/npm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/includes/style_header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/pages/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -812,6 +756,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="66" column="96" lean-forward="false" selection-start-line="66" selection-start-column="93" selection-end-line="66" selection-end-column="96" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -861,42 +806,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/about-header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="75" column="55" lean-forward="true" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/index-header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1220">
-          <caret line="61" column="55" lean-forward="false" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/ssme.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="218" column="93" lean-forward="false" selection-start-line="218" selection-start-column="90" selection-end-line="218" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="578" column="19" lean-forward="false" selection-start-line="578" selection-start-column="19" selection-end-line="578" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -917,27 +830,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/about.php">
+    <entry file="file://$PROJECT_DIR$/bootstrap/images/f1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/images/f11.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/images/f3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/index-header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="427" column="67" lean-forward="false" selection-start-line="427" selection-start-column="67" selection-end-line="427" selection-end-column="67" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#11846#17750#0#HTML" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#4;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-            <marker date="1488996009709" expanded="false" signature="13477:17677" ph="..." />
-            <marker date="1488996009709" expanded="false" signature="13518:13555" ph="..." />
-          </folding>
+        <state relative-caret-position="280">
+          <caret line="61" column="55" lean-forward="false" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/about-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="75" column="55" lean-forward="true" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/ssme.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="218" column="93" lean-forward="false" selection-start-line="218" selection-start-column="90" selection-end-line="218" selection-end-column="93" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="126" column="20" lean-forward="false" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+        <state relative-caret-position="437">
+          <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="65" column="54" lean-forward="false" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#4;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#!!top" expanded="false" />
+            <marker date="1489006833789" expanded="false" signature="13787:17987" ph="..." />
+            <marker date="1489006833789" expanded="false" signature="13828:13865" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="566" column="6" lean-forward="false" selection-start-line="566" selection-start-column="6" selection-end-line="566" selection-end-column="6" />
           <folding />
         </state>
       </provider>

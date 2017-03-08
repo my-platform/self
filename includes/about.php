@@ -7,7 +7,7 @@
 
                 <p class="paragraph">I named Fouad after my uncle, I like  hanging out with my old friends in
                     an Coffeehouse or Restraint from time to time,
-                    mango is my fresh drink and the fish is my favorite dish ever, and cheese
+                    mango is my fresh drink and the fish is my favorite dish, and cheese
                     pizza is my favorite unhealthy meal I'm kind of in love with it.
                     coffee latte
                     is my friend while working, the fruit salad is my dessert, black and brown and gray are my
@@ -20,43 +20,47 @@
 
     <!--hanging out-->
     <div class="row ind-sec2 block">
-        <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
-            <div class="row">
-                <h1 class="headline">Hanging out after big day of work</h1>
+        <div class="col-md-12 cl-xs-12">
+        <div class="row padding-bottom40">
+            <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="row">
+                    <h1 class="headline">Hanging out after big day of work</h1>
 
-                <p class="paragraph">Coffeehouses and Restraints is my places when I think in
-                    hanging out with my friends,
-                    and this is kind of how I can recharge my power again to keep going on,
-                    and sometimes we're going out to barbecue and this is another way to get fun as well.</p>
+                    <p class="paragraph">Coffeehouses and Restraints is my places when I think in
+                        hanging out with my friends,
+                        and this is kind of how I can recharge my power again to keep going on,
+                        and sometimes we're going out to barbecue and this is another way to get fun as well.</p>
+                </div>
             </div>
-
-
+         </div>
             <!--gallery-->
-
-            <div class="row padding-bottom40">
-                <ul class=" col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+        <div class="row padding-bottom40">
+            <div class="col-md-10 col-md-offset-1 col-xs-12 ">
+                <ul class=" col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
                     <li class="col-md-12 col-xs-12 margin-top"><img class="img-responsive"
                                                                     src="bootstrap/images/9.jpg"/>
-                    </li>
+                    </li></ul>
+                <ul class=" col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+
 
                     <li class="col-md-3 col-xs-6 margin-top">
                         <a class="" href="#lb-gallery1-9" data-slide-to="0" data-toggle="modal">
-                            <img class="group1 img-responsive" src="bootstrap/images/1.jpg"/></a>
+                            <img class="group1 img-responsive" src="bootstrap/images/f1.jpg"/></a>
                     </li>
                     <!--end thumb -->
                     <li class="col-md-3 col-xs-6 margin-top">
                         <a class="" href="#lb-gallery1-9" data-slide-to="1" data-toggle="modal">
-                            <img class="group1 img-responsive" src="bootstrap/images/2.jpg"/></a>
+                            <img class="group1 img-responsive" src="bootstrap/images/f2.jpg"/></a>
                     </li>
                     <!--end thumb -->
                     <li class="col-md-3 col-xs-6 margin-top">
                         <a class="" href="#lb-gallery1-9" data-slide-to="2" data-toggle="modal">
-                            <img class="group1 img-responsive" src="bootstrap/images/3.jpg"/></a>
+                            <img class="group1 img-responsive" src="bootstrap/images/f3.jpg"/></a>
                     </li>
                     <!--end thumb -->
                     <li class="col-md-3 col-xs-6 margin-top">
                         <a class="" href="#lb-gallery1-9" data-slide-to="3" data-toggle="modal">
-                            <img class="group1 img-responsive" src="bootstrap/images/4.jpg"/></a>
+                            <img class="group1 img-responsive" src="bootstrap/images/f4.jpg"/></a>
                     </li>
                     <!--end thumb -->
                     <li class="col-md-3 col-xs-6 margin-top">
@@ -71,7 +75,7 @@
                     <!--end thumb -->
                     <li class="col-md-3 col-xs-6 margin-top">
                         <a class="" href="#lb-gallery1-9" data-slide-to="6" data-toggle="modal">
-                            <img class="group1 img-responsive" src="bootstrap/images/7.jpg"/></a>
+                            <img class="group1 img-responsive" src="bootstrap/images/4.jpg"/></a>
                     </li>
                     <!--end thumb -->
                     <li class="col-md-3 col-xs-6 margin-top">
@@ -117,16 +121,16 @@
                                     </ol>
                                     <div class="carousel-inner">
                                         <div class="item">
-                                            <img alt="" src="bootstrap/images/1.jpg">
+                                            <img alt="" src="bootstrap/images/f1.jpg">
                                         </div>
                                         <div class="item">
-                                            <img alt="" src="bootstrap/images/2.jpg">
+                                            <img alt="" src="bootstrap/images/f2.jpg">
                                         </div>
                                         <div class="item">
-                                            <img alt="" src="bootstrap/images/3.jpg">
+                                            <img alt="" src="bootstrap/images/f3.jpg">
                                         </div>
                                         <div class="item">
-                                            <img alt="" src="bootstrap/images/4.jpg">
+                                            <img alt="" src="bootstrap/images/f4.jpg">
                                         </div>
                                         <div class="item">
                                             <img alt="" src="bootstrap/images/5.jpg">
@@ -164,7 +168,7 @@
             </div>
         </div>
 
-
+        </div>
     </div>
     <!--end of Hanging out-->
     <!--avd block-->
@@ -389,14 +393,10 @@
                                                 <div class="item">
                                                     <img alt="" src="bootstrap/images/work3.jpg">
                                                 </div>
-                                                <div class="item">
+                                                <div class="item active">
                                                     <img alt="" src="bootstrap/images/work4.jpg">
                                                 </div>
 
-
-                                                <div class="item active">
-                                                    <img alt="" src="bootstrap/images/work1.jpg">
-                                                </div>
                                             </div>
                                             <a class="left carousel-control" role="button" data-slide="prev"
                                                href="#2lb-gallery1-9">
