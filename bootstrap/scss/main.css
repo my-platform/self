@@ -47,9 +47,9 @@
   cursor: pointer;
   background-image: none;
   white-space: nowrap;
-  padding: 8px 18px;
+  padding: 8px 18px 8px 18px;
   line-height: 160%;
-  border-radius: 0px;
+  border-radius: 0;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -154,8 +154,21 @@
   background: url("../images/room.jpg"); }
 
 .img-size {
-  min-width: 250px;
+  min-width: 100px;
   min-height: 170px;
-  padding-right: 30px; }
+  max-height: 400px;
+  max-width: 300px;
+  margin: 5px 15px 15px; }
+
+.help_paragraph p {
+  font-family: adv-font;
+  color: #000000;
+  font-size: 18px; }
+.help_paragraph a {
+  font-family: adv-font;
+  color: #000000;
+  font-size: 20px;
+  border: 2px solid #000000;
+  padding: 10px 30px 10px 30px; }
 
 /*# sourceMappingURL=main.css.map */

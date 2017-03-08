@@ -246,7 +246,7 @@ h1 {
 .paragraph {
     font-family: paragraphs;
     color: #838383;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .head_group {
@@ -571,6 +571,12 @@ h1 {
   padding-bottom: 70px;
 }.padding-bottom40{
   padding-bottom: 40px;
+}
+.padding-bottom30{
+  padding-bottom: 30px;
+}
+.padding-bottom20{
+  padding-bottom: 20px;
 }
 .padding-top{
     padding-top: 50px;

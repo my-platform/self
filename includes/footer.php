@@ -6,7 +6,7 @@
 
     <!-- <footer class="navbar navbar-inverse navbar-fixed-bottom  ">-->
     <div id="footer-brand">
-        <a href="index.html"> <img id="footer_logo" src="bootstrap/images/New_Logo.png"></a><br/>
+        <a href="index.php"> <img id="footer_logo" src="bootstrap/images/New_Logo.png"></a><br/>
         <ul id="footer_links">
             <li class="social-button-item"><a href="index.php">HOME</a> &nbsp; | &nbsp; </li>
             <li class="social-button-item"><a href="portfolio.php">PORTFOLIO</a> &nbsp; | &nbsp; </li>

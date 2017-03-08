@@ -114,9 +114,26 @@ $button-border-color:#222222;
 }
 
 .img-size{
-  min-width: 250px;
+  min-width: 100px;
   min-height: 170px;
-  padding-right: 30px;
+  max-height:400px;
+  max-width: 300px;
+  margin: 5px 15px 15px ;
+}
+.help_paragraph{
+  p {
+    font-family: adv-font;
+    color:#000000;
+    font-size: 18px;
+  }
+  a{
+    font-family: adv-font;
+    color:#000000;
+    font-size:20px;
+    border: 2px solid #000000;
+    padding:10px 30px 10px 30px;
+
+  }
 }
 
 
