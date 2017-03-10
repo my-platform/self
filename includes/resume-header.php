@@ -88,26 +88,38 @@
                     </div>
                 </div>
             </div>
+            <!--mbr-box contains the header size in directory Nav/style.css-->
+            <!--header height is 400px and width is 1349px-->
+            <!--full header page height is 680px-->
 
-            <div
-                    class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--full-height
- mbr-section--bg-adapted mbr-parallax-background" id="header1-1"
-                    style="background-image: url(bootstrap/images/room.jpg);">
+            <div class="resume-header mbr-box mbr-section mbr-section--relative
+                     mbr-section--fixed-size mbr-section--full-height
+                     mbr-section--bg-adapted mbr-parallax-background" id="header1-1">
                 <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-left mbr-after-navbar">
-
-                    <!--  <div class="mbr-box__container mbr-section__container container">
+                        <!--Header description-->
+                      <div class="mbr-box__container mbr-section__container container">
                           <div class="mbr-box mbr-box--stretched">
                               <div class="mbr-box__magnet mbr-box__magnet--center-left">
-                                   <div class="row"><div class=" col-sm-6 col-sm-offset-6">
+                                   <div class="row">
+                                       <div class=" col-sm-6 col-sm-offset-6">
                                        <div class="mbr-hero animated fadeInUp">
-                                           <h1 class="mbr-hero__text">FULL-SCREEN HEADER</h1>
-                                           <p class="mbr-hero__subtext">Click any text to edit or style it. Click blue "Gear" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red "+" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.</p>
+                                           <h1 class="mbr-hero__text">PROFILE</h1>
+                                           <p class="mbr-hero__subtext">I've been studied a computer engineering widely,
+                                                electronics and robotics as well, but I loved to work as a developer,
+                                               I love what I do it's not a work for me it's a fun,
+                                               my goal is making life easy for community and leave my finger print
+                                               in the world before I leave this life .</p>
                                        </div>
-                                       <div class="mbr-buttons btn-inverse mbr-buttons--left"><a class="mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay" href="https://mobirise.com">DOWNLOAD NOW</a> <a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" href="https://mobirise.com">LEARN MORE</a></div>
-                                   </div></div>
+                                       <div class="mbr-buttons btn-inverse mbr-buttons--left">
+                                           <a class="mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay"
+                                              href="https://mobirise.com">DOWNLOAD NOW</a>
+                                        </div>
+                                   </div>
+
+                                   </div>
                               </div>
                           </div>
-                      </div>-->
+                      </div>
                     <div class="mbr-arrow mbr-arrow--floating text-center">
                         <div class="mbr-section__container container">
                             <a class="mbr-arrow__link" href="#content"><i class="glyphicon glyphicon-menu-down"></i></a>

@@ -112,6 +112,17 @@ $button-border-color:#222222;
 .home-header{
   background: url('../images/room.jpg');
 }
+.resume-header{
+  background: url('../images/full-page-header.jpg');
+  //height: 100px;
+}
+/*header size*/
+.mbr-box {
+
+  display: table;
+  width: 100%;
+  height: 600px;
+}
 
 .img-size{
   min-width: 100px;

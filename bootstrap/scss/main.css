@@ -153,6 +153,15 @@
 .home-header {
   background: url("../images/room.jpg"); }
 
+.resume-header {
+  background: url("../images/full-page-header.jpg"); }
+
+/*header size*/
+.mbr-box {
+  display: table;
+  width: 100%;
+  height: 600px; }
+
 .img-size {
   min-width: 100px;
   min-height: 170px;

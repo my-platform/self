@@ -15,11 +15,11 @@
                             <ul class="resume-list">
                                 <li><p>Java SE</p></li>
                                 <li><p>Java EE</p>
-
                                     <p class="description">-Servlet –Hibernate -MVC -EJB –JSP –JSF</p></li>
                                 <li><p>Android development</p></li>
+                                <li><p>JQuery</p></li>
                                 <li><p>HTML5/CSS3</p></li>
-                                <li><p>JavaScript/JQuery</p></li>
+                                <li><p>JavaScript</p></li>
                                 <li><p>BootStrap</p></li>
                                 <li><p>Responsive Design</p></li>
                                 <li><p>Photoshop</p></li>
@@ -29,11 +29,16 @@
                         <div class="col-md-6 col-xs-12">
                             <ul class="resume-list">
                                 <li><p>PHP</p>
+                                <li><p>GIT</p></li>
+                                <li><p>GitHub</p></li>
+                                <li><p>Python</p></li>
+                                <li><p>Scss/Sass</p></li>
+                                <li><p>Ajax</p></li>
                                 <li><p>Data Analysis</p></li>
-                                <li><p>Data Structure</p></li>
                                 <li><p>Database Design</p></li>
                                 <li><p>Oracle SQL Development</p></li>
                                 <li><p>MySQL</p></li>
+                                <li><p>OOP</p></li>
                             </ul>
                         </div>
                     </div>
@@ -43,7 +48,7 @@
     </div>
         <!--Experience-->
         <div class="row ind-sec2">
-            <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+            <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
                 <div class="title col-md-4 col-xs-4">
                     <h2 class="title">Experience</h2>
                 </div>
@@ -86,7 +91,7 @@
 
         <!--Qualifications-->
         <div class="row ind-sec1  page_end">
-            <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+            <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
                 <div class="title col-md-4 col-xs-4">
                     <h2 class="title">Qualifications</h2>
                 </div>
