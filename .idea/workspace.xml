@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37b9a0ef-79b7-4d89-a858-c3e67f8ecc0e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/plugin/Nav/style.css" afterPath="$PROJECT_DIR$/bootstrap/plugin/Nav/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/plugin/mobirise/css/style.css" afterPath="$PROJECT_DIR$/bootstrap/plugin/mobirise/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/scss/main.css" afterPath="$PROJECT_DIR$/bootstrap/scss/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/scss/main.css.map" afterPath="$PROJECT_DIR$/bootstrap/scss/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/scss/main.scss" afterPath="$PROJECT_DIR$/bootstrap/scss/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/index.html" afterPath="$PROJECT_DIR$/dashboard/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/pages/UI/buttons.html" afterPath="$PROJECT_DIR$/dashboard/pages/UI/buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/pages/UI/general.html" afterPath="$PROJECT_DIR$/dashboard/pages/UI/general.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/pages/UI/icons.html" afterPath="$PROJECT_DIR$/dashboard/pages/UI/icons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/footer.php" afterPath="$PROJECT_DIR$/includes/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/resume-header.php" afterPath="$PROJECT_DIR$/includes/resume-header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/resume.php" afterPath="$PROJECT_DIR$/includes/resume.php" />
     </list>
     <ignored path="untitled1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +27,8 @@
       <file leaf-file-name="resume-header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/resume-header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="112" column="88" lean-forward="true" selection-start-line="112" selection-start-column="88" selection-end-line="112" selection-end-column="92" />
+            <state relative-caret-position="69">
+              <caret line="94" column="52" lean-forward="false" selection-start-line="94" selection-start-column="52" selection-end-line="94" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -58,8 +47,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap/plugin/Nav/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="1402" column="12" lean-forward="false" selection-start-line="1402" selection-start-column="12" selection-end-line="1402" selection-end-column="12" />
+            <state relative-caret-position="371">
+              <caret line="1404" column="15" lean-forward="false" selection-start-line="1404" selection-start-column="15" selection-end-line="1404" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -202,8 +191,8 @@
         <option value="$PROJECT_DIR$/bootstrap/js/test.js" />
         <option value="$PROJECT_DIR$/bootstrap/plugin/style.css" />
         <option value="$PROJECT_DIR$/bootstrap/plugin/mobirise/css/style.css" />
-        <option value="$PROJECT_DIR$/bootstrap/plugin/Nav/style.css" />
         <option value="$PROJECT_DIR$/bootstrap/scss/main.scss" />
+        <option value="$PROJECT_DIR$/bootstrap/plugin/Nav/style.css" />
         <option value="$PROJECT_DIR$/includes/resume-header.php" />
       </list>
     </option>
@@ -448,7 +437,7 @@
       <workItem from="1488900417252" duration="16526000" />
       <workItem from="1488991515680" duration="13343000" />
       <workItem from="1489082947651" duration="599000" />
-      <workItem from="1489170214796" duration="11408000" />
+      <workItem from="1489170214796" duration="11818000" />
     </task>
     <task id="LOCAL-00001" summary="correct some phrases in 'about' page">
       <created>1488835621330</created>
@@ -461,7 +450,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115702000" />
+    <option name="totallyTimeSpent" value="116112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -914,14 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/plugin/Nav/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="1402" column="12" lean-forward="false" selection-start-line="1402" selection-start-column="12" selection-end-line="1402" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -930,10 +911,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/plugin/Nav/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="1404" column="15" lean-forward="false" selection-start-line="1404" selection-start-column="15" selection-end-line="1404" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/resume-header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="112" column="88" lean-forward="true" selection-start-line="112" selection-start-column="88" selection-end-line="112" selection-end-column="92" />
+        <state relative-caret-position="69">
+          <caret line="94" column="52" lean-forward="false" selection-start-line="94" selection-start-column="52" selection-end-line="94" selection-end-column="52" />
           <folding />
         </state>
       </provider>

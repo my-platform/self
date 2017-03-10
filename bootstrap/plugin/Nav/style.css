@@ -1400,6 +1400,12 @@ html {
 
   display: table;
   width: 100%;
+  height: 400px;
+}
+.mbr-box-resume {
+
+  display: table;
+  width: 100%;
   height: 680px;
 }
 .mbr-box--fixed {

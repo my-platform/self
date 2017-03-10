@@ -92,7 +92,7 @@
             <!--header height is 400px and width is 1349px-->
             <!--full header page height is 680px-->
 
-            <div class="resume-header mbr-box mbr-section mbr-section--relative
+            <div class="resume-header mbr-box-resume mbr-section mbr-section--relative
                      mbr-section--fixed-size mbr-section--full-height
                      mbr-section--bg-adapted mbr-parallax-background" id="header1-1">
                 <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-left mbr-after-navbar">
@@ -107,12 +107,12 @@
                                            <p class="mbr-hero__subtext">I've been studied a computer engineering widely,
                                                 electronics and robotics as well, but I loved to work as a developer,
                                                I love what I do it's not a work for me it's a fun,
-                                               my goal is making life easy for community and leave my finger print
+                                               my goal is making life easy for community and leave my fingerprint
                                                in the world before I leave this life .</p>
                                        </div>
                                        <div class="mbr-buttons btn-inverse mbr-buttons--left">
                                            <a class="mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay"
-                                              href="https://mobirise.com">DOWNLOAD NOW</a>
+                                              href="https://mobirise.com">DOWNLOAD RESUME</a>
                                         </div>
                                    </div>
 
