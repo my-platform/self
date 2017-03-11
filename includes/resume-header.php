@@ -112,7 +112,7 @@
                                        </div>
                                        <div class="mbr-buttons btn-inverse mbr-buttons--left">
                                            <a target="_blank" class="inverse-button btn-lg  animated fadeInUp delay"
-                                              href="https://mobirise.com">DOWNLOAD RESUME</a>
+                                              href="includes/download_resume.php">DOWNLOAD RESUME</a>
                                         </div>
                                    </div>
 
