@@ -326,7 +326,6 @@
                                                     data-slide-to="4">
 
                                                 </li>
-                                                </li>
                                                 <li data-app-prevent-settings="" data-target="#lb-gallery1"
                                                     data-slide-to="5">
 

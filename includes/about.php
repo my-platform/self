@@ -172,7 +172,7 @@
     </div>
     <!--end of Hanging out-->
     <!--avd block-->
-    <div class="row ind-sec2 adv_block">
+    <div class="row adv_block ind-sec2">
         <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
             <h1>Need an Online system or Mobile application?</h1>
             <h2>Here You go</h2>
@@ -315,10 +315,10 @@
         </div>
     </div>
 
-    <div class="row ind-sec2 ">
+    <div class="row ind-sec2  page_end">
         <div class = "col-md-12 col-xs-12">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 page_end">
+                <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 padding-bottom40">
 
                     <h1>Another day of fun </h1>
                     <p class="paragraph">Back again to work and keep working on my schedule and deadlines, and my plans.
@@ -422,7 +422,7 @@
                 </div>
             </div>
             <div class="row help_paragraph">
-                <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 page_end">
+                <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
 
                     <p class="paragraph padding-bottom30">If you need some help you will find me in front of my computer </p>
                     <a href="contact.php#message" class="learn_more">Hire Me</a>

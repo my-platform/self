@@ -111,7 +111,7 @@
                                                in the world before I leave this life .</p>
                                        </div>
                                        <div class="mbr-buttons btn-inverse mbr-buttons--left">
-                                           <a class="mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay"
+                                           <a target="_blank" class="inverse-button btn-lg  animated fadeInUp delay"
                                               href="https://mobirise.com">DOWNLOAD RESUME</a>
                                         </div>
                                    </div>

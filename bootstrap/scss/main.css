@@ -130,19 +130,20 @@
   font-size: 20px;
   padding: 10px 30px 10px 30px; }
 
-.adv_block {
+.adv_block, .adv-block-resume {
   width: 100%;
+  margin: 0;
   margin: 0;
   font-family: adv-font;
   color: #FFFFFF;
   font-size: 50px;
   padding: 80px 0 80px 0;
   background: url("../images/adv-keyboard.jpg"); }
-  .adv_block h1 {
+  .adv_block h1, .adv-block-resume h1 {
     font-family: adv-font; }
-  .adv_block h2 {
+  .adv_block h2, .adv-block-resume h2 {
     margin-top: 5px; }
-  .adv_block a {
+  .adv_block a, .adv-block-resume a {
     margin-bottom: 30px;
     margin-top: 70px;
     font-family: adv-font; }
@@ -179,5 +180,40 @@
   font-size: 20px;
   border: 2px solid #000000;
   padding: 10px 30px 10px 30px; }
+
+.inverse-button {
+  color: #A51C30;
+  font-weight: 500;
+  border: 2px solid #A51C30;
+  border-radius: 2px;
+  font-size: 15px;
+  padding: 10px;
+  background: #A51C30;
+  text-decoration: none;
+  line-height: 1.6;
+  cursor: pointer; }
+
+.inverse-button {
+  color: #ffffff;
+  font-weight: 500;
+  border: 3px solid #A51C30;
+  font-size: 15px;
+  padding: 10px;
+  background: #A51C30;
+  text-decoration: none;
+  line-height: 1.6;
+  cursor: pointer; }
+
+.inverse-button:hover, .inverse-button:focus, .inverse-button:active, .inverse-button:after {
+  color: #ffffff;
+  background: none;
+  border: 3px solid #ffffff;
+  text-decoration: none;
+  -webkit-transition: all 0.25s ease-out 0.10s;
+  -o-transition: all 0.25s ease-out 0.10s;
+  transition: all 0.25s ease-out 0.10s; }
+
+.adv-block-resume {
+  background: url("../images/adv-block-resume.jpg"); }
 
 /*# sourceMappingURL=main.css.map */

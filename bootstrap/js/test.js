@@ -1,3 +1,3 @@
 $(document).ready(function(){
-   // alert($(this).width());
+   // alert($('.ind-sec1').width());
 });
