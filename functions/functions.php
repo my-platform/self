@@ -39,7 +39,7 @@ function get_ssme_content(){
     require_once 'includes/ssme.php';
 }
 function save_visitors(){
-    require_once '../dashboard/includes/get_visitors.php';
+    require_once 'dashboard/includes/get_visitors.php';
     save_visitor();
 }
 ?>

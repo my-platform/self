@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/effects.js"></script>
     <link href="bootstrap/scss/main.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -27,6 +28,7 @@
 
     <link rel="stylesheet" href="bootstrap/plugin/Nav/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/plugin/Nav/style.css">
+
 
     <!--<script src="bootstrap/js/jquery-2.1.4.min.js"></script>-->
     <!--<script src="bootstrap/js/bootstrap.min.js"></script>-->
@@ -95,9 +97,9 @@
             <div class="resume-header mbr-box-resume mbr-section mbr-section--relative
                      mbr-section--fixed-size mbr-section--full-height
                      mbr-section--bg-adapted mbr-parallax-background" id="header1-1">
-                <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-left mbr-after-navbar">
+                <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-left mbr-after-navbar ">
                         <!--Header description-->
-                      <div class="mbr-box__container mbr-section__container container">
+                      <div class="mbr-box__container mbr-section__container container description">
                           <div class="mbr-box mbr-box--stretched">
                               <div class="mbr-box__magnet mbr-box__magnet--center-left">
                                    <div class="row">
