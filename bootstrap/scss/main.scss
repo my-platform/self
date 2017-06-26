@@ -5,7 +5,11 @@
 }
 $red-degree:#A51C30;
 $button-border-color:#222222;
-
+$gray_background:/*#edeef0*/ #F7F7F7;
+$shortcut-width: 26px;
+$shortcut-height: 26px;
+$header_background: #333333;
+$dark-blue:blue;
 .tip{
   img{
     width: 200px;
@@ -187,10 +191,94 @@ $button-border-color:#222222;
   @extend .adv_block;
   background: url("../images/adv-block-resume.jpg");
 }
-.description{
+.header-description{
   display: none ;
 }
+.gray-background{
+ background-color: $gray_background;
+}
+.divider-style{
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #B7B7B7, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #B7B7B7, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #B7B7B7, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #B7B7B7, #f0f0f0);
+}
+.padding-bottom70{
+  padding-bottom: 70px !important;
+}
+.padding-bottom80{
+  padding-bottom: 70px !important;
+}
+#content-div{
+ /* ul{
+    text-align: center;
+  }
+  .social-button{
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    border-radius: 999px;
+    color: #FFFFFF;
+    background-color: #000000;
 
+    a{
+      text-align: center;
+    }
+  }
+  .social-button:hover{
+    color: #000000;
+    background-color: #ffffff;
+  }*/
 
+  li{
+    display: inline-block;
+  }
+  .shortcut_item {
+    margin:0 5px 0 0;
+    position: relative;
+    //vertical-align: middle;
+    display: inline-block;
+    //overflow: hidden;
+    // list-style: none;
+    //background-color: $header-background * 1.5;
+    border-radius: 999px;
+    border: 1px solid $header_background;
+    //font-family: arabic;
+    height: $shortcut-height;
+    width: $shortcut-width;
+    color: $header_background;
+    //padding-bottom:10px ;
+    line-height: 13px;
+    //box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+    .icon-conf {
+      position: absolute;
+      text-align: center;
+      overflow: hidden;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 13px;
 
+    }
+  }
+  .shortcut_item:hover, .shortcut_item:active, .shortcut_item:focus, .shortcut_item:after, .shortcut_item:target{
+    // @extend .shortcut_item;
+    background-color: $red-degree ;
+    border: 0;
+    color: #ffffff;
+    -webkit-transition: all 0.15s ease-out 0.10s;
+    -o-transition: all 0.15s ease-out 0.10s;
+    transition: all 0.15s ease-out 0.10s;
+  }
+
+}
+.padding_top_70{
+  padding-top: 70px;
+}
+.padding_top_80{
+  padding-top: 80px;
+}

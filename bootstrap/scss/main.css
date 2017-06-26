@@ -216,7 +216,79 @@
 .adv-block-resume {
   background: url("../images/adv-block-resume.jpg"); }
 
-.description {
+.header-description {
   display: none; }
+
+.gray-background {
+  background-color: #F7F7F7; }
+
+.divider-style {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #B7B7B7, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #B7B7B7, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #B7B7B7, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #B7B7B7, #f0f0f0); }
+
+.padding-bottom70 {
+  padding-bottom: 70px !important; }
+
+.padding-bottom80 {
+  padding-bottom: 70px !important; }
+
+#content-div {
+ /* ul{
+    text-align: center;
+  }
+  .social-button{
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    border-radius: 999px;
+    color: #FFFFFF;
+    background-color: #000000;
+
+    a{
+      text-align: center;
+    }
+  }
+  .social-button:hover{
+    color: #000000;
+    background-color: #ffffff;
+  }*/ }
+  #content-div li {
+    display: inline-block; }
+  #content-div .shortcut_item {
+    margin: 0 5px 0 0;
+    position: relative;
+    display: inline-block;
+    border-radius: 999px;
+    border: 1px solid #333333;
+    height: 26px;
+    width: 26px;
+    color: #333333;
+    line-height: 13px; }
+    #content-div .shortcut_item .icon-conf {
+      position: absolute;
+      text-align: center;
+      overflow: hidden;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 13px; }
+  #content-div .shortcut_item:hover, #content-div .shortcut_item:active, #content-div .shortcut_item:focus, #content-div .shortcut_item:after, #content-div .shortcut_item:target {
+    background-color: #A51C30;
+    border: 0;
+    color: #ffffff;
+    -webkit-transition: all 0.15s ease-out 0.10s;
+    -o-transition: all 0.15s ease-out 0.10s;
+    transition: all 0.15s ease-out 0.10s; }
+
+.padding_top_70 {
+  padding-top: 70px; }
+
+.padding_top_80 {
+  padding-top: 80px; }
 
 /*# sourceMappingURL=main.css.map */
