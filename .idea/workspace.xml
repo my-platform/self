@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="37b9a0ef-79b7-4d89-a858-c3e67f8ecc0e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/css/custom.css" afterPath="$PROJECT_DIR$/bootstrap/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/js/effects.js" afterPath="$PROJECT_DIR$/bootstrap/js/effects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/scss/main.css" afterPath="$PROJECT_DIR$/bootstrap/scss/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/scss/main.css.map" afterPath="$PROJECT_DIR$/bootstrap/scss/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/scss/main.scss" afterPath="$PROJECT_DIR$/bootstrap/scss/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/contact.php" afterPath="$PROJECT_DIR$/includes/contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/resume-header.php" afterPath="$PROJECT_DIR$/includes/resume-header.php" />
     </list>
     <ignored path="untitled1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,6 +26,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< Updated upstream
       <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/contact.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -41,6 +35,24 @@
               <folding>
                 <marker date="1497920936635" expanded="false" signature="5938:8506" ph="..." />
               </folding>
+=======
+      <file leaf-file-name="resume-header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/resume-header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="123" column="28" lean-forward="true" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/contact.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+              <folding />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -273,7 +285,11 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
+<<<<<<< Updated upstream
     <option name="height" value="784" />
+=======
+    <option name="height" value="772" />
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -392,6 +408,11 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< Updated upstream
+=======
+      <pane id="Scope" />
+      <pane id="Scratches" />
+>>>>>>> Stashed changes
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -549,6 +570,7 @@
       <workItem from="1489082947651" duration="599000" />
       <workItem from="1489170214796" duration="12283000" />
       <workItem from="1489257681537" duration="8954000" />
+<<<<<<< Updated upstream
       <workItem from="1497718573976" duration="4732000" />
       <workItem from="1497804765510" duration="1113000" />
       <workItem from="1497819510429" duration="1856000" />
@@ -557,6 +579,11 @@
       <workItem from="1497982939710" duration="1194000" />
       <workItem from="1498061669039" duration="2256000" />
       <workItem from="1498249770125" duration="792000" />
+=======
+      <workItem from="1497718573976" duration="4138000" />
+      <workItem from="1498578971654" duration="398000" />
+      <workItem from="1498579915433" duration="765000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="correct some phrases in 'about' page">
       <created>1488835621330</created>
@@ -569,11 +596,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="162539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="false" />
+=======
+    <option name="totallyTimeSpent" value="130832000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="772" extended-state="0" />
+    <editor active="true" />
+>>>>>>> Stashed changes
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14714494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -940,18 +975,32 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/includes/index-header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+=======
+    <entry file="file://$PROJECT_DIR$/includes/resume-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="123" column="28" lean-forward="true" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/includes/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4914">
           <caret line="234" column="4" lean-forward="false" selection-start-line="234" selection-start-column="4" selection-end-line="234" selection-end-column="4" />
+=======
+    <entry file="file://$PROJECT_DIR$/includes/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
