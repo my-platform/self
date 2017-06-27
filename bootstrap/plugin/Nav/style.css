@@ -23,7 +23,7 @@ html {
   background-attachment: fixed !important;
   background-position: 50% 0;
   background-repeat: no-repeat;
-  background-size: 100% !important;
+ // background-size: auto !important;
 }
 .mbr-hidden-scrollbar .mbr-parallax-background {
   background-size: auto 130%;
