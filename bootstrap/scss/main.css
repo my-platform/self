@@ -70,6 +70,9 @@
 @font-face {
   font-family: 'adv-font';
   src: url("../fonts/LobsterTwo-BoldItalic.ttf"); }
+@font-face {
+  font-family: 'proxima-nova-bold';
+  src: url("../fonts/Proxima Nova Bold.ttf"); }
 .tip img {
   width: 200px;
   height: 200px;
@@ -148,6 +151,25 @@
     margin-top: 70px;
     font-family: adv-font; }
 
+.header-font h3 {
+  padding-bottom: 55px;
+  font-family: adv-font; }
+.header-font a {
+  margin-bottom: 30px;
+  margin-top: 70px;
+  font-family: adv-font; }
+
+.header-text {
+  font-size: 66px;
+  font-weight: bold;
+  left: -2px;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin: -18px 0 1px 0;
+  padding-bottom: 15px;
+  position: relative;
+  top: 8px; }
+
 .about-header {
   background: url("../images/about-header.jpg"); }
 
@@ -156,6 +178,9 @@
 
 .resume-header {
   background: url("../images/full-page-header.jpg"); }
+
+.contact-page-header {
+  background: url("../images/contactheroBW.jpg"); }
 
 /*header size*/
 .mbr-box {

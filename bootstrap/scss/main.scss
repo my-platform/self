@@ -3,6 +3,10 @@
   font-family: 'adv-font';
   src: url('../fonts/LobsterTwo-BoldItalic.ttf');
 }
+@font-face {
+  font-family: 'proxima-nova-bold';
+  src: url('../fonts/Proxima Nova Bold.ttf');
+}
 $red-degree:#A51C30;
 $button-border-color:#222222;
 $gray_background:/*#edeef0*/ #F7F7F7;
@@ -112,6 +116,32 @@ $dark-blue:blue;
     font-family: adv-font;
   }
 }
+.header-font{
+
+  h3{
+    padding-bottom: 55px;
+    font-family: adv-font;
+  }
+  a {
+    //font-size: 150%;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    font-family: adv-font;
+  }
+}
+.header-text{
+
+    font-size: 66px;
+    font-weight: bold;
+    left: -2px;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin: -18px 0 1px 0;
+    padding-bottom: 15px;
+    position: relative;
+    top: 8px;
+
+}
 .about-header{
   background: url('../images/about-header.jpg');
 }
@@ -120,6 +150,10 @@ $dark-blue:blue;
 }
 .resume-header{
   background: url('../images/full-page-header.jpg');
+  //height: 100px;
+}
+.contact-page-header{
+  background: url('../images/contactheroBW.jpg');
   //height: 100px;
 }
 /*header size*/

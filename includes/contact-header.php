@@ -90,24 +90,22 @@
             </div>
 
             <div
-                    class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--full-height
+                    class="contact-page-header mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--full-height
  mbr-section--bg-adapted mbr-parallax-background" id="header1-1"
-                    style="background-image: url(bootstrap/images/room.jpg);">
+                   ">
                 <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-left mbr-after-navbar">
 
-                    <!--  <div class="mbr-box__container mbr-section__container container">
-                          <div class="mbr-box mbr-box--stretched">
-                              <div class="mbr-box__magnet mbr-box__magnet--center-left">
-                                   <div class="row"><div class=" col-sm-6 col-sm-offset-6">
-                                       <div class="mbr-hero animated fadeInUp">
-                                           <h1 class="mbr-hero__text">FULL-SCREEN HEADER</h1>
-                                           <p class="mbr-hero__subtext">Click any text to edit or style it. Click blue "Gear" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red "+" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.</p>
-                                       </div>
-                                       <div class="mbr-buttons btn-inverse mbr-buttons--left"><a class="mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay" href="https://mobirise.com">DOWNLOAD NOW</a> <a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" href="https://mobirise.com">LEARN MORE</a></div>
-                                   </div></div>
-                              </div>
-                          </div>
-                      </div>-->
+
+                    <div class="row text-center">
+                        <div class=" col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                            <div class="mbr-hero animated fadeInUp header-font">
+                                <h1 class="header-text">GET IN TOUCH</h1>
+                                <h3 class="text-white">Contact me or send me a message</h3>
+
+                            </div>
+                        </div>
+
+                    </div>
                     <div class="mbr-arrow mbr-arrow--floating text-center">
                         <div class="mbr-section__container container">
                             <a class="mbr-arrow__link" href="#content"><i class="glyphicon glyphicon-menu-down"></i></a>
