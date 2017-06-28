@@ -1,10 +1,11 @@
 <!-- Content-->
 <div class="row custom_row  padding-bottom80">
-<div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1  padding_top_80 ">
+<div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
     <!--Contact info-->
 
     <div id="content" class="row">
-        <div class="col-md-6 col-xs-12">
+        <!--Message form-->
+        <div class="col-md-6 col-xs-12 padding_top_80">
 
                     <h2 class="contact-header">Send a Message</h2>
                     <hr class="divider-style">
@@ -55,7 +56,8 @@
                     </div>
 
         </div>
-        <div id="content-div" class=" col-md-4 col-md-offset-2 col-xs-12 ">
+        <!--Message form-->
+        <div id="content-div" class=" col-md-4 col-md-offset-2 col-xs-12 padding_top_80 ">
             <!--<div class="row"><div class="col-md-8 col-xs-12 padding-bottom40">
                     <h1 class="contact-header">Contact Information</h1></div></div>-->
 
@@ -93,7 +95,7 @@
                     </div>
             <hr class="divider-style">
             <div class=" row ">
-                <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2  ">
+                <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1  ">
                 <ul class="">
                     <li>
                         <a class="shortcut_item" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="فاتورة مبيعات">
@@ -128,69 +130,69 @@
 
     <!--divider-->
 
-    <!--Message form-->
 
-    <div id="message" class="row  ">
+    <!--
+        <div id="message" class="row  ">
 
-        <!--
-        <div class="col-md-8 col-xs-8">
-            <div class="panel panel-default padding-bottom40">
-                <div class="panel-heading">
-                    <h1 class="contact-header">Send a Message</h1>
-                </div>
 
-                <div class="panel-body">
-                    <div class="col-md-12 col-xs-12">
-                        <div class="row">
-                            <B>Name *</B>
+            <div class="col-md-8 col-xs-8">
+                <div class="panel panel-default padding-bottom40">
+                    <div class="panel-heading">
+                        <h1 class="contact-header">Send a Message</h1>
+                    </div>
 
+                    <div class="panel-body">
+                        <div class="col-md-12 col-xs-12">
                             <div class="row">
-                                <div class="col-md-6 col-xs-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="First Name">
+                                <B>Name *</B>
+
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="First Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Last Name">
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-xs-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Last Name">
-                                    </div>
+                            </div>
+                            <div class="row field">
+                                <label>Email Address *</label>
+
+                                <div class="input-group ">
+                                    <span class="input-group-addon" id="ex">@</span>
+                                    <input type="text" class="form-control" placeholder="Email Address@Example.com"
+                                           aria-describedby="id"/>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row field">
-                            <label>Email Address *</label>
-
-                            <div class="input-group ">
-                                <span class="input-group-addon" id="ex">@</span>
-                                <input type="text" class="form-control" placeholder="Email Address@Example.com"
-                                       aria-describedby="id"/>
+                            <div class="row field">
+                                <div class="form-group">
+                                    <label>Title *</label>
+                                    <input type="text" class="form-control" placeholder="Subject of your message"/>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row field">
-                            <div class="form-group">
-                                <label>Title *</label>
-                                <input type="text" class="form-control" placeholder="Subject of your message"/>
+                            <div class="row field">
+                                <div class="form-group">
+                                    <label>Your Message *</label>
+                                    <textarea class="form-control" placeholder="Here you go" rows="5"
+                                              id="textarea"></textarea>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row field">
-                            <div class="form-group">
-                                <label>Your Message *</label>
-                                <textarea class="form-control" placeholder="Here you go" rows="5"
-                                          id="textarea"></textarea>
+                            <div class="row margin-top">
+
+                                <a class="learn_more " href="#">SEND</a>
+
                             </div>
-                        </div>
-                        <div class="row margin-top">
-
-                            <a class="learn_more " href="#">SEND</a>
-
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-         -->
 
-    </div>
+
+    </div>-->
 
 </div>
 </div>
