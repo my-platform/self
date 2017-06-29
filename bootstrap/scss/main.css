@@ -170,11 +170,11 @@
   position: relative;
   top: 8px; }
 
-.about-header {
-  background: url("../images/about-header.jpg"); }
-
 .home-header {
-  background: url("../images/room.jpg"); }
+  background: url("../images/home_header.jpg"); }
+
+.about-header {
+  background: url("../images/about_header.jpg"); }
 
 .resume-header {
   background: url("../images/full-page-header.jpg"); }
@@ -187,6 +187,9 @@
   display: table;
   width: 100%;
   height: 600px; }
+
+.header-icon {
+  font-size: 60px; }
 
 .img-size {
   min-width: 100px;
@@ -241,7 +244,7 @@
 .adv-block-resume {
   background: url("../images/adv-block-resume.jpg"); }
 
-.header-description {
+.div-animation {
   display: none; }
 
 .gray-background {

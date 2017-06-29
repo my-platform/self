@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/effects.js"></script>
     <link href="bootstrap/scss/main.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -94,25 +95,24 @@
  mbr-section--bg-adapted mbr-parallax-background" id="header1-1">
                 <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-left mbr-after-navbar">
 
-                    <!--  <div class="mbr-box__container mbr-section__container container">
-                          <div class="mbr-box mbr-box--stretched">
-                              <div class="mbr-box__magnet mbr-box__magnet--center-left">
-                                   <div class="row"><div class=" col-sm-6 col-sm-offset-6">
-                                       <div class="mbr-hero animated fadeInUp">
-                                           <h1 class="mbr-hero__text">FULL-SCREEN HEADER</h1>
-                                           <p class="mbr-hero__subtext">Click any text to edit or style it. Click blue "Gear" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red "+" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.</p>
-                                       </div>
-                                       <div class="mbr-buttons btn-inverse mbr-buttons--left"><a class="mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay" href="https://mobirise.com">DOWNLOAD NOW</a> <a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" href="https://mobirise.com">LEARN MORE</a></div>
-                                   </div></div>
-                              </div>
-                          </div>
-                      </div>-->
+
+                    <div class="row text-center div-animation">
+                        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                            <div class="mbr-hero animated fadeInUp header-font">
+                                <h1 class="header-text ">WELCOME HOME <i class="fa fa-home"></i></h1>
+                                <h3 class="text-white">I'm so pleasured for your visiting,
+                                    &nbsp;find out who I'm and what I can do </h3>
+
+                            </div>
+                        </div>
+                    </div>
                     <div class="mbr-arrow mbr-arrow--floating text-center">
                         <div class="mbr-section__container container">
                             <a class="mbr-arrow__link" href="#content"><i class="glyphicon glyphicon-menu-down"></i></a>
                         </div>
                     </div>
                 </div>
+
             </div>
 
         </div>

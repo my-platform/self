@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/effects.js"></script>
     <link href="bootstrap/scss/main.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -96,8 +97,8 @@
                 <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-left mbr-after-navbar">
 
 
-                    <div class="row text-center">
-                        <div class=" col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                    <div class="row text-center div-animation">
+                        <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
                             <div class="mbr-hero animated fadeInUp header-font">
                                 <h1 class="header-text">GET IN TOUCH</h1>
                                 <h3 class="text-white">Contact me or send me a message</h3>

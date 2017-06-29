@@ -99,7 +99,7 @@
                      mbr-section--bg-adapted mbr-parallax-background" id="header1-1">
                 <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-left mbr-after-navbar ">
                         <!--Header description-->
-                      <div class="mbr-box__container mbr-section__container container header-description">
+                      <div class="mbr-box__container mbr-section__container container div-animation">
                           <div class="mbr-box mbr-box--stretched">
                               <div class="mbr-box__magnet mbr-box__magnet--center-left">
                                    <div class="row">
