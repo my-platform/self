@@ -117,7 +117,11 @@ $dark-blue:blue;
   }
 }
 .header-font{
-
+h1{
+  @extend .header-text;
+  padding-top:25px;
+  font-size:59px !important;
+}
   h3{
     padding-bottom: 55px;
     font-family: adv-font;

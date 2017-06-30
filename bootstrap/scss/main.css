@@ -151,6 +151,9 @@
     margin-top: 70px;
     font-family: adv-font; }
 
+.header-font h1 {
+  padding-top: 25px;
+  font-size: 59px !important; }
 .header-font h3 {
   padding-bottom: 55px;
   font-family: adv-font; }
@@ -159,7 +162,7 @@
   margin-top: 70px;
   font-family: adv-font; }
 
-.header-text {
+.header-text, .header-font h1 {
   font-size: 66px;
   font-weight: bold;
   left: -2px;

@@ -92,18 +92,18 @@
 
             <div
                 class=" home-header mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--full-height
- mbr-section--bg-adapted mbr-parallax-background" id="header1-1">
+                       mbr-section--bg-adapted mbr-parallax-background" id="header1-1">
                 <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-left mbr-after-navbar">
 
 
                     <div class="row text-center div-animation">
-                        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                            <div class="mbr-hero animated fadeInUp header-font">
-                                <h1 class="header-text ">WELCOME HOME <i class="fa fa-home"></i></h1>
-                                <h3 class="text-white">I'm so pleasured for your visiting,
-                                    &nbsp;find out who I'm and what I can do </h3>
+                        <div class="col-md-4 col-md-offset-4 col-sm-12 mbr-hero animated fadeInUp header-font">
 
-                            </div>
+                                <h1 class="">WELCOME</h1>
+                                <h3 class="">Welcome to my website,
+                                    your visiting makes my day.<br>
+                                    &nbsp;get ready to find out who I'm and what I can do </h3>
+
                         </div>
                     </div>
                     <div class="mbr-arrow mbr-arrow--floating text-center">
