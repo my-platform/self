@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/effects.js"></script>
     <link href="bootstrap/scss/main.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -94,7 +95,16 @@
  mbr-section--bg-adapted mbr-parallax-background" id="header1-1"
                     >
                 <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-left mbr-after-navbar">
+                    <div class="row text-center div-animation">
+                        <div class="col-md-4 col-md-offset-4 col-sm-12 mbr-hero animated fadeInUp header-font">
 
+                            <h1 class="">DIG DEEPER</h1>
+                            <h3 class="">Know better about my personal life,
+                                get familiar with the person you dealing with .
+                                &nbsp; </h3>
+
+                        </div>
+                    </div>
                     <!--  <div class="mbr-box__container mbr-section__container container">
                           <div class="mbr-box mbr-box--stretched">
                               <div class="mbr-box__magnet mbr-box__magnet--center-left">
