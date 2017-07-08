@@ -24,10 +24,10 @@
         <div class="row padding-bottom40">
             <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
                 <div class="row">
-                    <h1 class="headline">Hanging out after big day of work</h1>
+                    <h1 class="headline">Hanging out after big week of work</h1>
 
                     <p class="paragraph">Coffeehouses and Restraints is my places when I think in
-                        hanging out with my friends,
+                        hanging out with my friends on the weekends,
                         and this is kind of how I can recharge my power again to keep going on,
                         and sometimes we're going out to barbecue and this is another way to get fun as well.</p>
                 </div>
@@ -130,7 +130,7 @@
                                             <img alt="" src="bootstrap/images/f3.jpg">
                                         </div>
                                         <div class="item">
-                                            <img alt="" src="bootstrap/images/f4.jpg">
+                                            <img alt="" src="bootstrap/images/f4.1.jpg">
                                         </div>
                                         <div class="item">
                                             <img alt="" src="bootstrap/images/5.jpg">
@@ -203,7 +203,7 @@
                             when I be with an kid I don't feel the time.</p>-->
                         <h3 class="head_group">Coding</h3>
 
-                        <p class="paragraph">Yep, don't wonder coding is one of my best funniest stuff I do ever, just
+                        <p class="paragraph">Yep don't wonder, coding is one of my best funniest stuff I do ever, just
                         give me a computer and a cup of latte and I gonna make the life easier</p>
 
                         <h3 class="head_group">Photography and Football</h3>

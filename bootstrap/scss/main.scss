@@ -7,6 +7,10 @@
   font-family: 'proxima-nova-bold';
   src: url('../fonts/Proxima Nova Bold.ttf');
 }
+@font-face {
+  font-family: 'button-font';
+  src: url("../fonts/GothamSSM.ttf");
+}
 $red-degree:#A51C30;
 $button-border-color:#222222;
 $gray_background:/*#edeef0*/ #F7F7F7;
@@ -19,7 +23,7 @@ $dark-blue:blue;
     width: 200px;
     height:200px;
     border-radius: 999px;
-    border: 5px solid $red-degree;
+    //border: 5px solid $red-degree;
    // border-left: 5000px;
     padding:0;
     margin:0;
@@ -29,24 +33,25 @@ $dark-blue:blue;
   }
 }
 .learn_more{
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  //font-family: "Roboto", Helvetica, Arial, sans-serif;
   color: #000;
   font-weight: 500;
+  font-family: button-font, Sans-Serif;
   //font-weight: bold;
   border: 2px solid $button-border-color;
-  border-radius: 2px;
-  font-size: 15px;
-  padding: 10px;
+  //border-radius: 2px;
+  font-size: 12px;
+  padding: 11px;
   text-decoration: none;
-  line-height: 1.6;
+  //line-height: 11;
   cursor: pointer;
 }
 
 .learn_more:hover, .learn_more:focus,.learn_more:active,.learn_more:after {
   color: #fff;
   //border: 2px solid #e74c3c;
-  border: 2px solid $button-border-color;
-  border-radius: 2px;
+  border: 1px solid $button-border-color;
+  //border-radius: 2px;
   //background: #e74c3c;
   background: #222222;
   text-decoration: none;
@@ -74,6 +79,7 @@ $dark-blue:blue;
   border-radius: 0;
   font-size: 16px;
   padding: 10px;
+  line-height: 0 !important;
   font-weight: normal;
 }
 .visit_pro:hover, .visit_pro:focus, .visit_pro:active, .visit_pro:after{
@@ -88,6 +94,7 @@ $dark-blue:blue;
   @extend .visit_pro;
   font-size:20px;
   padding:10px 30px 10px 30px;
+  //font-family: button-font;
 }
 .adv-button:hover, .adv-button:focus, .adv-button:active, .adv-button:after{
 @extend .visit_pro:hover;
