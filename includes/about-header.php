@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
     <script src="bootstrap/js/jquery.js"></script>
     <script src="bootstrap/js/effects.js"></script>
     <link href="bootstrap/scss/main.css" rel="stylesheet">
@@ -24,16 +27,27 @@
 
     <link href="bootstrap/css/social-buttons.css" rel="stylesheet">
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    <!--***************************************--->
-
+    <!--*****************Navbar**********************--->
     <link rel="stylesheet" href="bootstrap/plugin/Nav/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/plugin/Nav/style.css">
 
-    <!--<script src="bootstrap/js/jquery-2.1.4.min.js"></script>-->
-    <!--<script src="bootstrap/js/bootstrap.min.js"></script>-->
 
-    <!--<script src="bootstrap/plugin/SmoothScroll.js"></script>-->
+    <!--new gallery-->
+    <link rel="stylesheet" href="bootstrap/plugin/gallery/style1.css">
+    <link rel="stylesheet" href="bootstrap/plugin/gallery/style2.css">
+    <link rel="stylesheet" href="bootstrap/plugin/gallery/style.css">
+    <script src="bootstrap/plugin/gallery/js/player.min.js"></script>
+    <script src="bootstrap/plugin/gallery/js/script.js"></script>
+    <!--<link rel="stylesheet" href="bootstrap/plugin1/tether/tether.min.css">
+    <link rel="stylesheet" href="bootstrap/plugin1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/plugin1/animate.css/animate.min.css">
+    <link rel="stylesheet" href="bootstrap/plugin1/theme/css/style.css">
+    <link rel="stylesheet" href="bootstrap/plugin1/mobirise-gallery/style.css">
+    <link rel="stylesheet" href="bootstrap/plugin1/mobirise/css/mbr-additional.css" type="text/css">-->
 
+
+
+    <!--end new plugin-->
     <title>ABOUT</title>
 </head>
 <body>
@@ -119,7 +133,7 @@
                           </div>
                       </div>-->
                     <div class="mbr-arrow mbr-arrow--floating text-center">
-                        <div class="mbr-section__container container">
+                        <div class="mbr-section__container container ">
                             <a class="mbr-arrow__link" href="#content"><i class="glyphicon glyphicon-menu-down"></i></a>
                         </div>
                     </div>

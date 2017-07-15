@@ -20,76 +20,345 @@
 
     <!--hanging out-->
     <div class="row ind-sec2 block">
-        <div class="col-md-12 cl-xs-12">
+        <div class="col-md-12 cl-xs-12  padding-bottom70">
         <div class="row padding-bottom40">
             <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
                 <div class="row">
-                    <h1 class="headline">Hanging out after big week of work</h1>
+                    <h1 class="headline">Weekend Activities</h1>
+                    <div class=" col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                        <img class="img-responsive" src="bootstrap/images/g1.jpg"/>
+                    </div>
+                </div>
 
-                    <p class="paragraph">Coffeehouses and Restraints is my places when I think in
-                        hanging out with my friends on the weekends,
-                        and this is kind of how I can recharge my power again to keep going on,
-                        and sometimes we're going out to barbecue and this is another way to get fun as well.</p>
+                <div class="row">
+                    <h1 class="sub-title padding-top">Hanging out after big week of work</h1>
+
+                    <p class="paragraph">Coffeehouses and Restraints are my places when I think in
+                        hanging out with my friends on the weekends, going out and to public places and meeting my old friends is a way to
+                        recharge my power again for the next week.</p>
                 </div>
             </div>
          </div>
+            <!-- Gallery hanging out-->
+            <div class="row padding-bottom30 mbr-gallery mbr-section mbr-section-nopadding mbr-slider-carousel" id="gallery1-8" data-filter="false" style=" padding-top: 1.5rem; padding-bottom: 0rem;">
+                <!-- Filter -->
+
+                <div class="col-md-12  col-xs-12 mbr-gallery-row">
+                    <div class=" col-md-8 col-md-offset-2   col-xs-12 mbr-gallery-layout-default">
+                        <div class=" ">
+
+                            <div>
+                                <div>
+
+                                    <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                        <div class="" href="#lb-gallery1-8" data-slide-to="0" data-toggle="modal">
+                                            <img class="" src="bootstrap/images/9.jpg"/>
+                                            <span class="icon-focus"></span>
+                                        </div>
+                                    </div>
+                                    <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                        <div class="" href="#lb-gallery1-8" data-slide-to="1" data-toggle="modal">
+                                            <img class="" src="bootstrap/images/f2.jpg"/>
+                                            <span class="icon-focus"></span>
+                                        </div>
+
+                                    </div>
+                                    <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                        <div class="" href="#lb-gallery1-8" data-slide-to="2" data-toggle="modal">
+                                            <img class="" src="bootstrap/images/f3.jpg"/>
+                                            <span class="icon-focus"></span>
+                                        </div>
+                                    </div>
+                                    <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                        <div class="" href="#lb-gallery1-8" data-slide-to="3" data-toggle="modal">
+                                            <img class="" src="bootstrap/images/f4.jpg"/>
+                                            <span class="icon-focus"></span>
+                                        </div>
+
+                                    </div>
+                                    <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                        <div class="" href="#lb-gallery1-8" data-slide-to="4" data-toggle="modal">
+                                            <img class="" src="bootstrap/images/f4.1.jpg"/>
+                                            <span class="icon-focus"></span>
+                                        </div>
+
+                                    </div><div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                        <div class="" href="#lb-gallery1-8" data-slide-to="5" data-toggle="modal">
+                                            <img class="" src="bootstrap/images/f1.jpg"/>
+                                            <span class="icon-focus"></span>
+                                        </div>
+
+                                    </div>
+                                    <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                        <div class="" href="#lb-gallery1-8" data-slide-to="6" data-toggle="modal">
+                                            <img class="" src="bootstrap/images/5.jpg"/>
+                                            <span class="icon-focus"></span>
+                                        </div>
+
+                                    </div><div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                        <div class="" href="#lb-gallery1-8" data-slide-to="7" data-toggle="modal">
+                                            <img class="" src="bootstrap/images/8.jpg"/>
+                                            <span class="icon-focus"></span>
+                                        </div>
+
+                                    </div><div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                        <div class="" href="#lb-gallery1-8" data-slide-to="8" data-toggle="modal">
+                                            <img class="" src="bootstrap/images/7.jpg"/>
+                                            <span class="icon-focus"></span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lightbox -->
+                <div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1" data-keyboard="true" data-interval="false" id="lb-gallery1-8">
+                    <div class="modal-dialog">
+                        <div class="modal-content gallery-modal-top">
+                            <div class="modal-body">
+                                <ol class="carousel-indicators">
+                                    <li data-app-prevent-settings="" data-target="#lb-gallery1-8" data-slide-to="0"></li>
+                                    <li data-app-prevent-settings="" data-target="#lb-gallery1-8" data-slide-to="1"></li>
+                                    <li data-app-prevent-settings="" data-target="#lb-gallery1-8" data-slide-to="2"></li>
+                                    <li data-app-prevent-settings="" data-target="#lb-gallery1-8" data-slide-to="3"></li>
+                                    <li data-app-prevent-settings="" data-target="#lb-gallery1-8" data-slide-to="4"></li>
+                                    <li data-app-prevent-settings="" data-target="#lb-gallery1-8" data-slide-to="5"></li>
+                                    <li data-app-prevent-settings="" data-target="#lb-gallery1-8" data-slide-to="6"></li>
+                                    <li data-app-prevent-settings="" data-target="#lb-gallery1-8" data-slide-to="7"></li>
+                                    <li data-app-prevent-settings="" data-target="#lb-gallery1-8" class="active" data-slide-to="8"></li>
+
+                                </ol>
+                                <div class="carousel-inner ">
+                                    <div class="item">
+                                        <img alt="" src="bootstrap/images/9.jpg">
+                                    </div><div class="item ">
+                                        <img alt="" src="bootstrap/images/f2.jpg">
+                                    </div><div class="item">
+                                        <img alt="" src="bootstrap/images/f3.jpg">
+                                    </div><div class="item active">
+                                        <img alt="" src="bootstrap/images/f4.jpg">
+                                    </div> <div class="item">
+                                        <img alt="" src="bootstrap/images/f4.1.jpg">
+                                    </div><div class="item ">
+                                        <img alt="" src="bootstrap/images/f1.jpg">
+                                    </div><div class="item">
+                                        <img alt="" src="bootstrap/images/5.jpg">
+                                    </div><div class="item">
+                                        <img alt="" src="bootstrap/images/8.jpg">
+                                    </div><div class="item active">
+                                        <img alt="" src="bootstrap/images/7.jpg">
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" role="button" data-slide="prev" data-target="#lb-gallery1-8">
+                                    <span class="icon-prev" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" role="button" data-slide="next" data-target="#lb-gallery1-8">
+                                    <span class="icon-next" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+
+                                <a class="close" href="#" role="button" data-dismiss="modal">
+                                    <span aria-hidden="true">×</span>
+                                    <span class="sr-only">Close</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- barbecue and gaming  -->
+            <div class="col-md-8 padding-bottom40 col-md-offset-2 col-xs-10 col-xs-offset-1">
+
+                <div class="row">
+                    <h1 class="sub-title padding-top">Barbecue & Video gaming </h1>
+
+                    <p class="paragraph">Barbecue is the most enjoyable thing I may do at the week end with an friend.
+                        as long as I decided to do a barbecue, It is necessary to play video game with a pal,
+                        I'm not a good gamer, but I do this for from time to time to get relax, resist the tension, and
+                        let all behind.</p>
+                </div>
+            </div>
+            <div class="row padding-bottom30 mbr-gallery mbr-section mbr-section-nopadding mbr-slider-carousel" id="gallery1-9" data-filter="false" style=" padding-top: 1.5rem; padding-bottom: 0rem;">
+                <!-- Filter -->
+
+                <div class="col-md-12  col-xs-12">
+
+                <div class="margin-top col-md-8 col-md-offset-2 col-xs-12 mbr-gallery-row">
+                    <div class=" ">
+
+                        <div>
+                            <div>
+
+                                <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                    <div class="" href="#lb-gallery1-9" data-slide-to="0" data-toggle="modal">
+                                        <img class="" src="bootstrap/images/g1.jpg"/>
+                                        <span class="icon-focus"></span>
+                                    </div>
+
+                                </div>
+                                <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                    <div class="" href="#lb-gallery1-9" data-slide-to="1" data-toggle="modal">
+                                        <img class="" src="bootstrap/images/g2.jpg"/>
+                                        <span class="icon-focus"></span>
+                                    </div>
+
+                                </div>
+                                <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                    <div class="" href="#lb-gallery1-9" data-slide-to="2" data-toggle="modal">
+                                        <img class="" src="bootstrap/images/g3.jpg"/>
+                                        <span class="icon-focus"></span>
+                                    </div>
+
+                                </div>
+                                <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                    <div class="" href="#lb-gallery1-9" data-slide-to="3" data-toggle="modal">
+                                        <img class="" src="bootstrap/images/b1.jpg"/>
+                                        <span class="icon-focus"></span>
+                                    </div>
+
+                                </div>
+                                <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                    <div class="" href="#lb-gallery1-9" data-slide-to="4" data-toggle="modal">
+                                        <img class="" src="bootstrap/images/b2.jpg"/>
+                                        <span class="icon-focus"></span>
+                                    </div>
+                                </div>
+                                <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                    <div class="" href="#lb-gallery1-9" data-slide-to="5" data-toggle="modal">
+                                        <img class="" src="bootstrap/images/b4.jpg"/>
+                                        <span class="icon-focus"></span>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Lightbox -->
+                <div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1" data-keyboard="true" data-interval="false" id="lb-gallery1-9">
+                    <div class="modal-dialog">
+                        <div class="modal-content gallery-modal-top">
+                            <div class="modal-body">
+                                <ol class="carousel-indicators">
+
+                                    <li data-app-prevent-settings="" data-target="#lb-gallery1-9" data-slide-to="0"></li>
+                                    <li data-app-prevent-settings="" data-target="#lb-gallery1-9" data-slide-to="1"></li>
+                                    <li data-app-prevent-settings="" data-target="#lb-gallery1-9" data-slide-to="2"></li>
+                                    <li data-app-prevent-settings="" data-target="#lb-gallery1-9" data-slide-to="3"></li>
+                                    <li data-app-prevent-settings="" data-target="#lb-gallery1-9" data-slide-to="4"></li>
+                                    <li data-app-prevent-settings="" data-target="#lb-gallery1-9" class=" active" data-slide-to="5"></li>
+                                </ol>
+                                <div class="carousel-inner ">
+                                    <div class="item">
+                                        <img alt="" src="bootstrap/images/g1.jpg">
+                                    </div>
+                                    <div class="item">
+                                        <img alt="" src="bootstrap/images/g2.jpg">
+                                    </div>
+                                    <div class="item">
+                                        <img alt="" src="bootstrap/images/g3.jpg">
+                                    </div>
+                                    <div class="item ">
+                                        <img alt="" src="bootstrap/images/b1.jpg">
+                                    </div>
+                                    <div class="item ">
+                                        <img alt="" src="bootstrap/images/b2.jpg">
+                                    </div>
+                                    <div class="item active">
+                                        <img alt="" src="bootstrap/images/b4.jpg">
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                                <a class="left carousel-control" role="button" data-slide="prev" data-target="#lb-gallery1-9">
+                                    <span class="icon-prev" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" role="button" data-slide="next" data-target="#lb-gallery1-9">
+                                    <span class="icon-next" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+
+                                <a class="close" href="#" role="button" data-dismiss="modal">
+                                    <span aria-hidden="true">×</span>
+                                    <span class="sr-only">Close</span>
+                                </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!--gallery-->
-        <div class="row padding-bottom40">
+          <!---
+        <div class="row padding-bottom40 ">
             <div class="col-md-10 col-md-offset-1 col-xs-12 ">
                 <ul class=" col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
                     <li class="col-md-12 col-xs-12 margin-top"><img class="img-responsive"
                                                                     src="bootstrap/images/9.jpg"/>
-                    </li></ul>
+                    </li>
+                </ul>
                 <ul class=" col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
-
 
                     <li class="col-md-3 col-xs-6 margin-top">
                         <a class="" href="#lb-gallery1-9" data-slide-to="0" data-toggle="modal">
                             <img class="group1 img-responsive" src="bootstrap/images/f1.jpg"/></a>
                     </li>
-                    <!--end thumb -->
+
                     <li class="col-md-3 col-xs-6 margin-top">
-                        <a class="" href="#lb-gallery1-9" data-slide-to="1" data-toggle="modal">
+                     <a class="" href="#lb-gallery1-9" data-slide-to="1" data-toggle="modal">
                             <img class="group1 img-responsive" src="bootstrap/images/f2.jpg"/></a>
                     </li>
-                    <!--end thumb -->
-                    <li class="col-md-3 col-xs-6 margin-top">
+                                        <li class="col-md-3 col-xs-6 margin-top">
                         <a class="" href="#lb-gallery1-9" data-slide-to="2" data-toggle="modal">
                             <img class="group1 img-responsive" src="bootstrap/images/f3.jpg"/></a>
                     </li>
-                    <!--end thumb -->
+
                     <li class="col-md-3 col-xs-6 margin-top">
                         <a class="" href="#lb-gallery1-9" data-slide-to="3" data-toggle="modal">
                             <img class="group1 img-responsive" src="bootstrap/images/f4.jpg"/></a>
                     </li>
-                    <!--end thumb -->
+
                     <li class="col-md-3 col-xs-6 margin-top">
                         <a class="" href="#lb-gallery1-9" data-slide-to="4" data-toggle="modal">
                             <img class="group1 img-responsive" src="bootstrap/images/5.jpg"/></a>
                     </li>
-                    <!--end thumb -->
+
                     <li class="col-md-3 col-xs-6 margin-top">
                         <a class="" href="#lb-gallery1-9" data-slide-to="5" data-toggle="modal">
                             <img class="group1 img-responsive" src="bootstrap/images/6.jpg"/></a>
                     </li>
-                    <!--end thumb -->
+
                     <li class="col-md-3 col-xs-6 margin-top">
                         <a class="" href="#lb-gallery1-9" data-slide-to="6" data-toggle="modal">
-                            <img class="group1 img-responsive" src="bootstrap/images/4.jpg"/></a>
+                            <img class="group1 img-responsive" src="bootstrap/images/4.jpg"/>
+                        </a>
                     </li>
-                    <!--end thumb -->
+
                     <li class="col-md-3 col-xs-6 margin-top">
                         <a class="" href="#lb-gallery1-9" data-slide-to="7" data-toggle="modal">
                             <img class="group1 img-responsive" src="bootstrap/images/8.jpg"/></a>
                     </li>
-                    <!--end thumb -->
-                </ul>
-                <!--end thumbnails -->
-                <!-- Lightbox -->
-                <section class="mbr-gallery mbr-section mbr-section--no-padding" id="gallery1-9"
+                            </ul>
+
+                <section class=" mbr-gallery mbr-section mbr-section--no-padding" id="gallery1-9"
                          style="background-color: rgb(255, 255, 255);">
 
-                    <div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1"
+                    <!--<div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1"
                          data-keyboard="true" data-interval="false" id="lb-gallery1-9">
                         <div class="modal-dialog">
                             <div class="modal-content">
@@ -156,21 +425,84 @@
                                         <span class="sr-only">Next</span>
                                     </a>
 
-                                    <a class="close" href="#" role="button" data-dismiss="modal">
+                                    <!--<a class="close" href="#" role="button" data-dismiss="modal">
                                         <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                                        <span class="sr-only">Close</span>
+                                    </a>
+                                    <a class="close" href="#" role="button" data-dismiss="modal">
+                                        <span aria-hidden="true">×</span>
                                         <span class="sr-only">Close</span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1" data-keyboard="true" data-interval="false" id="lb-gallery1-9">
+                        <div class="modal-dialog">
+                            <div class="modal-content gallery-modal-top">
+                                <div class="modal-body">
+                                    <ol class="carousel-indicators">
+                                        <li data-app-prevent-settings="" data-target="#lb-gallery1-9" data-slide-to="0"></li>
+                                        <li data-app-prevent-settings="" data-target="#lb-gallery1-9" data-slide-to="1"></li>
+                                        <li data-app-prevent-settings="" data-target="#lb-gallery1-9" data-slide-to="2"></li>
+                                        <li data-app-prevent-settings="" data-target="#lb-gallery1-9" data-slide-to="3"></li>
+                                        <li data-app-prevent-settings="" data-target="#lb-gallery1-9" data-slide-to="4"></li>
+                                        <li data-app-prevent-settings="" data-target="#lb-gallery1-9" data-slide-to="5"></li>
+                                        <li data-app-prevent-settings="" data-target="#lb-gallery1-9" data-slide-to="6"></li>
+                                        <li data-app-prevent-settings="" data-target="#lb-gallery1-9" class=" active" data-slide-to="7"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="item">
+                                            <img alt="" src="bootstrap/images/f1.jpg">
+                                        </div>
+                                        <div class="item item-height">
+                                            <img alt="" src="bootstrap/images/f2.jpg">
+                                        </div>
+                                        <div class="item item-height">
+                                            <img alt="" src="bootstrap/images/f3.jpg">
+                                        </div>
+                                        <div class="item item-height">
+                                            <img alt="" src="bootstrap/images/f4.1.jpg">
+                                        </div>
+                                        <div class="item item-height">
+                                            <img alt="" src="bootstrap/images/5.jpg">
+                                        </div>
+                                        <div class="item item-height">
+                                            <img alt="" src="bootstrap/images/6.jpg">
+                                        </div>
+                                        <div class="item item-height">
+                                            <img alt="" src="bootstrap/images/4.jpg">
+                                        </div>
+                                        <div class="item  item-height active">
+                                            <img alt="" src="bootstrap/images/8.jpg">
+                                        </div>
+                                    </div>
+                                    <a class="left carousel-control" role="button" data-slide="prev" href="#lb-gallery1-9">
+                                        <span class="icon-prev" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" role="button" data-slide="next" href="#lb-gallery1-9">
+                                        <span class="icon-next" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+                                    <a class="close" href="#" role="button" data-dismiss="modal">
+                                        <span aria-hidden="true">×</span>
+                                        <span class="sr-only">Close</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </section>
             </div>
-        </div>
+        </div>--->
 
         </div>
     </div>
     <!--end of Hanging out-->
+
     <!--avd block-->
     <div class="row adv_block ind-sec2">
         <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
@@ -409,8 +741,12 @@
                                                 <span class="sr-only">Next</span>
                                             </a>
 
+                                            <!--<a class="close" href="#" role="button" data-dismiss="modal">
+                                                <span class="glyphicon glyphicon-remove" aria-hidden="true">x</span>
+                                                <span class="sr-only">Close</span>
+                                            </a>-->
                                             <a class="close" href="#" role="button" data-dismiss="modal">
-                                                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                                                <span aria-hidden="true">×</span>
                                                 <span class="sr-only">Close</span>
                                             </a>
                                         </div>

@@ -71,6 +71,12 @@
   font-family: 'adv-font';
   src: url("../fonts/LobsterTwo-BoldItalic.ttf"); }
 @font-face {
+  font-family: 'sub-title-2';
+  src: url("../fonts/MontserratAlternates-Bold.ttf"); }
+@font-face {
+  font-family: 'sub-title';
+  src: url("../fonts/Bellefair-Regular.ttf"); }
+@font-face {
   font-family: 'proxima-nova-bold';
   src: url("../fonts/Proxima Nova Bold.ttf"); }
 @font-face {
@@ -321,5 +327,14 @@
 
 .padding_top_80 {
   padding-top: 80px; }
+
+.gallery-modal-top {
+  top: 35px; }
+
+.item-height {
+  height: 100%; }
+
+.sub-title {
+  font-family: sub-title; }
 
 /*# sourceMappingURL=main.css.map */

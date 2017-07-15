@@ -1281,29 +1281,8 @@ html {
     padding-top: 51px;
   }
 }
-.mbr-arrow {
-  bottom: 71px;
-  left: 0;
-  line-height: 1px;
-  padding: 0 20px;
-  position: absolute;
-  width: 100%;
-  z-index: 3;
-}
-.mbr-arrow__link {
-  display: inline-block;
-  font-size: 26px;
-}
-.mbr-arrow__link,
-.mbr-arrow__link:hover,
-.mbr-arrow__link:focus {
-  color: #fff;
-}
-.mbr-arrow--floating .mbr-arrow__link {
-  -webkit-animation: floating-arrow 1.6s infinite ease-in-out 0s;
-  -o-animation: floating-arrow 1.6s infinite ease-in-out 0s;
-  animation: floating-arrow 1.6s infinite ease-in-out 0s;
-}
+
+
 @-webkit-keyframes floating-arrow {
   from {
     -webkit-transform: translateY(0);
@@ -1346,28 +1325,7 @@ html {
     transform: translateY(0);
   }
 }
-.mbr-arrow--dark .mbr-arrow__link,
-.mbr-arrow--dark .mbr-arrow__link:hover,
-.mbr-arrow--dark .mbr-arrow__link:focus {
-  color: #252525;
-}
-@media (max-width: 767px) {
-  .mbr-arrow {
-    bottom: 41px;
-  }
-}
 
-@media (max-width: 320px) {
-  .mbr-arrow {
-    bottom: 21px;
-    text-align: center;
-  }
-}
-@media all and (device-width: 320px) and (device-height: 568px) and (orientation: portrait) {
-  .mbr-arrow {
-    bottom: 31px;
-  }
-}
 .mbr-box {
   //background-image: url(/assets/images/room-1202x442-45.jpg);
   display: table;
