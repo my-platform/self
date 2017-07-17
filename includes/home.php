@@ -10,9 +10,9 @@
                         <img src="bootstrap/images/user.jpg"> </img>
                     </div>
                 <div class=" col-md-8 col-xs-12">
-                    <p class="paragraph"> Hi, I'm Fouad Fawzi. welcome to my online House let's take a quick
+                    <p class="paragraph"> Hi, I'm Fouad Fawzi. welcome to my online house let's take a quick
                         look at my some stuff.
-                        Simply I'm a web and mobile application developer and that how I can enjoy in my
+                        Simply I'm a <!--web and mobile application--> full stack developer and that how I can enjoy in my
                         life.
                         I adore what I do, I spend most of my time at my desk with my computer,
                         to get some fun just I set in front of my screen with a cup of latte to work and

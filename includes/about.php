@@ -522,26 +522,29 @@
 
                         <h3 class="head_group">Reading</h3>
 
-                        <p class="paragraph">I like to spend most of my free time in reading, reading is
-                            the life for me. if you can't find me in my work and my mobile is out of service
+                        <p class="paragraph">There's a time every day for reading in my schedule, I believe that the more
+                            that you read, the more things you will know. The more that you learn, the more places you'll go,
+                            the more your mind will grows. the kind of books I usually read are (Human development, Literature, and some times History )
+                            if you can't find me in my work and my sell is out of service
                             you will sure find me among my books.</p>
                         <h3 class="head_group">Fishing</h3>
-
-                        <p class="paragraph">Yes fishing is the most enjoyable thing I do in my life, when I need to get
-                            some relax and get separated for everything just I take my fishing gear and then I go to fishing. </p>
+                        <p class="paragraph">Fishing is the most enjoyable hobby I do in my life, when I need to get
+                            some relax and get separated for everything just I take my fishing gear, then I go to fishing. </p>
                         <!--
                         <h3 class="head_group">Kids</h3>
                         <p class="paragraph">One of the most interesting time when I get playing with the kid,
                             when I be with an kid I don't feel the time.</p>-->
                         <h3 class="head_group">Coding</h3>
 
-                        <p class="paragraph">Yep don't wonder, coding is one of my best funniest stuff I do ever, just
-                        give me a computer and a cup of latte and I gonna make the life easier</p>
+                        <p class="paragraph">Yep, don't wonder, coding is not just a job for me, its like a fun time
+                            that I enjoy making and changing things, its kind of a game for me, its the way I feel my
+                            self special, its a purpose.
+                            just give me a computer and a cup of latte, and I gonna make the life easier</p>
 
-                        <h3 class="head_group">Photography and Football</h3>
+                        <h3 class="head_group">Swimming</h3>
 
-                        <p class="paragraph">Also I like photography but I'm not professional,
-                            and I'm playing football from time to time. </p>
+                        <p class="paragraph">Ironically, I'm not a good swimmer, and I don't practice swimming to much,
+                            but it's still my favorite sport, and one of my favorite time when I do swimming.</p>
                     </div>
                 </div>
             </div>
