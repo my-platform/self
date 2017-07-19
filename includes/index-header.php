@@ -29,6 +29,13 @@
     <link rel="stylesheet" href="bootstrap/plugin/Nav/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/plugin/Nav/style.css">
 
+    <!--new gallery-->
+    <link rel="stylesheet" href="bootstrap/plugin/gallery/style1.css">
+    <link rel="stylesheet" href="bootstrap/plugin/gallery/style2.css">
+    <link rel="stylesheet" href="bootstrap/plugin/gallery/style.css">
+    <script src="bootstrap/plugin/gallery/js/player.min.js"></script>
+    <script src="bootstrap/plugin/gallery/js/script.js"></script>
+
     <!--<script src="bootstrap/js/jquery-2.1.4.min.js"></script>-->
     <!--<script src="bootstrap/js/bootstrap.min.js"></script>-->
 

@@ -34,7 +34,8 @@
                     <h1 class="sub-title padding-top">Hanging out after big week of work</h1>
 
                     <p class="paragraph">Coffeehouses and Restraints are my places when I think in
-                        hanging out with my friends on the weekends, going out and to public places and meeting my old friends is a way to
+                        hanging out with my friends on the weekends, the old way, where no social media or screen
+                        between us going out and to public places and meeting my old friends is a way to
                         recharge my power again for the next week.</p>
                 </div>
             </div>
@@ -656,9 +657,12 @@
                 <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 padding-bottom40">
 
                     <h1>Another day of fun </h1>
-                    <p class="paragraph">Back again to work and keep working on my schedule and deadlines, and my plans.
+                    <p class="paragraph">Back again to work, and keep working on my schedule and deadlines, and my plans.
                         <br/>for now I working as a freelancer, moving on from a project to
-                        another and growing up my skills and having fun. </p>
+                        another and growing up my skills.<br>
+                        I'm a passionate developer, despite of I've been studied electronics, robotics,
+                        embedded systems, and other technologies as a part of my major as a computer Engineer,
+                        I think that programming chose me. </p>
                 </div>
             </div>
             <!--gallery-->
@@ -669,23 +673,23 @@
 
                             <li class=" col-md-3 col-xs-12">
                                 <a class="" href="#2lb-gallery1-9" data-slide-to="0" data-toggle="modal">
-                                    <img class="img-size group1 img-responsive" src="bootstrap/images/work1.jpg"/></a>
+                                    <img class="img-size group1 img-responsive" src="bootstrap/images/plan1.jpeg"/></a>
                             </li>
 
                             <li class="col-md-3 col-xs-12">
                                 <a class="" href="#2lb-gallery1-9" data-slide-to="1" data-toggle="modal">
                                     <img id="kid" class="img-size group1 img-responsive"
-                                         src="bootstrap/images/work2.jpeg"/></a>
+                                         src="bootstrap/images/plan2.jpg"/></a>
                             </li>
 
                             <li class="col-md-3 col-xs-12">
                                 <a class="" href="#2lb-gallery1-9" data-slide-to="2" data-toggle="modal">
-                                    <img class="img-size group1 img-responsive" src="bootstrap/images/work3.jpg"/></a>
+                                    <img class="img-size group1 img-responsive" src="bootstrap/images/plan3.jpeg"/></a>
                             </li>
 
                             <li class=" col-md-3 col-xs-12">
                                 <a class="" href="#2lb-gallery1-9" data-slide-to="3" data-toggle="modal">
-                                    <img class="img-size group1 img-responsive" src="bootstrap/images/work4.jpg"/></a>
+                                    <img class="img-size group1 img-responsive" src="bootstrap/images/plan4.jpeg"/></a>
                             </li>
 
 
@@ -697,7 +701,7 @@
                             <div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1"
                                  data-keyboard="true" data-interval="false" id="2lb-gallery1-9">
                                 <div class="modal-dialog">
-                                    <div class="modal-content">
+                                    <div class="modal-content gallery-modal-top">
                                         <div class="modal-body">
                                             <ol class="carousel-indicators">
                                                 <li data-app-prevent-settings="" data-target="#2lb-gallery1-9"
@@ -720,26 +724,26 @@
                                             </ol>
                                             <div class="carousel-inner">
                                                 <div class="item">
-                                                    <img alt="" src="bootstrap/images/work1.jpg">
+                                                    <img alt="" src="bootstrap/images/plan1.jpeg">
                                                 </div>
                                                 <div class="item">
-                                                    <img alt="" src="bootstrap/images/work2.jpeg">
+                                                    <img alt="" src="bootstrap/images/plan2.jpg">
                                                 </div>
                                                 <div class="item">
-                                                    <img alt="" src="bootstrap/images/work3.jpg">
+                                                    <img alt="" src="bootstrap/images/plan3.jpeg">
                                                 </div>
                                                 <div class="item active">
-                                                    <img alt="" src="bootstrap/images/work4.jpg">
+                                                    <img alt="" src="bootstrap/images/plan4.jpeg">
                                                 </div>
 
                                             </div>
                                             <a class="left carousel-control" role="button" data-slide="prev"
-                                               href="#2lb-gallery1-9">
+                                               data-target="#2lb-gallery1-9">
                                                 <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
                                                 <span class="sr-only">Previous</span>
                                             </a>
                                             <a class="right carousel-control" role="button" data-slide="next"
-                                               href="#2lb-gallery1-9">
+                                               data-target="#2lb-gallery1-9">
                                                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
                                                 <span class="sr-only">Next</span>
                                             </a>
@@ -770,5 +774,6 @@
     </div>
 
     </div>
+
 
 </div>
