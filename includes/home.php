@@ -12,7 +12,8 @@
                 <div class=" col-md-8 col-xs-12">
                     <p class="paragraph"> Hi, I'm Fouad Fawzi. welcome to my online house, let's take a quick
                         look at my some stuff.
-                        Simply I'm a <!--web and mobile application--> full stack developer and that how I can enjoy in my
+                        Simply I'm a <!--web and mobile application--> full stack developer and that how I can enjoy in
+                        my
                         life.
                         I adore what I do, I spend most of my time at my desk with my computer,
                         to get some fun just I set in front of my screen with a cup of latte to work and
@@ -31,7 +32,8 @@
                 <!--<h1 class="headline">More about me</h1>-->
                 <h1 class="headline">My personal life</h1>
 
-                <p class="paragraph">I believe that the shortest distance between two people is a story, so her is my story.
+                <p class="paragraph">I believe that the shortest distance between two people is a story, so her is my
+                    story.
                     <br><br><br>Barbecue is the most enjoyable thing I may do at the week end.<br>
                     know me better as a person, how's my day go?, how's my life looks like?
                    </p>
@@ -95,16 +97,16 @@
                                     </ol>
                                     <div class="carousel-inner">
                                         <div class="item">
-                                            <img alt="" src="bootstrap/images/1.jpg">
+                                            <img alt="" src="bootstrap/images/b1.jpg">
                                         </div>
                                         <div class="item">
-                                            <img alt="" src="bootstrap/images/2.jpg">
+                                            <img alt="" src="bootstrap/images/b2.jpg">
                                         </div>
                                         <div class="item">
-                                            <img alt="" src="bootstrap/images/3.jpg">
+                                            <img alt="" src="bootstrap/images/g1.jpg">
                                         </div>
-                                        <div class="item">
-                                            <img alt="" src="bootstrap/images/4.jpg">
+                                        <div class="item active">
+                                            <img alt="" src="bootstrap/images/g2.jpg">
                                         </div>
 
                                     </div>
@@ -261,22 +263,40 @@
             </div>
         </div>
     </div>-->
+    <!--Ad-->
+    <div class="row adv-block-resume center-block text-center mbr-parallax-background">
+        <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+            <h1>Need an Online system or Mobile application?</h1>
+            <h2>Here You go</h2>
+            <a href="contact.php#message" class="adv-button"> Hire Me</a>
+        </div>
+    </div>
 <!-- section 3 -->
     <div class="row ind-sec1">
         <div id="content" class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
             <div class="col-md-12 col-xs-12">
                 <h1 class="headline">My skills and what I can do </h1>
 
-                <p class="paragraph">Barbecue is the most enjoyable thing I may do at the week end.<br>
-                    know me better as a person, how's my day go?, how's my life looks like?
+                <p class="paragraph">I've been studied a computer engineering widely, electronics and robotics as well,
+                    but I loved to work as a developer, I love what I do, it's not just a work for me it's a fun, my
+                    goal is
+                    making life easy for community, and leave my fingerprint in the world before I leave this life .<br>
+
                 </p>
                 </p>
             </div>
         </div>
         <!--gallery-->
         <div class="col-md-12 col-xs-12 padding_top_30">
-            <p class="paragraph padding-bottom30"> If you interested to know better about my personality</p>
-            <a class="learn_more " href="about.php">LEARN MORE</a>
+            <p class="paragraph padding-bottom30"> feel free to discover my skills and experience.</p>
+           <div class="col-md-4 col-md-offset-4 col-xs-12">
+                <a target="_blank" class="learn_more "
+                   href="includes/download_resume.php">DOWNLOAD RESUME</a>
+                <a class="learn_more " href="resume.php">LEARN MORE</a>
+
+
+
+           </div>
         </div>
 
 

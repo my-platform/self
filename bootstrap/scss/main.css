@@ -103,7 +103,7 @@
 
 .learn_more:hover, .custom_button:hover, .custom_button:focus, .custom_button:active, .custom_button:after, .visit_pro:hover, .adv-button:hover, .adv-button:focus, .adv-button:active, .adv-button:after, .visit_pro:focus, .visit_pro:active, .visit_pro:after, .learn_more:focus, .custom_button:focus, .visit_pro:focus, .adv-button:focus, .learn_more:active, .custom_button:active, .visit_pro:active, .adv-button:active, .learn_more:after, .custom_button:after, .visit_pro:after, .adv-button:after {
   color: #fff;
-  border: 1px solid #222222;
+  border: 2px solid #222222;
   background: #222222;
   text-decoration: none;
   -webkit-transition: all 0.15s ease-out 0.10s;
@@ -157,6 +157,17 @@
     margin-top: 70px;
     font-family: adv-font; }
 
+.index-header-font h1 {
+  padding-top: 25px;
+  font-size: 52px !important; }
+.index-header-font h3 {
+  padding-bottom: 55px;
+  font-family: adv-font; }
+.index-header-font a {
+  margin-bottom: 30px;
+  margin-top: 70px;
+  font-family: adv-font; }
+
 .header-font h1 {
   padding-top: 25px;
   font-size: 59px !important; }
@@ -168,7 +179,7 @@
   margin-top: 70px;
   font-family: adv-font; }
 
-.header-text, .header-font h1 {
+.header-text, .index-header-font h1, .header-font h1 {
   font-size: 66px;
   font-weight: bold;
   left: -2px;
@@ -344,7 +355,7 @@
   padding-top: 50px; }
 
 .padding_top_60 {
-  padding-top: 50px; }
+  padding-top: 60px; }
 
 .gallery-modal-top {
   top: 35px; }

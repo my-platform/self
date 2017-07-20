@@ -9,9 +9,9 @@
                     <h2 class="title">Skills Summary</h2>
                 </div>
 
-                <div class="details col-md-6  col-xs-6">
+                <div class="details col-md-6  col-xs-12">
                     <div class="row">
-                        <div class="col-md-6 col-xs-12">
+                        <div class="col-md-6 col-xs-6">
                             <ul class="resume-list">
                                 <li><p>Java SE</p></li>
                                 <li><p>Java EE</p>
@@ -26,7 +26,7 @@
 
                             </ul>
                         </div>
-                        <div class="col-md-6 col-xs-12">
+                        <div class="col-md-6 col-xs-6">
                             <ul class="resume-list">
                                 <li><p>PHP</p>
                                 <li><p>GIT</p></li>
@@ -46,7 +46,7 @@
             </div>
         </div>
     </div>
-        <!--Experience-->
+        <!--Ad-->
     <div class="row adv-block-resume center-block text-center mbr-parallax-background">
         <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
             <h1>Need an Online system or Mobile application?</h1>
