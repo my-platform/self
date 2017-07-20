@@ -187,10 +187,10 @@ h1{
 
 }
 .home-header{
-  background: url('../images/home_header.jpg');
+  background: url('../images/index-header45.jpg');
 }
 .about-header{
-  background: url('../images/about_header.jpg');
+  background: url('../images/about_header1.jpg');
 }
 .resume-header{
   background: url('../images/full-page-header.jpg');
@@ -271,6 +271,9 @@ h1{
 .adv-block-resume{
   @extend .adv_block;
   background: url("../images/adv-block-resume.jpg");
+}.adv-block-home{
+  @extend .adv_block;
+  background: url("../images/adv-home.jpg");
 }
 .div-animation{
   display: none ;
