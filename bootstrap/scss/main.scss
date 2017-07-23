@@ -1,4 +1,25 @@
 @import "header";
+
+@font-face {
+  font-family: 'Nova';
+  src: url('../fonts/NovaSlim.ttf');
+}
+
+@font-face {
+  font-family: 'subhead';
+  src: url('../fonts/GermaniaOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'title';
+  src: url('../fonts/Philosopher-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'list';
+  src: url('../fonts/FRADMCN.TTF');
+}
+
 @font-face {
   font-family: 'adv-font';
   src: url('../fonts/LobsterTwo-BoldItalic.ttf');
@@ -16,9 +37,15 @@
   src: url('../fonts/Proxima Nova Bold.ttf');
 }
 @font-face {
+  font-family: 'adv-font-2';
+  //src: url('../fonts/Suravaram-Regular.ttf');
+  src: url('../fonts/NovaSlim.ttf');
+}
+@font-face {
   font-family: 'button-font';
   src: url("../fonts/GothamSSM.ttf");
 }
+$black:#000000;
 $red-degree:#A51C30;
 $button-border-color:#222222;
 $gray_background:/*#edeef0*/ #F7F7F7;
@@ -26,6 +53,19 @@ $shortcut-width: 26px;
 $shortcut-height: 26px;
 $header_background: #333333;
 $dark-blue:blue;
+$footer_background: #1e1e1e;
+#footer_block {
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  // margin-top: 110px;
+  text-align: center;
+  width: 100%;
+  background-color: $footer_background;
+  border-top: solid 5px $red-degree;
+
+}
 .tip{
   img{
     width: 200px;
@@ -40,6 +80,41 @@ $dark-blue:blue;
     margin-top:40px;
   }
 }
+.headline{
+  padding-bottom: 40px;
+}
+.Experience-head {
+  font-size: 19px;
+  font-family: list;
+
+}
+.contact-info{
+
+  @extend .Experience-head;
+  font-family: Nova;
+  font-size: 14px !important;
+  color: $footer_background * 2.9 !important;
+  .name{
+    //text-align: center;
+    font-size: 25px !important;
+
+  }
+}
+.paragraph {
+  font-family: sub-title;
+  color: $footer_background * 1.8 ;
+  font-size: 20px;
+}
+
+.head_group {
+  padding-top: 30px;
+  font-family: subhead;
+}
+
+.gallery {
+  padding-top: 20px;
+}
+
 .learn_more{
   //font-family: "Roboto", Helvetica, Arial, sans-serif;
   color: #000;
@@ -54,6 +129,7 @@ $dark-blue:blue;
   //line-height: 11;
   cursor: pointer;
 }
+
 
 .learn_more:hover, .learn_more:focus,.learn_more:active,.learn_more:after {
   color: #fff;
@@ -113,22 +189,29 @@ $dark-blue:blue;
   margin: 0;
   //height: 500px;
   margin: 0;
-  font-family: adv-font;
+  //font-family: adv-font;
+
   color: #FFFFFF;
   font-size: 50px;
   padding:80px 0 80px 0;
   background: url("../images/adv-keyboard.jpg");
   h1{
-    font-family: adv-font;
+    font-family: adv-font-2 !important;
+    //font-weight: 600;
+    font-size: 35px;
   }
   h2{
+    font-family: adv-font-2 !important;
+    //font-weight: 600;
+    //font-size: 35px;
     margin-top: 5px;
   }
   a {
     //font-size: 150%;
     margin-bottom: 30px;
     margin-top: 70px;
-    font-family: adv-font;
+    font-family: button-font Sans-Serif !important;
+    //font-weight: 600;
   }
 }
 .index-header-font{
@@ -225,7 +308,7 @@ h1{
     font-size: 18px;
   }
   a{
-    font-family: adv-font;
+    font-family: lear;
     color:#000000;
     font-size:20px;
     border: 2px solid #000000;

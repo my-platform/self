@@ -15,11 +15,12 @@
                         Simply I'm a <!--web and mobile application--> full stack developer and that how I can enjoy in
                         my
                         life.
-                        I adore what I do, I spend most of my time at my desk with my computer,
-                        to get some fun just I set in front of my screen with a cup of latte to work and
-                        increase
-                        my experience.
-                        The development for me is a job and life style</p>
+                        I love what I do, I spend most of my time in front of my screen,
+                        just give me a computer and cup of latte, and I gonna <!--affect--> touch the people's life.
+                        I always work on increasing my skills and experience,
+                        my goal is making life easy for community and leave my fingerprint in the world before
+                        I leave this life, so
+                        the development is not just a job for me.</p>
                 </div>
 
                 </div>
@@ -265,7 +266,7 @@
     </div>-->
     <!--Ad-->
     <div class="row adv-block-home center-block text-center mbr-parallax-background">
-        <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+        <div class="col-md-8 col-md-offset-2 col-xs-12 ">
             <h1>If your business needs to be grown, then your business needs a website,
                 Now you can put up your business online, If you interested?</h1>
             <!--<h2>Here You go</h2>-->

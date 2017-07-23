@@ -3,9 +3,9 @@
 <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
     <!--Contact info-->
 
-    <div id="content" class="row">
+    <div class="row">
         <!--Message form-->
-        <div class="col-md-6 col-xs-12 padding_top_80">
+        <div id="message" class="col-md-6 col-xs-12 padding_top_80">
 
                     <h2 class="contact-header">Send a Message</h2>
                     <hr class="divider-style">
@@ -65,8 +65,8 @@
                 <hr class="divider-style">
 
                     <div class="row">
-                        <div class="col-md-12 col-xs-12 ">
-                            <p class="description info"><B>Fouad Fawzi</B></p>
+                        <div class="col-md-12 col-xs-12 contact-info">
+                            <p class="name">Fouad Fawzi</p>
                             <!--
                             <p class="description info">1 Masjid Al-Fath St,</p>
 
@@ -74,15 +74,16 @@
 
                             <p class="description info">Postcode: 35685</p>-->
 
-                            <p class="description info"><span class="fa fa-map-marker"></span>&nbsp;Egypt</p>
+                            <p class=" "><span class="fa fa-map-marker"></span>&nbsp;&nbsp;&nbsp;&nbsp;Egypt</p>
 
-                            <p class="description info"><b class="mobile-size"><span class="fa fa-mobile"></span></b>&nbsp;
+                            <p class=" "><b class="mobile-size"><span class="fa fa-mobile"></span></b>
+                                &nbsp;&nbsp;
                                 002 0100 77 050 33
                             </p>
-                            <p class="description info"><span class="fa fa-envelope-o"></span>&nbsp;
+                            <p class=" "><span class="fa fa-envelope-o"></span>&nbsp;&nbsp;
                                 fouadfawzi90@gmail.com
                             </p>
-                            <p class="description info"><span class="fa fa-globe"></span>
+                            <p class=" "><span class="fa fa-globe"></span>&nbsp;&nbsp;
                                 fouadfawzi.com/contact/
                             </p>
                         </div>
@@ -98,22 +99,22 @@
                 <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1  ">
                 <ul class="">
                     <li>
-                        <a class="shortcut_item" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="فاتورة مبيعات">
-                            <i class="icon-conf fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="shortcut_item" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="مرتجع مبيعات">
-                            <i class="icon-conf fa fa-twitter"></i></a>
-
-                    </li>
-                    <li>
-                        <a href="#" class="shortcut_item" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="بحث عن صنف">
+                        <a class="shortcut_item" target="_blank" href="https://www.linkedin.com/in/fouad-fawzi-18a32aa7/">
                             <i class="icon-conf fa fa-linkedin"></i></a>
 
                     </li>
                     <li>
-                        <a href="#" class="shortcut_item" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="مصروفات">
+                        <a class="shortcut_item" target="_blank" href="https://www.facebook.com/fouadfawzi90">
+                            <i class="icon-conf fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="shortcut_item" target="_blank" href="https://twitter.com/Fouad_Fawzi">
+                            <i class="icon-conf fa fa-twitter"></i></a>
+
+                    </li>
+                    <li>
+                        <a  class="shortcut_item" target="_blank" href="https://plus.google.com/u/0/104538764089352258143">
                             <i class="icon-conf fa fa-google-plus"></i></a>
 
                     </li>

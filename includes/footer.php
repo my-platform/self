@@ -23,23 +23,23 @@
 
         <div id="social">
             <div class="social-button-item">
-                <a class="social-logo" href="#">
+                <a class="social-logo" target="_blank" href="https://www.facebook.com/fouadfawzi90">
                     <span class="fa-facebook fa"></span></a>
             </div>
             <div class="social-button-item">
-                <a class="social-logo" href="#">
+                <a class="social-logo" target="_blank" href="https://twitter.com/Fouad_Fawzi">
                     <span class="fa-twitter fa"></span></a>
             </div>
             <div class="social-button-item">
-                <a class="social-logo" href="#">
+                <a class="social-logo" target="_blank" href="https://www.linkedin.com/in/fouad-fawzi-18a32aa7/">
                     <span class="fa-linkedin fa"></span></a>
             </div>
             <div class="social-button-item">
-                <a class="social-logo" href="#">
+                <a class="social-logo" target="_blank" href="https://plus.google.com/u/0/104538764089352258143">
                     <span class="fa-google-plus fa"></span></a>
             </div>
             <div class="social-button-item">
-                <a class="social-logo" href="#">
+                <a class="social-logo" target="_blank" href="contact.php#message">
                     <span class="fa fa-envelope-o"></span></a>
             </div>
 

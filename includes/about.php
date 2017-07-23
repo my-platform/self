@@ -1,4 +1,4 @@
-<div  class="row custom_row text-center">
+<div  class="row custom_row text-center ">
     <!--some about-->
     <div class="row ind-sec1">
         <div id="content" class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
@@ -6,7 +6,7 @@
                 <h1 class="headline">Some to know about me</h1>
 
                 <p class="paragraph">I named Fouad after my uncle, I like  hanging out with my old friends in
-                    an Coffeehouse or Restraint from time to time,
+                    an Coffeehouse or Restraint every once in awhile,
                     mango is my fresh drink and the fish is my favorite dish, and cheese
                     pizza is my favorite unhealthy meal I'm kind of in love with it.
                     coffee latte
@@ -507,8 +507,9 @@
     <!--avd block-->
     <div class="row adv_block ind-sec2">
         <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
-            <h1>Need an Online system or Mobile application?</h1>
-            <h2>Here You go</h2>
+            <h1>If you wanna world know about you, then you have to tell them about yourself.
+                Now let the world know about you.</h1>
+            <h2>Get a brand new website for your business.</h2>
             <a href="contact.php#message" class="adv-button"> Hire Me</a>
         </div>
     </div>
@@ -651,7 +652,7 @@
         </div>
     </div>
 
-    <div class="row ind-sec2  page_end">
+    <div class="row ind-sec2 ">
         <div class = "col-md-12 col-xs-12">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 padding-bottom40">
@@ -767,8 +768,9 @@
             <div class="row help_paragraph">
                 <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
 
-                    <p class="paragraph padding-bottom30">If you need some help you will find me in front of my computer </p>
-                    <a href="contact.php#message" class="learn_more">Hire Me</a>
+                    <p class="paragraph padding-bottom30">Looking for some help? Need a website for your business?<br>
+                    you can just say hi :)</p>
+                    <a href="contact.php#message" class="learn_more">Contact Me</a>
                 </div>
             </div>
     </div>

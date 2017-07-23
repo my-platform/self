@@ -68,6 +68,18 @@
   transition: all 0.30s ease-out 0s; }
 
 @font-face {
+  font-family: 'Nova';
+  src: url("../fonts/NovaSlim.ttf"); }
+@font-face {
+  font-family: 'subhead';
+  src: url("../fonts/GermaniaOne-Regular.ttf"); }
+@font-face {
+  font-family: 'title';
+  src: url("../fonts/Philosopher-Bold.ttf"); }
+@font-face {
+  font-family: 'list';
+  src: url("../fonts/FRADMCN.TTF"); }
+@font-face {
   font-family: 'adv-font';
   src: url("../fonts/LobsterTwo-BoldItalic.ttf"); }
 @font-face {
@@ -80,8 +92,20 @@
   font-family: 'proxima-nova-bold';
   src: url("../fonts/Proxima Nova Bold.ttf"); }
 @font-face {
+  font-family: 'adv-font-2';
+  src: url("../fonts/NovaSlim.ttf"); }
+@font-face {
   font-family: 'button-font';
   src: url("../fonts/GothamSSM.ttf"); }
+#footer_block {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  text-align: center;
+  width: 100%;
+  background-color: #1e1e1e;
+  border-top: solid 5px #A51C30; }
+
 .tip img {
   width: 200px;
   height: 200px;
@@ -90,6 +114,32 @@
   margin: 0; }
 .tip p {
   margin-top: 40px; }
+
+.headline {
+  padding-bottom: 40px; }
+
+.Experience-head, .contact-info {
+  font-size: 19px;
+  font-family: list; }
+
+.contact-info {
+  font-family: Nova;
+  font-size: 14px !important;
+  color: #575757 !important; }
+  .contact-info .name {
+    font-size: 25px !important; }
+
+.paragraph {
+  font-family: sub-title;
+  color: #363636;
+  font-size: 20px; }
+
+.head_group {
+  padding-top: 30px;
+  font-family: subhead; }
+
+.gallery {
+  padding-top: 20px; }
 
 .learn_more, .custom_button, .visit_pro, .adv-button {
   color: #000;
@@ -143,19 +193,20 @@
   width: 100%;
   margin: 0;
   margin: 0;
-  font-family: adv-font;
   color: #FFFFFF;
   font-size: 50px;
   padding: 80px 0 80px 0;
   background: url("../images/adv-keyboard.jpg"); }
   .adv_block h1, .adv-block-resume h1, .adv-block-home h1 {
-    font-family: adv-font; }
+    font-family: adv-font-2 !important;
+    font-size: 35px; }
   .adv_block h2, .adv-block-resume h2, .adv-block-home h2 {
+    font-family: adv-font-2 !important;
     margin-top: 5px; }
   .adv_block a, .adv-block-resume a, .adv-block-home a {
     margin-bottom: 30px;
     margin-top: 70px;
-    font-family: adv-font; }
+    font-family: button-font Sans-Serif !important; }
 
 .index-header-font h1 {
   padding-top: 25px;
@@ -223,7 +274,7 @@
   color: #000000;
   font-size: 18px; }
 .help_paragraph a {
-  font-family: adv-font;
+  font-family: lear;
   color: #000000;
   font-size: 20px;
   border: 2px solid #000000;
