@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/contact.js"></script>
     <script src="bootstrap/js/effects.js"></script>
     <link href="bootstrap/scss/main.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">

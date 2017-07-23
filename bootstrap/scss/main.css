@@ -141,7 +141,7 @@
 .gallery {
   padding-top: 20px; }
 
-.learn_more, .custom_button, .visit_pro, .adv-button {
+.learn_more, .submit_button, .custom_button, .visit_pro, .adv-button {
   color: #000;
   font-weight: 500;
   font-family: button-font, Sans-Serif;
@@ -151,7 +151,7 @@
   text-decoration: none;
   cursor: pointer; }
 
-.learn_more:hover, .custom_button:hover, .custom_button:focus, .custom_button:active, .custom_button:after, .visit_pro:hover, .adv-button:hover, .adv-button:focus, .adv-button:active, .adv-button:after, .visit_pro:focus, .visit_pro:active, .visit_pro:after, .learn_more:focus, .custom_button:focus, .visit_pro:focus, .adv-button:focus, .learn_more:active, .custom_button:active, .visit_pro:active, .adv-button:active, .learn_more:after, .custom_button:after, .visit_pro:after, .adv-button:after {
+.learn_more:hover, .submit_button:hover, .submit_button:focus, .submit_button:active, .submit_button:after, .custom_button:hover, .custom_button:focus, .custom_button:active, .custom_button:after, .visit_pro:hover, .adv-button:hover, .adv-button:focus, .adv-button:active, .adv-button:after, .visit_pro:focus, .visit_pro:active, .visit_pro:after, .learn_more:focus, .submit_button:focus, .custom_button:focus, .visit_pro:focus, .adv-button:focus, .learn_more:active, .submit_button:active, .custom_button:active, .visit_pro:active, .adv-button:active, .learn_more:after, .submit_button:after, .custom_button:after, .visit_pro:after, .adv-button:after {
   color: #fff;
   border: 2px solid #222222;
   background: #222222;
@@ -159,6 +159,12 @@
   -webkit-transition: all 0.15s ease-out 0.10s;
   -o-transition: all 0.15s ease-out 0.10s;
   transition: all 0.15s ease-out 0.10s; }
+
+.submit_button {
+  background: #ffffff !important; }
+
+.submit_button:hover, .submit_button:focus, .submit_button:active, .submit_button:after {
+  color: #000 !important; }
 
 .custom_button {
   border-radius: 5px;
@@ -419,5 +425,12 @@
 
 .sub-title {
   font-family: sub-title; }
+
+.feedback {
+  color: #fff;
+  font-size: 12px;
+  padding: 2px;
+  background: #d7243e;
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */

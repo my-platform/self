@@ -11,18 +11,22 @@
                     <hr class="divider-style">
 
                     <div class="col-md-12 col-xs-12">
+
                         <div class="row">
                             <label>Name *</label>
 
                             <div class="row">
                                 <div class="col-md-6 col-xs-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="First Name">
+                                    <div class="form-group first">
+                                        <input id="first" type= "text" class="form-control msg-input" placeholder="First Name"
+                                               data-error="enter avalid value">
+                                        <span class="feedback">* Your first name is required </span>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-xs-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Last Name">
+                                    <div class="form-group last">
+                                        <input id="last" type="text" class="form-control msg-input" placeholder="Last Name">
+                                        <span class="feedback">* Your last name is required </span>
                                     </div>
                                 </div>
                             </div>
@@ -30,27 +34,30 @@
                         <div class="row field">
                             <label>Email Address *</label>
 
-                            <div class="input-group">
-                                <span class="input-group-addon">@</span>
-                                <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+                            <div class="form-group email">
+
+                                <input  id="email" type="email" class="form-control msg-input" name="email" placeholder="email@example.com">
+                                <span class="feedback">* Your Email address is required </span>
                             </div>
                         </div>
                         <div class="row field">
-                            <div class="form-group">
+                            <div class="form-group title_f">
                                 <label>Title *</label>
-                                <input type="text" class="form-control" placeholder="Subject of your message"/>
+                                <input id="title" type="text" class="form-control msg-input" placeholder="Subject of your message"/>
+                                <span class="feedback">* Enter message title </span>
                             </div>
                         </div>
                         <div class="row field">
-                            <div class="form-group">
+                            <div class="form-group message">
                                 <label>Your Message *</label>
-                                <textarea class="form-control" placeholder="Here you go" rows="5"
-                                          id="textarea"></textarea>
+                                <textarea class="form-control msg-input" placeholder="Here you go" rows="5"
+                                          id="message"></textarea>
+                                <span class="feedback">* please enter your message </span>
                             </div>
                         </div>
                         <div class="row margin-top">
 
-                            <a class="learn_more " href="#">SEND MESSAGE</a>
+                            <a id="send-message" class="learn_more ">SEND MESSAGE</a>
 
                         </div>
                     </div>
