@@ -244,9 +244,10 @@ function getBrowser() {
             $all_select="SELECT * FROM `online_visitors` WHERE `IP_Address` = '".$ip."'";
             $all_query = mysql_query($all_select);
             if(mysql_num_rows($all_query) < 1){
-                $sql = "INSERT INTO `online_visitors` (`id`, `IP_Address`, `Date`, `Browser`, `Platform(OS)`, `Day`, `time`) VALUES 
-            ('','". $ip."','".$time ."', '".$browser."','".$OS."', now(), now())";
+                $sql = "INSERT INTO `online_visitors` (`id`, `ip_address`, `Date`, `Browser`, `Platform(OS)`, `Day`, `Time`) VALUES 
+            (NULL,'". $ip."','".$time ."', '".$browser."','".$OS."', now(), now())";
                 mysql_query($sql);
+                mysql_error($sql);
                 $all_select="SELECT * FROM `max_visit`";
                 $all_query = mysql_query($all_select);
                 if(mysql_num_rows($all_query) < 1){

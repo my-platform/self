@@ -146,7 +146,8 @@ $footer_background: #1e1e1e;
 }
 .submit_button{
   @extend .learn_more;
-  background: #ffffff !important;
+  background: #222222 !important;
+  color:#ffffff !important;
 }
 .submit_button:hover,.submit_button:focus,.submit_button:active,.submit_button:after{
 @extend  .learn_more:hover;
@@ -487,6 +488,6 @@ height: 100%;
   color: #fff;
   font-size: 12px;
   padding: 2px;
-  background: $red-degree * 1.3;
+  background: $red-degree * 1.2;
   display: none;
 }

@@ -50,14 +50,14 @@
                         <div class="row field">
                             <div class="form-group message">
                                 <label>Your Message *</label>
-                                <textarea class="form-control msg-input" placeholder="Here you go" rows="5"
+                                <textarea  class="form-control msg-input" placeholder="Here you go" rows="5"
                                           id="message"></textarea>
                                 <span class="feedback">* please enter your message </span>
                             </div>
                         </div>
                         <div class="row margin-top">
 
-                            <a id="send-message" class="learn_more ">SEND MESSAGE</a>
+                            <a id="send-message" class="learn_more " >SEND MESSAGE</a>
 
                         </div>
                     </div>

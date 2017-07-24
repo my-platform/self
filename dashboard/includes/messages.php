@@ -185,20 +185,22 @@ public function delete_to_trash(){
                 session_start();
             }
 
-            $first_name = mysql_real_escape_string($_POST['first_name']);
-            $last_name = mysql_real_escape_string($_POST['last_name']);
-            $email = mysql_real_escape_string($_POST['email']);
-            $title = mysql_real_escape_string($_POST['title']);
-            $message = mysql_real_escape_string($_POST['message']);
-            $sql = "INSERT INTO `messages` (`id`, `firstname`, `lastname`, `email`,
-                        `title`,`message`, `date`, `trash`, `trash_date`) VALUES 
-            ('','" . $first_name . "','" . $last_name . "', '" . $email . "',
-             '" . $title . "','" . $message . "', now(),'0', '')";
-            if (mysql_query($sql)) {
+            echo($first_name =mysql_real_escape_string($_POST['first_name']));
+            echo($last_name = mysql_real_escape_string($_POST['last_name']));
+            echo($email = mysql_real_escape_string($_POST['email']));
+            echo($title = mysql_real_escape_string($_POST['title']));
+            echo($message =mysql_real_escape_string($_POST['message']));
+            $sql ="INSERT INTO `messages` (`id`, `firstname`, `lastname`, `email`,
+                        `title`, `message`, `date`, `trash`, `trash_date`) VALUES 
+            (NULL, '" . $first_name . "', '" . $last_name . "', '" . $email . "',
+             '" . $title . "', '" . $message . "', now(), 0, NULL)";
+            //echo($sql);
+            $result = mysql_query($sql);
+            if ($result) {
                 //echo 'hello';
                 @$_SESSION['msg-label'] += 1;
             } else {
-                mysql_error($sql);
+                throw new mysqli_sql_exception('Database error: ' . mysql_error());
             }
         } else {
             // echo "please fill all fields";

@@ -161,7 +161,8 @@
   transition: all 0.15s ease-out 0.10s; }
 
 .submit_button {
-  background: #ffffff !important; }
+  background: #222222 !important;
+  color: #ffffff !important; }
 
 .submit_button:hover, .submit_button:focus, .submit_button:active, .submit_button:after {
   color: #000 !important; }
@@ -430,7 +431,7 @@
   color: #fff;
   font-size: 12px;
   padding: 2px;
-  background: #d7243e;
+  background: #c6223a;
   display: none; }
 
 /*# sourceMappingURL=main.css.map */
