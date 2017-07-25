@@ -82,7 +82,7 @@
                                                                             href="index.php">HOME</a></li>
                                             <li class="mbr-navbar__item"><a class=" mbr-buttons__link btn text-white"
                                                                             href="portfolio.php">PORTFOLIO</a></li>
-                                            <li class="mbr-navbar__item"><a class=" mbr-buttons__link btn text-white"
+                                            <li class="mbr-navbar__item"><a class="nav-active mbr-buttons__link btn text-white"
                                                                             href="about.php">ABOUT</a></li>
                                             <li class="mbr-navbar__item"><a class=" mbr-buttons__link btn text-white"
                                                                             href="resume.php">RESUME</a></li>

@@ -149,9 +149,10 @@ $footer_background: #1e1e1e;
   background: #222222 !important;
   color:#ffffff !important;
 }
+
 .submit_button:hover,.submit_button:focus,.submit_button:active,.submit_button:after{
 @extend  .learn_more:hover;
-  color: #000 !important;
+  color: #fff !important;
 
 }
 .custom_button{
@@ -490,4 +491,37 @@ height: 100%;
   padding: 2px;
   background: $red-degree * 1.2;
   display: none;
+}
+.all_fields_message{
+  @extend  .feedback;
+  text-align: center;
+  font-size: 14px;
+}
+#bread_msg{
+  position: absolute;
+  top: 0;
+  // margin-bottom: 0;
+  z-index: 50;
+  right:0;
+  left: 0;
+  //height:3.5em;
+  margin: auto;
+  display: none;
+  text-align: center;
+
+  ///////////
+  span{
+    //margin: auto;
+    background: $footer_background;
+    padding:10px;
+    font-size:14px;
+    color:#fff;
+    // opacity: 0.1;
+    //width: 20%;
+    //border: 1px solid #fff;
+    border-radius: 5px;
+    // width:50%;
+    //padding-top: 15px;
+  }
+
 }

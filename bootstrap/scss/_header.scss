@@ -43,6 +43,19 @@ $red-degree:#A51C30;
       -o-transform: scale(1, 1);
       transform: scale(1, 1);
     }
+    .nav-active{
+
+      border-bottom:2px solid;
+      padding:0 0 13px 0;
+      content: "";
+      display: block;
+
+      //margin-top: -3px;
+      position: relative;
+      top: 15px;
+      width: 100%;
+      color: #ffffff;
+    }
   }
   //contact button
   .contact-button {
@@ -85,5 +98,12 @@ $red-degree:#A51C30;
       -o-transition: all 0.30s ease-out 0s;
       transition: all 0.30s ease-out 0s;
     }
+  }
+  .active-contact{
+    color: #ffffff;
+    border: 3px solid $red-degree !important;
+    border-radius: 0;
+    background: $red-degree;
+    text-decoration: none;
   }
 }

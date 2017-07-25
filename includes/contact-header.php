@@ -75,11 +75,11 @@
                                                                             href="resume.php">RESUME</a></li>
                                         </ul>
                                     </div>
-                                    <div class=" contact-button mbr-navbar__column">
+                                    <div class="  mbr-navbar__column">
                                         <ul class=" mbr-navbar__items mbr-navbar__items--right
                                         mbr-buttons mbr-buttons--freeze mbr-buttons--right
                                         btn-inverse mbr-buttons--active">
-                                            <li class="mbr-navbar__item"><a class="mbr-buttons__link  btn"
+                                            <li class="mbr-navbar__item"><a class="active-contact mbr-buttons__link  btn"
                                                                             href="contact.php">CONTACT</a>
                                             </li>
                                         </ul>

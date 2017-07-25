@@ -10,7 +10,12 @@ $(document).ready(function () {
             var message = $('.message').children('#message').val();
            // alert(first + ' ' +last+' '+email+' '+title+' '+message);
             if(first === '' & last ==='' & email ==='' & title ==='' & message ===''){
-                alert('please fill all fields');
+                $('.all_fields_message').fadeIn();
+                $('.msg-input').keydown(function () {
+                    $('.all_fields_message').fadeOut();
+                })
+
+
 
             } else if(first !== '' || last !=='' || email !=='' || title !=='' || message !==''){
                  if(first === '' ){
@@ -31,7 +36,9 @@ $(document).ready(function () {
                 }
                 if(first !== '' & last !=='' & email !=='' & title !=='' & message !==''){
                     //$('.message').attr('disabled', true);
-                    $(this).addClass('submit_button').html('SENDING ...').delay(3000);
+                    $(this).addClass('submit_button').html('SENDING ...', function () {
+
+                    });
                   //  alert('works');
                     $.ajax({
                         type: 'POST',
@@ -42,7 +49,25 @@ $(document).ready(function () {
                             //$('.Table_week').html(response);
                             // $.post('includes/pages.php', 'pg_number=' + p_number, function (response) {
                             // alert(response);
-                            alert( response);
+
+
+                            setTimeout(function () {
+                                $('.msg-input').val('');
+                                $('#send-message').removeClass('submit_button').html('SEND MESSAGE');
+                                var n_top = $(window).height() / 2;
+                                $('#bread_msg').css('top', n_top);
+                                var c_top = parseInt($('#bread_msg').css('top'));
+                                $(window).scroll(function () {
+                                    var top = $(window).scrollTop();
+                                    $('#bread_msg').css('top', top + c_top);
+                                });
+                                $('#bread_text').text('message is successfully sent');
+                                $('#bread_msg').fadeIn();
+                                setInterval(function () {
+                                    $('#bread_msg').fadeOut();
+                                }, 2000);
+
+                            },2000);
                         }
                     });
                 }

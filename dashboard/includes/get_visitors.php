@@ -247,7 +247,7 @@ function getBrowser() {
                 $sql = "INSERT INTO `online_visitors` (`id`, `ip_address`, `Date`, `Browser`, `Platform(OS)`, `Day`, `Time`) VALUES 
             (NULL,'". $ip."','".$time ."', '".$browser."','".$OS."', now(), now())";
                 mysql_query($sql);
-                mysql_error($sql);
+                @mysql_error($sql);
                 $all_select="SELECT * FROM `max_visit`";
                 $all_query = mysql_query($all_select);
                 if(mysql_num_rows($all_query) < 1){

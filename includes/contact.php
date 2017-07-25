@@ -2,16 +2,18 @@
 <div class="row custom_row  padding-bottom80">
 <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
     <!--Contact info-->
-
+    <div class="col-md-10 col-md-offset-1 col-xs-12" id="bread_msg">
+        <span id="bread_text"></span>
+    </div>
     <div class="row">
         <!--Message form-->
         <div id="message" class="col-md-6 col-xs-12 padding_top_80">
 
                     <h2 class="contact-header">Send a Message</h2>
                     <hr class="divider-style">
+            <div class="col-md-6 col-md-offset-3 col-xs-12"><span class="all_fields_message">* please fill the entire fields </span></div>
 
                     <div class="col-md-12 col-xs-12">
-
                         <div class="row">
                             <label>Name *</label>
 
