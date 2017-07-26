@@ -81,6 +81,17 @@ $(document).ready(function () {
                 // $('.msg-not-num').html(data);
 
             }});
+        $.ajax({
+            type: 'POST',
+            url: '../includes/messages.php',
+            data: {update_menu: 'update_menu'},
+            success: function (data) {
+                //$('.msg-not-num').fadeOut();
+               // $('.msg-label').css('display', 'none');
+                // alert(data);
+                // $('.msg-not-num').html(data);
+
+            }});
 
 
     });

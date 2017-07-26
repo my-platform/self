@@ -1,5 +1,9 @@
 $(document).ready(function () {
 //$('.feedback').css('display', 'none');
+    function validate_Email(email){
+        var pattern = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        return pattern.test(email);
+    }
 
         $('#send-message').click(function(){
             $('.feedback').fadeOut();
@@ -36,40 +40,43 @@ $(document).ready(function () {
                 }
                 if(first !== '' & last !=='' & email !=='' & title !=='' & message !==''){
                     //$('.message').attr('disabled', true);
-                    $(this).addClass('submit_button').html('SENDING ...', function () {
+                    if(validate_Email(email)){
+                        $(this).addClass('submit_button').html('SENDING ...');
+                        //  alert('works');
+                        $.ajax({
+                            type: 'POST',
+                            url: 'dashboard/includes/messages.php',
+                            //  dataType: 'text',
+                            data: {first_name: first, last_name: last, email: email, title:title, message: message },
+                            success: function (response) {
+                                //$('.Table_week').html(response);
+                                // $.post('includes/pages.php', 'pg_number=' + p_number, function (response) {
+                                // alert(response);
 
-                    });
-                  //  alert('works');
-                    $.ajax({
-                        type: 'POST',
-                        url: 'dashboard/includes/messages.php',
-                        //  dataType: 'text',
-                        data: {first_name: first, last_name: last, email: email, title:title, message: message },
-                        success: function (response) {
-                            //$('.Table_week').html(response);
-                            // $.post('includes/pages.php', 'pg_number=' + p_number, function (response) {
-                            // alert(response);
 
+                                setTimeout(function () {
+                                    $('.msg-input').val('');
+                                    $('#send-message').removeClass('submit_button').html('SEND MESSAGE');
+                                    var n_top = $(window).height() / 2;
+                                    $('#bread_msg').css('top', n_top);
+                                    var c_top = parseInt($('#bread_msg').css('top'));
+                                    $(window).scroll(function () {
+                                        var top = $(window).scrollTop();
+                                        $('#bread_msg').css('top', top + c_top);
+                                    });
+                                    $('#bread_text').text('message is successfully sent');
+                                    $('#bread_msg').fadeIn();
+                                    setInterval(function () {
+                                        $('#bread_msg').fadeOut();
+                                    }, 2000);
 
-                            setTimeout(function () {
-                                $('.msg-input').val('');
-                                $('#send-message').removeClass('submit_button').html('SEND MESSAGE');
-                                var n_top = $(window).height() / 2;
-                                $('#bread_msg').css('top', n_top);
-                                var c_top = parseInt($('#bread_msg').css('top'));
-                                $(window).scroll(function () {
-                                    var top = $(window).scrollTop();
-                                    $('#bread_msg').css('top', top + c_top);
-                                });
-                                $('#bread_text').text('message is successfully sent');
-                                $('#bread_msg').fadeIn();
-                                setInterval(function () {
-                                    $('#bread_msg').fadeOut();
-                                }, 2000);
+                                },2000);
+                            }
+                        });
+                    }else{
+                        $('.email').children('.feedback').text('* Invalid email address use pattern email@example.com').fadeIn();
+                    }
 
-                            },2000);
-                        }
-                    });
                 }
             }
 

@@ -6,11 +6,12 @@ require 'database_inc.php';
 
 //require '../includes/users_action.php';
 if (isset($_POST['key']) || isset($_POST['messages']) || isset($_POST['msg_member']) || isset($_POST['expired_msg'])
-||  isset($_POST['msg-notification'])) {
+||  isset($_POST['msg-notification']) || isset($_POST['update_menu'])) {
     @$expired_delete = $_POST['expired_msg'];
     @$key = $_POST['key'];
     @$key2 = $_POST['messages'];
     @$msg_visitor = $_POST['msg_member'];
+    echo(@$update_menu = $_POST['update_menu']);
     //@$notification = $_POST['msg-notification'];
 }
 
@@ -112,9 +113,9 @@ public function delete_to_trash(){
     //drop down message list
     public function dropDownMessage()
     {
-        global $key;
-        if ($key == 'msg-notification_menu') {
-            $sql = "SELECT * FROM `messages` ORDER BY `date` DESC ";
+        global $key, $update_menu;
+        if ($key == 'msg-notification_menu' || $update_menu =='update_menu') {
+            $sql = "SELECT * FROM `messages` WHERE `trash` = 0 ORDER BY `date` DESC ";
 
             if ($query_run = mysql_query($sql)) {
 

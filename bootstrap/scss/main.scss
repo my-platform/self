@@ -188,7 +188,9 @@ $footer_background: #1e1e1e;
 }
 .adv-button{
   @extend .visit_pro;
-  font-size:20px;
+  font-family: button-font, Sans-Serif !important;
+  font-size:13px;
+  font-weight: 500;
   padding:10px 30px 10px 30px;
   //font-family: button-font;
 }
@@ -222,7 +224,6 @@ $footer_background: #1e1e1e;
     //font-size: 150%;
     margin-bottom: 30px;
     margin-top: 70px;
-    font-family: button-font Sans-Serif !important;
     //font-weight: 600;
   }
 }
@@ -282,7 +283,7 @@ h1{
 
 }
 .home-header{
-  background: url('../images/index-header45.jpg');
+  background: url('../images/header_home1.jpg');
 }
 .about-header{
   background: url('../images/about_header1.jpg');
@@ -319,14 +320,7 @@ h1{
     color:#000000;
     font-size: 18px;
   }
-  a{
-    font-family: lear;
-    color:#000000;
-    font-size:20px;
-    border: 2px solid #000000;
-    padding:10px 30px 10px 30px;
 
-  }
 }
 .inverse-button{
   color: $red-degree;
@@ -368,7 +362,7 @@ h1{
   background: url("../images/adv-block-resume.jpg");
 }.adv-block-home{
   @extend .adv_block;
-  background: url("../images/adv-home.jpg");
+  background: url("../images/adv-home1.jpg");
 }
 .div-animation{
   display: none ;

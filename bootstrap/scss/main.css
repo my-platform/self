@@ -226,7 +226,9 @@
   font-weight: normal; }
 
 .adv-button {
-  font-size: 20px;
+  font-family: button-font, Sans-Serif !important;
+  font-size: 13px;
+  font-weight: 500;
   padding: 10px 30px 10px 30px; }
 
 .adv_block, .adv-block-resume, .adv-block-home {
@@ -245,8 +247,7 @@
     margin-top: 5px; }
   .adv_block a, .adv-block-resume a, .adv-block-home a {
     margin-bottom: 30px;
-    margin-top: 70px;
-    font-family: button-font Sans-Serif !important; }
+    margin-top: 70px; }
 
 .index-header-font h1 {
   padding-top: 25px;
@@ -282,7 +283,7 @@
   top: 8px; }
 
 .home-header {
-  background: url("../images/index-header45.jpg"); }
+  background: url("../images/header_home1.jpg"); }
 
 .about-header {
   background: url("../images/about_header1.jpg"); }
@@ -313,12 +314,6 @@
   font-family: adv-font;
   color: #000000;
   font-size: 18px; }
-.help_paragraph a {
-  font-family: lear;
-  color: #000000;
-  font-size: 20px;
-  border: 2px solid #000000;
-  padding: 10px 30px 10px 30px; }
 
 .inverse-button {
   color: #A51C30;
@@ -356,7 +351,7 @@
   background: url("../images/adv-block-resume.jpg"); }
 
 .adv-block-home {
-  background: url("../images/adv-home.jpg"); }
+  background: url("../images/adv-home1.jpg"); }
 
 .div-animation {
   display: none; }

@@ -510,7 +510,7 @@
             <h1>If you wanna world know about you, then you have to tell them about yourself.
                 Now let the world know about you.</h1>
             <h2>Get a brand new website for your business.</h2>
-            <a href="contact.php#message" class="adv-button"> Hire Me</a>
+            <a href="contact.php#message" class="adv-button"> HIRE ME NOW</a>
         </div>
     </div>
     <!--avd block-->
@@ -770,7 +770,7 @@
 
                     <p class="paragraph padding-bottom30">Looking for some help? Need a website for your business?<br>
                     also, you can just say hi :)</p>
-                    <a href="contact.php#message" class="learn_more">Contact Me</a>
+                    <a href="contact.php#message" class="learn_more">CONTACT ME</a>
                 </div>
             </div>
     </div>

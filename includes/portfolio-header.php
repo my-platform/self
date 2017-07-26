@@ -49,7 +49,7 @@
                         <div class="mbr-navbar__container"><!---->
                             <div class="mbr-navbar__column mbr-navbar__column--s mbr-navbar__brand">
                     <span class="mbr-navbar__brand-link mbr-brand mbr-brand--inline">
-                        <span class="mbr-brand__logo"><a href="index.html"><img
+                        <span class="mbr-brand__logo"><a href="index.php"><img
                                         class="mbr-navbar__brand-img mbr-brand__img"
                                         src="bootstrap/images/Logo1.png"></a></span>
 

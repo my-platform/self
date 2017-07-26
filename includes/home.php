@@ -267,10 +267,10 @@
     <!--Ad-->
     <div class="row adv-block-home center-block text-center mbr-parallax-background">
         <div class="col-md-8 col-md-offset-2 col-xs-12 ">
-            <h1>If your business needs to be grown, then your business needs a website,
-                Now you can put up your business online, If you interested?</h1>
+            <h2>If your business needs to be grown, then your business needs a website,
+                Now you can put up your business online, If you interested?</h2>
             <!--<h2>Here You go</h2>-->
-            <a href="contact.php#message" class="adv-button"> Hire Me</a>
+            <a href="contact.php#message" class="adv-button"> HIRE ME NOW</a>
         </div>
     </div>
 <!-- section 3 -->
