@@ -63,13 +63,13 @@
                                         <ul class=" mbr-navbar__items mbr-navbar__items--right
                                          mbr-buttons mbr-buttons--freeze
                              mbr-buttons--right mbr-buttons--active">
-                                            <li class="mbr-navbar__item"><a class=" mbr-buttons__link btn text-white"
+                                            <li class="mbr-navbar__item"><a class="nav_link mbr-buttons__link btn text-white"
                                                                             href="index.php">HOME</a></li>
-                                            <li class="mbr-navbar__item"><a class=" mbr-buttons__link btn text-white"
+                                            <li class="mbr-navbar__item"><a class="nav-active2 mbr-buttons__link btn text-white"
                                                                             href="portfolio.php">PORTFOLIO</a></li>
-                                            <li class="mbr-navbar__item"><a class=" mbr-buttons__link btn text-white"
+                                            <li class="mbr-navbar__item"><a class="nav_link mbr-buttons__link btn text-white"
                                                                             href="about.php">ABOUT</a></li>
-                                            <li class="mbr-navbar__item"><a class=" mbr-buttons__link btn text-white"
+                                            <li class="mbr-navbar__item"><a class="nav_link mbr-buttons__link btn text-white"
                                                                             href="resume.php">RESUME</a></li>
                                         </ul>
                                     </div>

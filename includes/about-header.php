@@ -72,19 +72,19 @@
                             </div>
                             <div class="mbr-navbar__hamburger mbr-hamburger text-white"><span class="mbr-hamburger__line"></span>
                             </div>
-                            <div class=" nav-tab mbr-navbar__column mbr-navbar__menu">
+                            <div class=" nav-tab mbr-navbar__column ">
                                 <nav class="mbr-navbar__menu-box mbr-navbar__menu-box--inline-right">
                                     <div class=" nav-pages mbr-navbar__column">
                                         <ul class=" mbr-navbar__items mbr-navbar__items--right
                                          mbr-buttons mbr-buttons--freeze
                              mbr-buttons--right mbr-buttons--active">
-                                            <li class="mbr-navbar__item"><a class=" mbr-buttons__link btn text-white"
+                                            <li class="mbr-navbar__item"><a class="nav_link mbr-buttons__link btn text-white"
                                                                             href="index.php">HOME</a></li>
-                                            <li class="mbr-navbar__item"><a class=" mbr-buttons__link btn text-white"
+                                            <li class="mbr-navbar__item"><a class="nav_link mbr-buttons__link btn text-white"
                                                                             href="portfolio.php">PORTFOLIO</a></li>
-                                            <li class="mbr-navbar__item"><a class="nav-active mbr-buttons__link btn text-white"
+                                            <li class="mbr-navbar__item"><a class=" nav-active2 mbr-buttons__link btn text-white"
                                                                             href="about.php">ABOUT</a></li>
-                                            <li class="mbr-navbar__item"><a class=" mbr-buttons__link btn text-white"
+                                            <li class="mbr-navbar__item"><a class="nav_link mbr-buttons__link btn text-white"
                                                                             href="resume.php">RESUME</a></li>
                                         </ul>
                                     </div>

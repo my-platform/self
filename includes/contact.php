@@ -93,7 +93,8 @@
                                 fouadfawzi90@gmail.com
                             </p>
                             <p class=" "><span class="fa fa-globe"></span>&nbsp;&nbsp;
-                                fouadfawzi.com/contact/
+                                mail@fouadfawzi.com<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fouadfawzi.com/contact
                             </p>
                         </div>
                         <!--Image-->

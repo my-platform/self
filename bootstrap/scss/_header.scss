@@ -6,14 +6,14 @@ $red-degree:#A51C30;
 
 .nav-tab {
   .nav-pages {
-    a{
+    .nav_link{
       //float:right;
       font-family: Header-font;
       font-size: 13px;
       font-weight: bold;
     //margin:0;
     }
-    a:after {
+    .nav_link:after {
       -webkit-transform: scale(0, 1);
       -ms-transform: scale(0, 1);
       -o-transform: scale(0, 1);
@@ -36,8 +36,8 @@ $red-degree:#A51C30;
       width: 100%;
       color: #ffffff;
     }
-    a:hover:after,
-    a:focus:after {
+    .nav_link:hover:after,
+    .nav_link:focus:after {
       -webkit-transform: scale(1, 1);
       -ms-transform: scale(1, 1);
       -o-transform: scale(1, 1);
@@ -51,6 +51,28 @@ $red-degree:#A51C30;
       display: block;
 
       //margin-top: -3px;
+      position: relative;
+      top: 15px;
+      width: 100%;
+      color: #ffffff;
+    }
+    .nav-active2{
+      //float:right;
+      font-family: Header-font;
+      font-size: 13px;
+      font-weight: bold;
+      //margin:0;
+    }
+    .nav-active2:after{
+      font-family: Header-font;
+      font-size: 13px;
+      font-weight: bold;
+      border: 1px solid;
+      content: "";
+      display: block;
+      height: 1px;
+      left: -1px;
+      margin-top: -3px;
       position: relative;
       top: 15px;
       width: 100%;
@@ -101,7 +123,7 @@ $red-degree:#A51C30;
   }
   .active-contact{
     color: #ffffff;
-    border: 3px solid $red-degree !important;
+    border: 2px solid $red-degree !important;
     border-radius: 0;
     background: $red-degree;
     text-decoration: none;

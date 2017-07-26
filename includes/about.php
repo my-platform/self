@@ -526,7 +526,7 @@
 
                         <p class="paragraph">There's a time every day for reading in my schedule, I believe that the more
                             that you read, the more things you will know. The more that you learn, the more places you'll go,
-                            the more your mind will grows. the kind of books I usually read are (Human development, Literature, and some times History )
+                            the more your mind will grows. the kind of books I usually read are (Human development, Literature, Business , and some times History )
                             if you can't find me in my work and my sell is out of service
                             you will sure find me among my books.</p>
                         <h3 class="head_group">Fishing</h3>
@@ -769,7 +769,7 @@
                 <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
 
                     <p class="paragraph padding-bottom30">Looking for some help? Need a website for your business?<br>
-                    you can just say hi :)</p>
+                    also, you can just say hi :)</p>
                     <a href="contact.php#message" class="learn_more">Contact Me</a>
                 </div>
             </div>
