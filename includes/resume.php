@@ -49,8 +49,8 @@
         <!--Ad-->
     <div class="row adv-block-resume center-block text-center mbr-parallax-background">
         <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
-            <h2>If your business needs to be grown, then your business needs a website,
-                Now you can put up your business online, If you interested?</h2>
+            <h2>Need an personal good-looking, and mobile friendly website?
+                Now you can have your own website, If you interested?</h2>
             <a href="contact.php#message" class="adv-button">HIRE ME NOW</a>
         </div>
     </div>

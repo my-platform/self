@@ -31,7 +31,7 @@
         <div id="content" class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
             <div class="col-md-12 col-xs-12">
                 <!--<h1 class="headline">More about me</h1>-->
-                <h1 class="headline">My personal life</h1>
+                <h1 class="headline">My life as a person</h1>
 
                 <p class="paragraph">I believe that the shortest distance between two people is a story, so her is my
                     story.
