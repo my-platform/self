@@ -26,6 +26,8 @@ class Get_user
             $this->last_week();
             $this->male_members();
             $this->female_members();
+            $this->last_month();
+            $this->unique_visitors();
             //$this->last_month_visitors();
         }
 
@@ -119,6 +121,36 @@ class Get_user
 
 
         }
+    }public function last_month(){
+    global $key;
+    if ($key == 'last_month') {
+        $sql = 'SELECT COUNT(0) FROM `month_visitors`';
+        $query = mysql_query($sql);
+        if ($rows = mysql_fetch_array($query)) {
+            echo $rows[0];
+            $last_week = time() - ((60 * 60 * 24) * 30);
+            $sql2 = "DELETE FROM `month_visitors` WHERE `Date` < '" . $last_week . "'";
+            mysql_query($sql2);
+        } else {
+            echo '0';
+        }
+
+
+    }
+    }public function unique_visitors(){
+    global $key;
+    if ($key == 'unique_visitors') {
+        $sql = 'SELECT COUNT(0) FROM `unique_visitors`';
+        $query = mysql_query($sql);
+        if ($rows = mysql_fetch_array($query)) {
+            echo $rows[0];
+
+        } else {
+            echo '0';
+        }
+
+
+    }
     }
     public function today_users(){
         global $key;

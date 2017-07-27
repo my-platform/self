@@ -275,7 +275,7 @@ function getBrowser() {
             $online_query = mysql_query($online_select);
             if(mysql_num_rows($online_query) < 1){
                 $sql1 = "INSERT INTO `last24` (`id`, `IP_Address`, `Date`, `Browser`, `Platform(OS)`, `Day`, `time`) VALUES 
-            ('','". $ip."','".$time ."', '".$browser."','".$OS."', now(), now())";
+            (NULL,'". $ip."','".$time ."', '".$browser."','".$OS."', now(), now())";
                 mysql_query($sql1);
             }
            //////////////////////////////////////last week visitors///////////////////////////////////////////////
@@ -283,15 +283,22 @@ function getBrowser() {
             $lastWeek_query = mysql_query($lastWeek_select);
             if(mysql_num_rows($lastWeek_query) < 1) {
                 $sql2 = "INSERT INTO `vlast_week` (`id`, `IP_Address`, `Date`, `Browser`, `Platform(OS)`, `Day`, `time`) VALUES 
-            ('','". $ip."','".$time ."','".$browser."','".$OS."', now(), now())";
+            (NULL,'". $ip."','".$time ."','".$browser."','".$OS."', now(), now())";
                 mysql_query($sql2);
+            } //////////////////////////////////////unique visitors///////////////////////////////////////////////
+            $unique_select="SELECT * FROM `unique_visitors` WHERE `IP_Address` = '".$ip."'";
+            $unique_query = mysql_query($unique_select);
+            if(mysql_num_rows($unique_query) < 1) {
+                $unique_sql = "INSERT INTO `unique_visitors` (`id`, `IP_Address`, `Date`, `Browser`, `Platform(OS)`, `Day`, `time`) VALUES 
+            (NULL,'". $ip."','".$time ."','".$browser."','".$OS."', now(), now())";
+                mysql_query($unique_sql);
             }
             //////////////////////////////////////last month visitors/////////////////////////////////////////////
             $month_select="SELECT * FROM `month_visitors` WHERE `IP_Address` = '".$ip."'";
             $month_query = mysql_query($month_select);
             if(mysql_num_rows($month_query) < 1) {
                 $sql3 = "INSERT INTO `month_visitors` (`id`, `IP_Address`, `Date`, `Browser`, `Platform(OS)`, `Day`, `time`) VALUES 
-            ('','". $ip."','".$time ."','".$browser."','".$OS."', now(), now())";
+            (NULL,'". $ip."','".$time ."','".$browser."','".$OS."', now(), now())";
                 mysql_query($sql3);
             }
         }

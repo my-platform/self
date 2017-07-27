@@ -299,6 +299,27 @@ $(document).ready(function () {
                 //alert(data);
             }
         });
+        // Last month
+        $.ajax({
+            type: 'POST',
+            url: '../includes/get_users.php',
+            data: {key: 'last_month'},
+            success: function (data) {
+                $('#month_visit').html(data);
+                //$('#max_visit1').html(data);
+                //alert(data);
+            }
+        }); // unique_visitors
+        $.ajax({
+            type: 'POST',
+            url: '../includes/get_users.php',
+            data: {key: 'unique_visitors'},
+            success: function (data) {
+                $('#unique_visit').html(data);
+                //$('#max_visit1').html(data);
+                //alert(data);
+            }
+        });
         ///////////// users ////////////////
         $.ajax({
             type: 'POST',

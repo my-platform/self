@@ -48,7 +48,7 @@
 
 
         <!--end new plugin-->
-        <title>ABOUT</title>
+        <title>HOME</title>
     </head>
     <body>
 

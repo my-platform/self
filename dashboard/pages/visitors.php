@@ -186,9 +186,36 @@ if (!@mysql_select_db('dashboard')) {
             <!-- small box -->
             <div class="small-box bg-red">
                 <div class="inner">
+                    <h3 id="month_visit">0</h3>
+
+                    <p>Last Month</p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-arrow-circle-up"></i>
+                </div>
+                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-6 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-green-active">
+                <div class="inner">
                     <h3 id="max_visit">0</h3>
 
                     <p>all visits so far</p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-arrow-circle-up"></i>
+                </div>
+                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div>  <div class="col-lg-6 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-blue">
+                <div class="inner">
+                    <h3 id="unique_visit">0</h3>
+
+                    <p>Unique Visitors</p>
                 </div>
                 <div class="icon">
                     <i class="fa fa-arrow-circle-up"></i>

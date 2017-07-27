@@ -67,7 +67,7 @@ if(!logged_in()) {
                 <div class="inner">
                     <h3 id="max_visit">0</h3>
 
-                    <p>Unique Visitors</p>
+                    <p>All visits so far</p>
                 </div>
                 <div class="icon">
                     <i class="fa fa-pie-chart"></i>

@@ -505,8 +505,8 @@
     <!--end of Hanging out-->
 
     <!--avd block-->
-    <div class="row adv_block ind-sec2">
-        <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+    <div class="row adv_block center-block text-center mbr-parallax-background ">
+        <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 ">
             <h1>If you wanna world know about you, then you have to tell them about yourself.
                 Now let the world know about you.</h1>
             <h2>Get a brand new website for your business.</h2>
@@ -546,7 +546,7 @@
                         <h3 class="head_group">Swimming</h3>
 
                         <p class="paragraph">Ironically, I'm not a good swimmer, and I don't practice swimming to much,
-                            but it's still my favorite sport, and one of my favorite time when I do swimming.</p>
+                            but it's still my favorite sport, and one of my favorite time when I go swimming.</p>
                     </div>
                 </div>
             </div>

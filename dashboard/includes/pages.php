@@ -158,8 +158,12 @@ class paging
                   if($result1 = mysql_query($select_chrome)) {
                       $c_row = mysql_fetch_row($result1);
                       $chrome = $c_row[0];
-                       $chrome_per = (($chrome / $total_records) * 100);
-                      echo round($chrome_per,1);
+                      if($chrome == 0){
+                          echo '0';
+                      }else {
+                          $chrome_per = (($chrome / $total_records) * 100);
+                          echo round($chrome_per, 1);
+                      }
                   }else{
                       echo '0';
                   }
@@ -168,8 +172,12 @@ class paging
                    if ($result2 = mysql_query($select_fire)) {
                        $f_row = mysql_fetch_row($result2);
                        $firefox = $f_row[0];
-                        $fire_per = (($firefox / $total_records) * 100);
-                       echo round($fire_per, 1);
+                     //  if($firefox == 0){
+                         //  echo '0';
+                     //  }else {
+                           $fire_per = (($firefox / $total_records) * 100);
+                           echo round($fire_per, 1);
+                      // }
                    }else{
                        echo '0';
                    }
@@ -178,8 +186,12 @@ class paging
                    if($result3 = mysql_query($select_ie)) {
                        $f_row = mysql_fetch_row($result3);
                        $ie = $f_row[0];
-                        $ie_per = (($ie / $total_records) * 100);
-                       echo round($ie_per,1);
+                       if($ie == 0){
+                           echo '0';
+                       }else {
+                           $ie_per = (($ie / $total_records) * 100);
+                           echo round($ie_per, 1);
+                       }
                    }else{
                        echo '0';
                    }
@@ -188,8 +200,12 @@ class paging
                    if($result4 = mysql_query($select_Safari)) {
                        $Safari_row = mysql_fetch_row($result4);
                        $Safari = $Safari_row[0];
-                       $Safari_per = (($Safari / $total_records) * 100);
-                       echo round($Safari_per,1);
+                       if($Safari == 0){
+                           echo '0';
+                       }else {
+                           $Safari_per = (($Safari / $total_records) * 100);
+                           echo round($Safari_per, 1);
+                       }
                    }else{
                        echo '0';
                    }
@@ -226,7 +242,11 @@ class paging
                 if($result1 = mysql_query($select_win)) {
                     $c_row = mysql_fetch_row($result1);
                     $win = $c_row[0];
-                    $win_per = (($win / $total_records) * 100);
+                    if($win == 0){
+                        echo '0';
+                    }else {
+                        $win_per = (($win / $total_records) * 100);
+                    }
                     echo round($win_per,1);
                 }else{
                     echo '0';
@@ -239,7 +259,12 @@ class paging
                     $mac_row = mysql_fetch_row($result2);
                     $mac= $mac_row[0];
                     $mac_per = (($mac / $total_records) * 100);
-                    echo round($mac_per, 1);
+                    if($mac == 0){
+                        echo '0';
+                    }else{
+                        echo round($mac_per, 1);
+                    }
+
                 }else{
                     echo '0';
                 }
@@ -250,7 +275,11 @@ class paging
                     $linux_row = mysql_fetch_row($result3);
                     $linux = $linux_row[0];
                     $linux_per = (($linux / $total_records) * 100);
-                    echo round($linux_per,1);
+                    if($linux == 0){
+                        echo '0';
+                    }else {
+                        echo round($linux_per, 1);
+                    }
                 }else{
                     echo '0';
                 }
@@ -260,7 +289,11 @@ class paging
                     $android_row = mysql_fetch_row($result3);
                     $android = $android_row[0];
                     $android_per = (($android / $total_records) * 100);
-                    echo round($android_per,1);
+                    if($android == 0){
+                        echo '0';
+                    }else {
+                        echo round($android_per, 1);
+                    }
                 }else{
                     echo '0';
                 }
