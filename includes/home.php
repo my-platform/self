@@ -6,13 +6,13 @@
             <div class="col-md-12 col-xs-12">
                 <h1 class="headline">Hello Everyone </h1>
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="col-md-4 col-sm-12 col-xs-12 ">
+                    <div class="col-md-4 col-sm-12 col-xs-12 padding_top_50">
                         <img src="bootstrap/images/user.jpg"> </img>
                     </div>
                 <div class=" col-md-8 col-xs-12">
                     <p class="paragraph"> Hi, I'm Fouad Fawzi. welcome to my online house, let's take a quick
-                        look at my some stuff.
-                        Simply I'm a <!--web and mobile application--> full stack developer and that how I can enjoy in
+                        look at some stuff of mine.
+                        Simply I'm a <!--web and mobile application--> full stack developer and that how I can enjoy
                         my
                         life.
                         I love what I do, I spend most of my time in front of my screen,

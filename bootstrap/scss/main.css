@@ -260,18 +260,19 @@
   margin-top: 70px;
   font-family: adv-font; }
 
-.header-font h1 {
+.header-font h1, .portfolio-font h1 h1 {
   padding-top: 25px;
-  font-size: 59px !important; }
-.header-font h3 {
+  text-align: center; }
+.header-font h3, .portfolio-font h1 h3 {
   padding-bottom: 55px;
-  font-family: adv-font; }
-.header-font a {
+  font-family: adv-font;
+  text-align: center; }
+.header-font a, .portfolio-font h1 a {
   margin-bottom: 30px;
   margin-top: 70px;
   font-family: adv-font; }
 
-.header-text, .index-header-font h1, .header-font h1 {
+.header-text, .index-header-font h1, .header-font h1, .portfolio-font h1 h1 {
   font-size: 66px;
   font-weight: bold;
   left: -2px;
@@ -282,8 +283,34 @@
   position: relative;
   top: 8px; }
 
+.portfolio-font h1 {
+  padding-top: 25px;
+  font-size: 5vw !important;
+  font-weight: bold !important; }
+.portfolio-font h3 {
+  padding-bottom: 55px;
+  font-family: adv-font !important;
+  text-align: center; }
+.portfolio-font a {
+  margin-bottom: 30px;
+  margin-top: 70px;
+  font-family: adv-font; }
+
+.construction span {
+  font-size: 150px; }
+.construction h1 {
+  font-family: adv-font-2;
+  font-weight: bold;
+  padding-top: 40px; }
+.construction h3 {
+  font-family: proxima-nova-bold;
+  padding-bottom: 50px; }
+
 .home-header {
   background: url("../images/header_home1.jpg"); }
+
+.portfolio-header {
+  background: url("../images/portofolio.jpg"); }
 
 .about-header {
   background: url("../images/about_header1.jpg"); }

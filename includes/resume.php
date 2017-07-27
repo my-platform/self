@@ -55,11 +55,11 @@
         </div>
     </div>
     <div class="row ind-sec2">
-        <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
-            <div class="title col-md-4 col-xs-4">
+        <div class="col-md-8 col-md-offset-2 col-xs-12">
+            <div class="title col-md-4 col-xs-12">
                 <h2 class="title">Experience</h2>
             </div>
-            <div class="details col-md-8  col-xs-8">
+            <div class="details col-md-8  col-xs-12">
                 <p class="Experience-head">Accounting System</p>
 
                 <p class="description">
@@ -98,11 +98,11 @@
 
     <!--Qualifications-->
     <div class="row ind-sec1">
-        <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
-            <div class="title col-md-4 col-xs-4">
+        <div class="col-md-8 col-md-offset-2 col-xs-12 ">
+            <div class="title col-md-4 col-xs-12">
                 <h2 class="title">Qualifications</h2>
             </div>
-            <div class="details col-md-8  col-xs-8">
+            <div class="details col-md-8  col-xs-12">
                 <p class="Experience-head"> MET Academy for Engineering and Technology</p>
 
                 <p class="description">
