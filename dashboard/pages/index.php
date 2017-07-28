@@ -2,10 +2,10 @@
 //session_start();
 ob_start();
 require_once '../functions/functions.php';
-//require_once '../includes/users_action.php';
+//require_once '../includes/users_action';
 
 if(!logged_in()) {
-    header('Location: ../pages/login.php');
+    header('Location: ../pages/login');
 }
     get_header();
     get_sidebar();
@@ -25,7 +25,7 @@ if(!logged_in()) {
                 <div class="icon">
                     <i class="fa  fa-line-chart"></i>
                 </div>
-                <a href="visitors.php#online_visitors" class="small-box-footer">More info <i
+                <a href="visitors#online_visitors" class="small-box-footer">More info <i
                         class="fa fa-arrow-circle-right"></i></a>
             </div>
         </div>
@@ -56,7 +56,7 @@ if(!logged_in()) {
                 <div class="icon">
                     <i class="fa fa-user-plus"></i>
                 </div>
-                <a href="users.php#users" class="small-box-footer">More info <i
+                <a href="users#users" class="small-box-footer">More info <i
                         class="fa fa-arrow-circle-right"></i></a>
             </div>
         </div>

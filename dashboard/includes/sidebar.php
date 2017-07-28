@@ -17,22 +17,22 @@
         <ul class="sidebar-menu">
             <li class="header" >MAIN NAVIGATION</li>
             <li name="index" >
-                <a class="Navmenu" href="../pages/index.php">
+                <a class="Navmenu" href="../pages/index">
                     <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                 </a>
             </li>
             <li class="messages" name="messages">
-                <a class="Navmenu" href="../pages/mailbox.php">
+                <a class="Navmenu" href="../pages/mailbox">
                     <i class=" fa fa-envelope"></i> <span>Messages</span>
                 </a>
             </li>
             <li name="users">
-                <a class="Navmenu" href="../pages/users.php">
+                <a class="Navmenu" href="../pages/users">
                     <i class="fa fa-user"></i> <span>Users</span>
                 </a>
             </li>
             <li name="visitors">
-                <a class="Navmenu" href="../pages/visitors.php">
+                <a class="Navmenu" href="../pages/visitors">
                     <i class="fa  fa-info-circle"></i> <span>Visitors</span>
                 </a>
             </li>

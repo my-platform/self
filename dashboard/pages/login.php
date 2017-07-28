@@ -8,7 +8,7 @@ $login = $login_class->loggedin();
 get_login_header();
 //echo $script_path;
 if($login){
-header('Location: ../pages/index.php');
+header('Location: ../pages/index');
 }
 ?>
 

@@ -3,7 +3,7 @@ require_once '../functions/functions.php';
 include '../includes/database_inc.php';
 
 if(!logged_in()) {
-    header('Location: ../pages/login.php');
+    header('Location: ../pages/login');
 }
 get_header();
 get_sidebar();

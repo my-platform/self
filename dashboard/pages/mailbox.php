@@ -3,7 +3,7 @@ require_once '../functions/functions.php';
 include '../includes/database_inc.php';
 
 if(!logged_in()) {
-    header('Location: ../pages/login.php');
+    header('Location: ../pages/login');
 }
 get_header();
 get_sidebar();
@@ -133,7 +133,7 @@ if (!@mysql_select_db('dashboard')) {
                     .'<td><label class="lbl"><input type="checkbox" class="target-check" value="'.$id.'">
                     <span class="sp fa"></span></label></td>'
                     . '<td class="mailbox-star sta"><a class="star-check" href="#"><i class="fa fa-star-o text-yellow"></i></a></td>' .
-                    "<td class='mailbox-name'><a href='read-mail.php?msg-id=".$id."' class='name_click'>".$first."&nbsp;".$last."</a></td>";
+                    "<td class='mailbox-name'><a href='read-mail?msg-id=".$id."' class='name_click'>".$first."&nbsp;".$last."</a></td>";
                 echo '<td class="mailbox-subject"><b>'.$short_title.'</b> </td>';
                 echo ' <td class="mailbox-attachment"></td>';
                 echo ' <td class="mailbox-date">'.$day.'</td>';
@@ -160,7 +160,7 @@ if (!@mysql_select_db('dashboard')) {
             <div class="col-md-3">
                 <button type="button" class="btn btn-default btn-lg test-notify-msg"><i class="fa fa-envelope-o"></i>
                 </button>
-                <a href="compose.php" class="btn btn-primary btn-block margin-bottom">Compose</a>
+                <a href="compose" class="btn btn-primary btn-block margin-bottom">Compose</a>
 
                 <div class="box box-solid">
                     <div class="box-header with-border">
@@ -174,14 +174,14 @@ if (!@mysql_select_db('dashboard')) {
                     </div>
                     <div class="box-body no-padding">
                         <ul class="nav nav-pills nav-stacked mail-links">
-                            <li class="active" id="inbox-link"><a href="mailbox.php"><i class="fa fa-inbox"></i> Inbox
+                            <li class="active" id="inbox-link"><a href="mailbox"><i class="fa fa-inbox"></i> Inbox
                                     <span class="label label-primary pull-right">12</span></a></li>
                             <li id="sent-link"><a href="#"><i class="fa fa-envelope-o"></i> Sent</a></li>
                             <li id="drafts-link"><a href="#"><i class="fa fa-file-text-o"></i> Drafts</a></li>
                             <li id="junk-link"><a href="#"><i class="fa fa-filter"></i> Junk <span
                                         class="label label-warning pull-right">65</span></a>
                             </li>
-                            <li id="trash-link"><a id="mail-trash" href="mail-trash.php"><i class="fa fa-trash-o"></i> Trash</a></li>
+                            <li id="trash-link"><a id="mail-trash" href="mail-trash"><i class="fa fa-trash-o"></i> Trash</a></li>
                         </ul>
                     </div>
                     <!-- /.box-body -->

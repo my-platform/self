@@ -47,7 +47,7 @@
 
     <header class="main-header">
         <!-- Logo -->
-        <a href="index.php" class="logo">
+        <a href="index" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
             <span class="logo-mini"><b>A</b>LT</span>
             <!-- logo for regular state and mobile devices -->
@@ -76,7 +76,7 @@
 
                                 </ul>
                             </li>
-                            <li class="footer"><a href="../pages/mailbox.php">See All Messages</a></li>
+                            <li class="footer"><a href="../pages/mailbox">See All Messages</a></li>
                         </ul>
                     </li>
                     <!-- Notifications: style can be found in dropdown.less -->
