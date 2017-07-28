@@ -50,7 +50,7 @@
                         <div class="mbr-navbar__container"><!---->
                             <div class="mbr-navbar__column mbr-navbar__column--s mbr-navbar__brand">
                     <span class="mbr-navbar__brand-link mbr-brand mbr-brand--inline">
-                        <span class="mbr-brand__logo"><a href="index.php"><img
+                        <span class="mbr-brand__logo"><a href="index"><img
                                         class="mbr-navbar__brand-img mbr-brand__img"
                                         src="bootstrap/images/Logo1.png"></a></span>
 
@@ -65,13 +65,14 @@
                                          mbr-buttons mbr-buttons--freeze
                              mbr-buttons--right mbr-buttons--active">
                                             <li class="mbr-navbar__item"><a class="nav_link mbr-buttons__link btn text-white"
-                                                                            href="index.php">HOME</a></li>
+                                                                            href="index">HOME</a></li>
+
+                                            <li class="mbr-navbar__item"><a class="nav_link mbr-buttons__link btn text-white"
+                                                                            href="about">ABOUT</a></li>
+                                            <li class="mbr-navbar__item"><a class="nav_link mbr-buttons__link btn text-white"
+                                                                            href="resume">RESUME</a></li>
                                             <li class="mbr-navbar__item"><a class="nav-active2 mbr-buttons__link btn text-white"
-                                                                            href="portfolio.php">PORTFOLIO</a></li>
-                                            <li class="mbr-navbar__item"><a class="nav_link mbr-buttons__link btn text-white"
-                                                                            href="about.php">ABOUT</a></li>
-                                            <li class="mbr-navbar__item"><a class="nav_link mbr-buttons__link btn text-white"
-                                                                            href="resume.php">RESUME</a></li>
+                                                                            href="portfolio">PORTFOLIO</a></li>
                                         </ul>
                                     </div>
                                     <div class=" contact-button mbr-navbar__column">
@@ -79,7 +80,7 @@
                                         mbr-buttons mbr-buttons--freeze mbr-buttons--right
                                         btn-inverse mbr-buttons--active">
                                             <li class="mbr-navbar__item"><a class="mbr-buttons__link  btn"
-                                                                            href="contact.php">CONTACT</a>
+                                                                            href="contact">CONTACT</a>
                                             </li>
                                         </ul>
                                     </div>

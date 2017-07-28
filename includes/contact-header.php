@@ -51,7 +51,7 @@
                         <div class="mbr-navbar__container"><!---->
                             <div class="mbr-navbar__column mbr-navbar__column--s mbr-navbar__brand">
                     <span class="mbr-navbar__brand-link mbr-brand mbr-brand--inline">
-                        <span class="mbr-brand__logo"><a href="index.php"><img
+                        <span class="mbr-brand__logo"><a href="index"><img
                                         class="mbr-navbar__brand-img mbr-brand__img"
                                         src="bootstrap/images/Logo1.png"></a></span>
 
@@ -66,13 +66,13 @@
                                          mbr-buttons mbr-buttons--freeze
                              mbr-buttons--right mbr-buttons--active">
                                             <li class="mbr-navbar__item"><a class="nav_link mbr-buttons__link btn text-white"
-                                                                            href="index.php">HOME</a></li>
+                                                                            href="index">HOME</a></li>
                                             <li class="mbr-navbar__item"><a class="nav_link mbr-buttons__link btn text-white"
-                                                                            href="portfolio.php">PORTFOLIO</a></li>
+                                                                            href="about">ABOUT</a></li>
                                             <li class="mbr-navbar__item"><a class="nav_link mbr-buttons__link btn text-white"
-                                                                            href="about.php">ABOUT</a></li>
+                                                                            href="resume">RESUME</a></li>
                                             <li class="mbr-navbar__item"><a class="nav_link mbr-buttons__link btn text-white"
-                                                                            href="resume.php">RESUME</a></li>
+                                                                            href="portfolio">PORTFOLIO</a></li>
                                         </ul>
                                     </div>
                                     <div class="  mbr-navbar__column">
@@ -80,7 +80,7 @@
                                         mbr-buttons mbr-buttons--freeze mbr-buttons--right
                                         btn-inverse mbr-buttons--active">
                                             <li class="mbr-navbar__item"><a class="active-contact mbr-buttons__link  btn"
-                                                                            href="contact.php">CONTACT</a>
+                                                                            href="contact">CONTACT</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -110,7 +110,7 @@
                     </div>
                     <div class="mbr-arrow mbr-arrow--floating text-center">
                         <div class="mbr-section__container container">
-                            <a class="mbr-arrow__link" href="contact.php#message"><i class="glyphicon glyphicon-menu-down"></i></a>
+                            <a class="mbr-arrow__link" href="contact#message"><i class="glyphicon glyphicon-menu-down"></i></a>
                         </div>
                     </div>
                 </div>

@@ -10,7 +10,7 @@
                 <h1> SORRY</h1>
                 <h3>This page still under building and it's gonna be available soon,
                     you have the choice to redirect back to the home page, or you can navigate to another page.</h3>
-                <a href="home.php" class="learn_more">REDIRECT NOW</a>
+                <a href="home" class="learn_more">REDIRECT NOW</a>
                 </div>
             </div>
 
@@ -41,7 +41,7 @@
                         <div class="caption">
                             <h3>Robot for serving and securing elderly</h3>
                             <p class="description info">Mobile application</p>
-                            <p><a href="ssme.php" class="custom_button">CHECK IT OUT</a></p>
+                            <p><a href="ssme" class="custom_button">CHECK IT OUT</a></p>
                         </div>
                     </div>
                 </div>

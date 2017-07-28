@@ -142,7 +142,7 @@
         <div class="col-md-12 col-xs-12 padding_top_30">
             <p class="paragraph padding-bottom30"> If you interested to know better about my personality,<br>
             get free to know who I am. </p>
-            <a class="learn_more " href="about.php">LEARN MORE</a>
+            <a class="learn_more " href="about">LEARN MORE</a>
         </div>
 
 
@@ -260,7 +260,7 @@
                 </div>
             </div>
             <div class="row padding-top">
-                <a class="learn_more " href="about.php">LEARN MORE</a>
+                <a class="learn_more " href="about">LEARN MORE</a>
             </div>
         </div>
     </div>-->
@@ -270,7 +270,7 @@
             <h2>If your business needs to be grown, then your business needs a website,
                 Now you can put up your business online, If you interested?</h2>
             <!--<h2>Here You go</h2>-->
-            <a href="contact.php#message" class="adv-button"> HIRE ME NOW</a>
+            <a href="contact#message" class="adv-button"> HIRE ME NOW</a>
         </div>
     </div>
 <!-- section 3 -->
@@ -293,8 +293,8 @@
             <p class="paragraph padding-bottom30"> feel free to discover my skills and experience.</p>
            <div class="col-md-4 col-md-offset-4 col-xs-12">
                 <a target="_blank" class="learn_more "
-                   href="includes/download_resume.php">DOWNLOAD RESUME</a>
-                <a class="learn_more " href="resume.php">LEARN MORE</a>
+                   href="includes/download_resume">DOWNLOAD RESUME</a>
+                <a class="learn_more " href="resume">LEARN MORE</a>
 
 
 

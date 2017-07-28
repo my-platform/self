@@ -6,13 +6,13 @@
 
     <!-- <footer class="navbar navbar-inverse navbar-fixed-bottom  ">-->
     <div id="footer-brand">
-        <a href="index.php"> <img id="footer_logo" src="bootstrap/images/New_Logo.png"></a><br/>
+        <a href="index"> <img id="footer_logo" src="bootstrap/images/New_Logo.png"></a><br/>
         <ul id="footer_links">
-            <li class="social-button-item"><a href="index.php">HOME</a> &nbsp; | &nbsp; </li>
-            <li class="social-button-item"><a href="portfolio.php">PORTFOLIO</a> &nbsp; | &nbsp; </li>
-            <li class="social-button-item"><a href="about.php">ABOUT</a> &nbsp; | &nbsp; </li>
-            <li class="social-button-item"><a href="resume.php">RESUME</a> &nbsp; | &nbsp; </li>
-            <li class="social-button-item"><a href="contact.php">CONTACT</a></li>
+            <li class="social-button-item"><a href="index">HOME</a> &nbsp; | &nbsp; </li>
+            <li class="social-button-item"><a href="about">ABOUT</a> &nbsp; | &nbsp; </li>
+            <li class="social-button-item"><a href="resume">RESUME</a> &nbsp; | &nbsp; </li>
+            <li class="social-button-item"><a href="portfolio">PORTFOLIO</a> &nbsp; | &nbsp; </li>
+            <li class="social-button-item"><a href="contact">CONTACT</a></li>
         </ul>
 
 
@@ -39,7 +39,7 @@
                     <span class="fa-google-plus fa"></span></a>
             </div>
             <div class="social-button-item">
-                <a class="social-logo" target="_blank" href="contact.php#message">
+                <a class="social-logo" target="_blank" href="contact#message">
                     <span class="fa fa-envelope-o"></span></a>
             </div>
 
