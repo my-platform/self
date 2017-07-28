@@ -26,6 +26,7 @@ class login
             $this->get_script_name();
             $this->login_validation();
             $this->online();
+            $this->create_user();
         }
     }
     public function get_script_name(){
@@ -46,14 +47,30 @@ class login
         }
 
         global $matching, $fields;
+       /* if (isset($_POST['username']) || isset($_POST['password'])) {
+
+
+            @$username = $_POST['username'];
+            @$hash_pass = md5($_POST['password']);
+            @$password = $hash_pass;
+            //  echo 'hello '.$username;
+            if (!empty($username) && !empty($password)) {
+                $sql_update = "UPDATE `users` SET `firstname` ='".$username."' , `password` = '".$password."' WHERE `id` = 1";
+                mysql_query($sql_update);
+
+            } else {
+                $fields = "<p style='color:red'>* please fill all fields </p>";
+            }
+        }*/
         if (isset($_POST['username']) || isset($_POST['password'])) {
 
 
             @$username = $_POST['username'];
-            @$password = $_POST['password'];
+            @$hash_pass = md5($_POST['password']);
+            @$password = $hash_pass;
             //  echo 'hello '.$username;
             if (!empty($username) && !empty($password)) {
-                $sql = "SELECT `id` FROM `users` WHERE `firstname` ='" .mysql_real_escape_string($username) . "'
+                $sql = "SELECT `id` FROM `users` WHERE `email` ='" .mysql_real_escape_string($username) . "'
 	 		 AND `password` ='" .mysql_real_escape_string($password)."'";
 
                 if ($sql_run = mysql_query($sql)) {
@@ -71,9 +88,9 @@ class login
                     echo mysql_error();
                 }
             } else {
-                $fields = "<p style='color:red'>* please fill all fields </p>";
+                  $fields = "<p style='color:red'>* please fill all fields </p>";
             }
-        }
+         }
     }
                 //////////////////////////////// set time session //////////////////////////////
     function time_session(){
@@ -123,6 +140,23 @@ class login
             }
         }
 
+    }
+    public function create_user(){
+        if (isset($_POST['username_c']) || isset($_POST['password_c'])) {
+
+
+            @$username = $_POST['username_c'];
+            @$hash_pass = md5($_POST['password_c']);
+            @$password = $hash_pass;
+            //  echo 'hello '.$username;
+            if (!empty($username) && !empty($password)) {
+                 $sql_update = "UPDATE `users` SET `first` ='".$username."' `password` = '".$password."' WHERE `id` = 1";
+                           mysql_query($sql_update);
+
+            } else {
+                $fields = "<p style='color:red'>* please fill all fields </p>";
+            }
+        }
     }
 
     
