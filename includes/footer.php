@@ -16,9 +16,9 @@
         </ul>
 
 
-        <div id="copyright">
-            <p>© 2015 Fouad Fawzi. All rights reserved. / Web & Android
-                Developer </p></div>
+        <div class="copyright">
+            <p>&copy; <span class="current_year"></span> <a class="copyright_link" href="index"><strong>Fouad Fawzi</strong></a>. All rights reserved. / Web & Android
+                Developer. </p></div>
         <br/>
 
         <div id="social">

@@ -64,6 +64,57 @@ $footer_background: #1e1e1e;
   width: 100%;
   background-color: $footer_background;
   border-top: solid 5px $red-degree;
+  #footer_logo {
+    padding-bottom: 40px;
+    width: 14%;
+    height: 7%;
+  // text-align : center;
+  }
+
+  #footer_links {
+    font-size: 16px;
+    color: #c4c4c4;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #footer_links a {
+    font-size: 16px;
+    font-family: Footer_links;
+    color: #c4c4c4;
+    text-decoration: none;
+
+  }
+
+  #footer_links a:hover {
+
+    color: #ffffff;
+
+  }
+  #footer-brand {
+    padding-bottom: 40px;
+    font-size: small;
+    color: gray;
+  }
+
+  .copyright{
+    //font-size: 10px !important;
+    p{
+      font-size: 12px !important;
+      a{
+        text-decoration: none;
+        color: grey * 1.5;
+
+      }
+      a:hover{
+        text-decoration: none;
+        cursor: pointer;
+        color:#ffffff;
+      }
+    }
+
+
+  }
 
 }
 .tip{
@@ -564,5 +615,9 @@ height: 100%;
     // width:50%;
     //padding-top: 15px;
   }
+  //copyright
+
+
+
 
 }
