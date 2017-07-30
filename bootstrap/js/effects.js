@@ -6,5 +6,9 @@ $(document).ready(function(){
     var year = d.getFullYear();
     $('.current_year').html(year);
 
-
+//////////////////////////////////fade////////////////////////////////////////////
+    AOS.init({
+        easing: 'ease-in-out-sine'
+    });
 });
+

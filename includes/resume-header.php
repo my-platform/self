@@ -29,6 +29,9 @@
     <link rel="stylesheet" href="bootstrap/plugin/Nav/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/plugin/Nav/style.css">
 
+    <link href="bootstrap/plugin/FadeIn_Elements/aos.css" rel="stylesheet">
+    <script src="bootstrap/plugin/FadeIn_Elements/aos.js"></script>
+
 
     <!--<script src="bootstrap/js/jquery-2.1.4.min.js"></script>-->
     <!--<script src="bootstrap/js/bootstrap.min.js"></script>-->
@@ -106,9 +109,9 @@
                             <div class="mbr-box__magnet mbr-box__magnet--center-left">
                                 <div class="row">
                                     <div class=" col-sm-6 col-sm-offset-6">
-                                        <div class="mbr-hero animated fadeInUp">
-                                            <h1 class="mbr-hero__text">PROFILE</h1>
-                                            <p class="mbr-hero__subtext">I've been studied a computer engineering
+                                        <div class="mbr-hero "><!--animated fadeInUp-->
+                                            <h1 class="mbr-hero__text" data-aos="fade-up">PROFILE</h1>
+                                            <p class="mbr-hero__subtext" data-aos="fade-up" data-aos-duration="800">I've been studied a computer engineering
                                                 widely,
                                                 electronics and robotics as well, but I loved to work as a developer,
                                                 I love what I do it's not a work for me it's a fun,
@@ -116,7 +119,7 @@
                                                 in the world before I leave this life .</p>
                                         </div>
                                         <div class="mbr-buttons btn-inverse mbr-buttons--left">
-                                            <a target="_blank" class="inverse-button btn-lg  animated fadeInUp delay"
+                                            <a data-aos="fade-up" data-aos-duration="1200" target="_blank" class="inverse-button btn-lg  animated fadeInUp delay"
                                                href="includes/download_resume">DOWNLOAD RESUME</a>
                                         </div>
                                     </div>

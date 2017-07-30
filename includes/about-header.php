@@ -37,6 +37,9 @@
     <script src="bootstrap/plugin/gallery/js/player.min.js"></script>
     <script src="bootstrap/plugin/gallery/js/script.js"></script>
 
+    <link href="bootstrap/plugin/FadeIn_Elements/aos.css" rel="stylesheet">
+    <script src="bootstrap/plugin/FadeIn_Elements/aos.js"></script>
+
     <title>RESUME</title>
 </head>
 <body>
@@ -103,10 +106,10 @@
                      mbr-section--bg-adapted mbr-parallax-background" id="header1-1">
                 <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-left mbr-after-navbar ">
                     <div class="row text-center div-animation">
-                        <div class="col-md-4 col-md-offset-4 col-sm-12 mbr-hero animated fadeInUp header-font">
+                        <div class="col-md-4 col-md-offset-4 col-sm-12 mbr-hero header-font">
 
-                            <h1 class="">DIG DEEPER</h1>
-                            <h3 class="">Know better about my personal life,
+                            <h1 class="" data-aos="fade-up">DIG DEEPER</h1>
+                            <h3 class=""data-aos="fade-up" data-aos-duration="800">Know better about my personal life,
                                 get familiar with the person you dealing with .
                                 &nbsp; </h3>
 

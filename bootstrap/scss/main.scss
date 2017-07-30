@@ -195,6 +195,14 @@ $footer_background: #1e1e1e;
   -o-transition: all 0.15s ease-out 0.10s;
   transition: all 0.15s ease-out 0.10s;
 }
+.learn_reverse{
+  @extend .submit_button;
+}
+.learn_reverse:hover, .learn_reverse:active, .learn_reverse:active, .learn_reverse:focus{
+  @extend .submit_button:hover;
+  background: #222222 * 0.1 !important;
+  border-color: #222222 * 0.1 !important;
+}
 .submit_button{
   @extend .learn_more;
   background: #222222 !important;
