@@ -5,12 +5,12 @@
             <div class="col-md-12 col-xs-12">
                 <h1 class="headline">Some to know about me</h1>
 
-                <p class="paragraph">I named Fouad after my uncle, I like  hanging out with my old friends in
+                <p class="paragraph">I was named Fouad after my uncle, I like  hanging out with my old friends in
                     an Coffeehouse or Restraint every once in awhile,
-                    mango is my fresh drink and the fish is my favorite dish, and cheese
+                    Mango is my fresh drink and the Fish is my favorite dish, and cheese
                     pizza is my favorite unhealthy meal I'm kind of in love with it.
-                    coffee latte
-                    is my friend while working, the fruit salad is my dessert, black and brown and gray are my
+                    coffee latte is my friend while working I'm kind of addicted to it ;), the fruit salad is my dessert,
+                    black and brown and gray are my
                     favorite colors, I love car driving, and my favorite sport is swimming.
                 </p>
             </div>
@@ -35,7 +35,7 @@
 
                     <p class="paragraph">Coffeehouses and Restraints are my places when I think in
                         hanging out with my friends on the weekends, the old way, where no social media or screen
-                        between us going out and to public places and meeting my old friends is a way to
+                        between us going out to public places and meeting my old friends is a way to
                         recharge my power again for the next week.</p>
                 </div>
             </div>
@@ -50,64 +50,64 @@
 
                             <div>
                                 <div>
-
                                     <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
                                         <div class="" href="#lb-gallery1-8" data-slide-to="0" data-toggle="modal">
+                                            <img class="" src="bootstrap/images/Khayyat.jpeg"/>
+                                            <span class="icon-focus"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                        <div class="" href="#lb-gallery1-8" data-slide-to="1" data-toggle="modal">
+                                            <img class="" src="bootstrap/images/f4.1.jpg"/>
+                                            <span class="icon-focus"></span>
+                                        </div>
+                                    </div>
+                                    <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                        <div class="" href="#lb-gallery1-8" data-slide-to="2" data-toggle="modal">
+                                            <img class="" src="bootstrap/images/m&f2.jpg"/>
+                                            <span class="icon-focus"></span>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                        <div class="" href="#lb-gallery1-8" data-slide-to="3" data-toggle="modal">
+                                            <img class="" src="bootstrap/images/f2.jpg"/>
+                                            <span class="icon-focus"></span>
+                                        </div>
+                                    </div>
+                                    <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                        <div class="" href="#lb-gallery1-8" data-slide-to="4" data-toggle="modal">
                                             <img class="" src="bootstrap/images/9.jpg"/>
                                             <span class="icon-focus"></span>
                                         </div>
                                     </div>
-                                    <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
-                                        <div class="" href="#lb-gallery1-8" data-slide-to="1" data-toggle="modal">
-                                            <img class="" src="bootstrap/images/f2.jpg"/>
-                                            <span class="icon-focus"></span>
-                                        </div>
 
-                                    </div>
-                                    <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
-                                        <div class="" href="#lb-gallery1-8" data-slide-to="2" data-toggle="modal">
-                                            <img class="" src="bootstrap/images/f3.jpg"/>
-                                            <span class="icon-focus"></span>
-                                        </div>
-                                    </div>
-                                    <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
-                                        <div class="" href="#lb-gallery1-8" data-slide-to="3" data-toggle="modal">
-                                            <img class="" src="bootstrap/images/f4.jpg"/>
-                                            <span class="icon-focus"></span>
-                                        </div>
-
-                                    </div>
-                                    <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
-                                        <div class="" href="#lb-gallery1-8" data-slide-to="4" data-toggle="modal">
-                                            <img class="" src="bootstrap/images/f4.1.jpg"/>
-                                            <span class="icon-focus"></span>
-                                        </div>
-
-                                    </div><div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                   <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
                                         <div class="" href="#lb-gallery1-8" data-slide-to="5" data-toggle="modal">
                                             <img class="" src="bootstrap/images/f1.jpg"/>
                                             <span class="icon-focus"></span>
                                         </div>
-
                                     </div>
                                     <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
                                         <div class="" href="#lb-gallery1-8" data-slide-to="6" data-toggle="modal">
                                             <img class="" src="bootstrap/images/5.jpg"/>
                                             <span class="icon-focus"></span>
                                         </div>
-
-                                    </div><div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                    </div>
+                                    <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
                                         <div class="" href="#lb-gallery1-8" data-slide-to="7" data-toggle="modal">
                                             <img class="" src="bootstrap/images/8.jpg"/>
                                             <span class="icon-focus"></span>
                                         </div>
-
-                                    </div><div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                    </div>
+                                    <div class=" mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
                                         <div class="" href="#lb-gallery1-8" data-slide-to="8" data-toggle="modal">
                                             <img class="" src="bootstrap/images/7.jpg"/>
                                             <span class="icon-focus"></span>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -135,15 +135,15 @@
                                 </ol>
                                 <div class="carousel-inner ">
                                     <div class="item">
-                                        <img alt="" src="bootstrap/images/9.jpg">
+                                        <img alt="" src="bootstrap/images/Khayyat.jpeg">
                                     </div><div class="item ">
-                                        <img alt="" src="bootstrap/images/f2.jpg">
-                                    </div><div class="item">
-                                        <img alt="" src="bootstrap/images/f3.jpg">
-                                    </div><div class="item active">
-                                        <img alt="" src="bootstrap/images/f4.jpg">
-                                    </div> <div class="item">
                                         <img alt="" src="bootstrap/images/f4.1.jpg">
+                                    </div><div class="item">
+                                        <img alt="" src="bootstrap/images/m&f2.jpg">
+                                    </div><div class="item active">
+                                        <img alt="" src="bootstrap/images/f2.jpg">
+                                    </div> <div class="item">
+                                        <img alt="" src="bootstrap/images/9.jpg">
                                     </div><div class="item ">
                                         <img alt="" src="bootstrap/images/f1.jpg">
                                     </div><div class="item">
@@ -175,7 +175,7 @@
 
 
             <!-- barbecue and gaming  -->
-            <div class="col-md-8 padding-bottom40 col-md-offset-2 col-xs-10 col-xs-offset-1">
+            <div class="col-md-8 padding-top padding-bottom40 col-md-offset-2 col-xs-10 col-xs-offset-1">
 
                 <div class="row">
                     <h1 class="sub-title padding-top">Barbecue & Video gaming </h1>
