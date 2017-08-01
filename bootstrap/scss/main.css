@@ -267,11 +267,10 @@
 .adv_block, .adv-block-resume, .adv-block-home {
   width: 100%;
   margin: 0;
-  margin: 0;
   color: #FFFFFF;
   font-size: 50px;
   padding: 80px 0 80px 0;
-  background: url("../images/adv-keyboard.jpg"); }
+  background-image: url("../images/adv-keyboard.jpg"); }
   .adv_block h1, .adv-block-resume h1, .adv-block-home h1 {
     font-family: adv-font-2 !important;
     font-size: 35px; }
@@ -281,6 +280,12 @@
   .adv_block a, .adv-block-resume a, .adv-block-home a {
     margin-bottom: 30px;
     margin-top: 70px; }
+
+.adv-block-resume {
+  background-image: url("../images/adv-block-resume.jpg"); }
+
+.adv-block-home {
+  background-image: url("../images/adv-home1.jpg"); }
 
 .index-header-font h1 {
   padding-top: 25px;
@@ -349,7 +354,8 @@
   background: url("../images/about_header1.jpg"); }
 
 .resume-header {
-  background: url("../images/full-page-header.jpg"); }
+  background: url("../images/full-page-header.jpg");
+  height: 100vh !important; }
 
 .contact-page-header {
   background: url("../images/contact_header.jpg"); }
@@ -368,7 +374,7 @@
   min-height: 170px;
   max-height: 400px;
   max-width: 300px;
-  margin: 5px 15px 15px; }
+  margin-bottom: 15px; }
 
 .help_paragraph p {
   font-family: adv-font;
@@ -407,12 +413,6 @@
   -o-transition: all 0.25s ease-out 0.10s;
   transition: all 0.25s ease-out 0.10s; }
 
-.adv-block-resume {
-  background: url("../images/adv-block-resume.jpg"); }
-
-.adv-block-home {
-  background: url("../images/adv-home1.jpg"); }
-
 .div-animation {
   display: none; }
 
@@ -434,26 +434,26 @@
   padding-bottom: 70px !important; }
 
 #content-div {
- /* ul{
-    text-align: center;
-  }
-  .social-button{
-    margin: 5px;
-    display: inline-block;
-    text-align: center;
-    padding: 15px;
-    border-radius: 999px;
-    color: #FFFFFF;
-    background-color: #000000;
+  /* ul{
+     text-align: center;
+   }
+   .social-button{
+     margin: 5px;
+     display: inline-block;
+     text-align: center;
+     padding: 15px;
+     border-radius: 999px;
+     color: #FFFFFF;
+     background-color: #000000;
 
-    a{
-      text-align: center;
-    }
-  }
-  .social-button:hover{
-    color: #000000;
-    background-color: #ffffff;
-  }*/ }
+     a{
+       text-align: center;
+     }
+   }
+   .social-button:hover{
+     color: #000000;
+     background-color: #ffffff;
+   }*/ }
   #content-div li {
     display: inline-block; }
   #content-div .shortcut_item {

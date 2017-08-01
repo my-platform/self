@@ -45,23 +45,23 @@
             <div class="col-md-12 col-xs-12 padding-top" >
                 <ul class="thumbnails col-md-12 col-xs-12 ">
 
-                    <li data-aos="fade-up" class=" col-md-3 col-xs-12">
+                    <li data-aos="fade-up" class=" col-md-3 ">
                         <a class="" href="#lb-gallery1-9" data-slide-to="0" data-toggle="modal">
                             <img class="img-size group1 img-responsive" src="bootstrap/images/b1.jpg"/></a>
                     </li>
 
-                    <li data-aos="fade-up" class="col-md-3 col-xs-12">
+                    <li data-aos="fade-up" class="col-md-3 ">
                         <a class="" href="#lb-gallery1-9" data-slide-to="1" data-toggle="modal">
                             <img data-aos-duration="400" class="img-size group1 img-responsive"
                                  src="bootstrap/images/b2.jpg"/></a>
                     </li>
 
-                    <li data-aos="fade-up" class="col-md-3 col-xs-12">
+                    <li data-aos="fade-up" class="col-md-3 ">
                         <a class="" href="#lb-gallery1-9" data-slide-to="2" data-toggle="modal">
                             <img  data-aos-duration="600" class="img-size group1 img-responsive" src="bootstrap/images/g1.jpg"/></a>
                     </li>
 
-                    <li data-aos="fade-up" class=" col-md-3 col-xs-12">
+                    <li data-aos="fade-up" class=" col-md-3 ">
                         <a class="" href="#lb-gallery1-9" data-slide-to="3" data-toggle="modal">
                             <img data-aos-duration="800" class="img-size group1 img-responsive" src="bootstrap/images/g2.jpg"/></a>
                     </li>
@@ -265,7 +265,7 @@
         </div>
     </div>-->
     <!--Ad-->
-    <div class="row adv-block-home center-block text-center mbr-parallax-background">
+    <div class="row adv-block-home center-block mbr-parallax-background">
         <div class="col-md-8 col-md-offset-2 col-xs-12 ">
             <h2>If your business needs to be grown, then your business needs a website,
                 Now you can put up your business online, If you interested?</h2>
