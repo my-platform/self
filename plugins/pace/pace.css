@@ -6,9 +6,7 @@
   user-select: none;
 }
 
-.pace-inactive {
-  display: none;
-}
+
 
 .pace .pace-progress {
   background: #fff;

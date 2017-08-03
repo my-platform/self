@@ -17,7 +17,7 @@ if(isset($_POST['id_button']))
     echo' dorry';
     $id=1;
 }
-if (!@mysql_select_db('dashboard')) {
+if (!@mysql_select_db('f_dashboard')) {
     echo 'The table doesn\'t exist .';
 } else {
    /* if(isset($_POST['id_button'])) {

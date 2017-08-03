@@ -11,7 +11,7 @@
         <script src="bootstrap/js/effects.js"></script>
         <link href="bootstrap/scss/main.css" rel="stylesheet">
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!--<link href="bootstrap/css/bootstrap.css" rel="stylesheet">-->
         <link href="bootstrap/css/custom.css" rel="stylesheet">
 
         <link rel="stylesheet" href="bootstrap/font-awesome-4.6.3/css/font-awesome.min.css">
@@ -21,11 +21,11 @@
         <!--plugin-->
         <link rel="stylesheet" href="bootstrap/plugin/gallery_style.css">
         <link rel="stylesheet" href="bootstrap/plugin/slider_style.css">
-        <script src="bootstrap/js/jquery-2.1.4.min.js"></script>
+        <!--<script src="bootstrap/js/jquery-2.1.4.min.js"></script>-->
         <script src="bootstrap/plugin/SmoothScroll.js"></script>
         <script src="bootstrap/plugin/gallery_script.js"></script>
 
-        <link href="bootstrap/css/social-buttons.css" rel="stylesheet">
+       <!-- <link href="bootstrap/css/social-buttons.css" rel="stylesheet">-->
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <!--*****************Navbar**********************--->
         <link rel="stylesheet" href="bootstrap/plugin/Nav/bootstrap.min.css">

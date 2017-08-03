@@ -14,7 +14,8 @@ save_visitors();
 
 
 //get_visitors();
-if (!@mysql_select_db('dashboard')) {
+new Database('localhost','fouadfawzi', 'fouad01242451361210');
+if (!@mysql_select_db('f_dashboard')) {
     echo 'The table doesn\'t exist .';
 } else {
 

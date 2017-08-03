@@ -7,7 +7,7 @@ get_bread();
 include 'database_inc.php';
 
 //get_visitors();
-if (!@mysql_select_db('dashboard')) {
+if (!@mysql_select_db('f_dashboard')) {
     echo 'The table doesn\'t exist .';
 } else {
     ?>

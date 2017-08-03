@@ -23,9 +23,9 @@ class ajax_data
 
     public function initiate()
     {
-        $connection = new Database('localhost', 'root', '');
+        $connection = new Database('localhost', 'fouadfawzi', 'fouad01242451361210');
 
-        if (!@mysql_select_db('dashboard')) {
+        if (!@mysql_select_db('f_dashboard')) {
             echo 'The table doesn\'t exist .';
         } else {
              $this->id();
