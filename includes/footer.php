@@ -53,9 +53,7 @@
 <!-- </footer> -->
 
 </div>
-<script src="bootstrap/js/test.js"></script>
 <script src="bootstrap/plugin/mobirise/js/script.js"></script>
-<script src="bootstrap/plugin/mobirise-gallery/script.js"></script>
 <script src="bootstrap/plugin/Nav/jarallax.js"></script>
 </body>
 </html>

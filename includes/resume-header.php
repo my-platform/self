@@ -4,40 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <script src="bootstrap/js/jquery.js"></script>
     <script src="bootstrap/js/effects.js"></script>
-    <link href="bootstrap/scss/main.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="bootstrap/plugin/Nav/style.css">-->
+    <link href="bootstrap/scss/main.css" rel="stylesheet">
     <link href="bootstrap/css/custom.css" rel="stylesheet">
-
+    <!--Fonts-->
     <link rel="stylesheet" href="bootstrap/font-awesome-4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="bootstrap/font-awesome-4.6.3/css/font-awesome.css">
 
-
-    <!--plugin-->
-    <link rel="stylesheet" href="bootstrap/plugin/gallery_style.css">
-    <link rel="stylesheet" href="bootstrap/plugin/slider_style.css">
-    <script src="bootstrap/js/jquery-2.1.4.min.js"></script>
-    <script src="bootstrap/plugin/SmoothScroll.js"></script>
-    <script src="bootstrap/plugin/gallery_script.js"></script>
-
-    <link href="bootstrap/css/social-buttons.css" rel="stylesheet">
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <!--***************************************--->
-
+    <!--*****************Navbar**********************--->
     <link rel="stylesheet" href="bootstrap/plugin/Nav/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/plugin/Nav/style.css">
+    <link rel="stylesheet" href="bootstrap/plugin/smooth-scroll/SmoothScroll.js">
 
+    <!--new gallery-->
+    <!--<link rel="stylesheet" href="bootstrap/plugin/gallery/style1.css">-->
+    <!--<link rel="stylesheet" href="bootstrap/plugin/gallery/style2.css">-->
+   <!-- <link rel="stylesheet" href="bootstrap/plugin/gallery/style.css">-->
+    <!--<script src="bootstrap/plugin/gallery_script.js"></script>-->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+    <!-- intimation fadein -->
     <link href="bootstrap/plugin/FadeIn_Elements/aos.css" rel="stylesheet">
     <script src="bootstrap/plugin/FadeIn_Elements/aos.js"></script>
-
-
-    <!--<script src="bootstrap/js/jquery-2.1.4.min.js"></script>-->
-    <!--<script src="bootstrap/js/bootstrap.min.js"></script>-->
-
-    <!--<script src="bootstrap/plugin/SmoothScroll.js"></script>-->
-
     <title>RESUME</title>
 </head>
 <body>

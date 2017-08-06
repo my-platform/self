@@ -206,7 +206,7 @@
 <!-- ./wrapper -->
 
 <!-- jQuery 2.2.3 -->
-<script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="../../bootstrap/js/jquery-2.1.1.js"></script>
 
 <!--<script src="../js/jquery-2.1.1.js"></script>-->
 

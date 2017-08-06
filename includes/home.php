@@ -42,111 +42,93 @@
             </div>
         </div>
         <!--gallery-->
-            <div class="col-md-12 col-xs-12 padding-top" >
-                <ul class="thumbnails col-md-12 col-xs-12 ">
+        <div class=" col-md-12 col-xs-12 mbr-gallery mbr-section mbr-section-nopadding mbr-slider-carousel " id="gallery1-8" data-filter="false">
+            <!-- Filter -->
 
-                    <li data-aos="fade-up" class=" col-md-3 ">
-                        <a class="" href="#lb-gallery1-9" data-slide-to="0" data-toggle="modal">
-                            <img class="img-size group1 img-responsive" src="bootstrap/images/b1.jpg"/></a>
-                    </li>
 
-                    <li data-aos="fade-up" class="col-md-3 ">
-                        <a class="" href="#lb-gallery1-9" data-slide-to="1" data-toggle="modal">
-                            <img data-aos-duration="400" class="img-size group1 img-responsive"
-                                 src="bootstrap/images/b2.jpg"/></a>
-                    </li>
+                <div class=" col-md-12  col-xs-12  mbr-gallery-row mbr-gallery-layout-default padding_top_40 padding-bottom40">
 
-                    <li data-aos="fade-up" class="col-md-3 ">
-                        <a class="" href="#lb-gallery1-9" data-slide-to="2" data-toggle="modal">
-                            <img  data-aos-duration="600" class="img-size group1 img-responsive" src="bootstrap/images/g1.jpg"/></a>
-                    </li>
-
-                    <li data-aos="fade-up" class=" col-md-3 ">
-                        <a class="" href="#lb-gallery1-9" data-slide-to="3" data-toggle="modal">
-                            <img data-aos-duration="800" class="img-size group1 img-responsive" src="bootstrap/images/g2.jpg"/></a>
-                    </li>
-                </ul>
-                <!--end thumbnails -->
-                <!-- Lightbox -->
-                <section class="mbr-gallery mbr-section mbr-section--no-padding" id="gallery1-9"
-                         style="background-color: rgb(255, 255, 255);">
-
-                    <div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide"
-                         tabindex="-1"
-                         data-keyboard="true" data-interval="false" id="lb-gallery1-9">
-                        <div class="modal-dialog">
-                            <div class="modal-content gallery-modal-top">
-                                <div class="modal-body">
-                                    <ol class="carousel-indicators">
-                                        <li data-app-prevent-settings="" data-target="#lb-gallery1-9"
-                                            data-slide-to="0">
-
-                                        </li>
-                                        <li data-app-prevent-settings="" data-target="#lb-gallery1-9"
-                                            data-slide-to="1">
-
-                                        </li>
-                                        <li data-app-prevent-settings="" data-target="#lb-gallery1-9"
-                                            data-slide-to="2">
-
-                                        </li>
-                                        <li data-app-prevent-settings="" data-target="#lb-gallery1-9"
-                                            data-slide-to="3">
-
-                                        </li>
-
-                                    </ol>
-                                    <div class="carousel-inner">
-                                        <div class="item">
-                                            <img alt="" src="bootstrap/images/b1.jpg">
-                                        </div>
-                                        <div class="item">
-                                            <img alt="" src="bootstrap/images/b2.jpg">
-                                        </div>
-                                        <div class="item">
-                                            <img alt="" src="bootstrap/images/g1.jpg">
-                                        </div>
-                                        <div class="item active">
-                                            <img alt="" src="bootstrap/images/g2.jpg">
-                                        </div>
-
+                            <div class="col-md-12">
+                                <div class="col-md-3 col-xs-12 mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                    <div data-aos="fade-up" class="" href="#lb-gallery1-8" data-slide-to="0" data-toggle="modal">
+                                        <img  class="" src="bootstrap/images/b1.jpg"/>
+                                        <span class="icon-focus"></span>
                                     </div>
-                                    <a class="left carousel-control" role="button" data-slide="prev"
-                                       data-target="#lb-gallery1-9">
-                                                        <span class="glyphicon glyphicon-menu-left"
-                                                              aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="right carousel-control" role="button" data-slide="next"
-                                       data-target="#lb-gallery1-9">
-                                                        <span class="glyphicon glyphicon-menu-right"
-                                                              aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
+                                </div>
 
-                                    <!--<a class="close" href="#" role="button" data-dismiss="modal">
-                                            <span class="glyphicon glyphicon-remove"
-                                                  aria-hidden="true"></span>
-                                        <span class="sr-only">x</span>
-                                    </a>-->
-                                    <a class="close" href="#" role="button" data-dismiss="modal">
-                                        <span aria-hidden="true">×</span>
-                                        <span class="sr-only">Close</span>
-                                    </a>
+                                <div class=" col-md-3 col-xs-12 mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                    <div data-aos="fade-up" data-aos-duration="300" class="" href="#lb-gallery1-8" data-slide-to="1" data-toggle="modal">
+                                        <img  class="" src="bootstrap/images/b2.jpg"/>
+                                        <span class="icon-focus"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-xs-12 mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                    <div data-aos="fade-up" data-aos-duration="600" class="" href="#lb-gallery1-8" data-slide-to="2" data-toggle="modal">
+                                        <img  class="" src="bootstrap/images/g1.jpg"/>
+                                        <span class="icon-focus"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 col-xs-12 mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-tags="Awesome" data-video-url="false">
+                                    <div data-aos="fade-up" data-aos-duration="800" class="" href="#lb-gallery1-8" data-slide-to="3" data-toggle="modal">
+                                        <img class="" src="bootstrap/images/g2.jpg"/>
+                                        <span class="icon-focus"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        <div class="clearfix"></div>
+
+                </div>
+
+            <!-- Lightbox -->
+            <div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1" data-keyboard="true" data-interval="false" id="lb-gallery1-8">
+                <div class="modal-dialog">
+                    <div class="modal-content gallery-modal-top">
+                        <div class="modal-body">
+                            <ol class="carousel-indicators">
+                                <li data-app-prevent-settings="" data-target="#lb-gallery1-8" data-slide-to="0"></li>
+                                <li data-app-prevent-settings="" data-target="#lb-gallery1-8" data-slide-to="1"></li>
+                                <li data-app-prevent-settings="" data-target="#lb-gallery1-8" data-slide-to="2"></li>
+                                <li data-app-prevent-settings="" data-target="#lb-gallery1-8" class="active" data-slide-to="3"></li>
+
+                            </ol>
+                            <div class="carousel-inner ">
+                                <div class="item">
+                                    <img alt="" src="bootstrap/images/b1.jpg">
+                                </div><div class="item ">
+                                    <img alt="" src="bootstrap/images/b2.jpg">
+                                </div><div class="item">
+                                    <img alt="" src="bootstrap/images/g1.jpg">
+                                </div><div class="item active">
+                                    <img alt="" src="bootstrap/images/g2.jpg">
                                 </div>
                             </div>
+                            <a class="left carousel-control" role="button" data-slide="prev" data-target="#lb-gallery1-8">
+                                <span class="icon-prev" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" role="button" data-slide="next" data-target="#lb-gallery1-8">
+                                <span class="icon-next" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                            <a class="close" href="#" role="button" data-dismiss="modal">
+                                <span aria-hidden="true">×</span>
+                                <span class="sr-only">Close</span>
+                            </a>
                         </div>
                     </div>
-                </section>
+                </div>
             </div>
+        </div>
+
         <div class="col-md-12 col-xs-12 padding_top_30" >
             <p class="paragraph padding-bottom30" data-aos="fade-up"> If you interested to know better about my personality,<br>
             get free to know who I am. </p>
             <a class="learn_more " href="about" data-aos="fade-up">LEARN MORE</a>
         </div>
-
-
-
     </div>
 
     <!--<div class="row ind-sec2">

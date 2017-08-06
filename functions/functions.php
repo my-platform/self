@@ -16,6 +16,8 @@ function get_portfolio_header(){
 }
 function get_about_header(){
     require_once 'includes/about-header.php';
+}function get_test_header(){
+    require_once 'includes/test-header.php';
 }
 function get_about_content(){
     require_once 'includes/about.php';
