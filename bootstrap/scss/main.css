@@ -138,6 +138,35 @@
   width: 100%;
   background-color: #1e1e1e;
   border-top: solid 5px #A51C30; }
+  #footer_block #footer_logo {
+    padding-bottom: 40px;
+    width: 14%;
+    height: 7%; }
+  #footer_block #footer_links {
+    font-size: 16px;
+    color: #c4c4c4;
+    margin-right: auto;
+    margin-left: auto; }
+  #footer_block #footer_links a {
+    font-size: 16px;
+    font-family: Footer_links;
+    color: #c4c4c4;
+    text-decoration: none; }
+  #footer_block #footer_links a:hover {
+    color: #ffffff; }
+  #footer_block #footer-brand {
+    padding-bottom: 40px;
+    font-size: small;
+    color: gray; }
+  #footer_block .copyright p {
+    font-size: 12px !important; }
+    #footer_block .copyright p a {
+      text-decoration: none;
+      color: silver; }
+    #footer_block .copyright p a:hover {
+      text-decoration: none;
+      cursor: pointer;
+      color: #ffffff; }
 
 .tip img {
   width: 200px;
@@ -174,7 +203,7 @@
 .gallery {
   padding-top: 20px; }
 
-.learn_more, .submit_button, .custom_button, .visit_pro, .adv-button {
+.learn_more, .submit_button, .learn_reverse, .custom_button, .visit_pro, .adv-button {
   color: #000;
   font-weight: 500;
   font-family: button-font, Sans-Serif;
@@ -184,7 +213,7 @@
   text-decoration: none;
   cursor: pointer; }
 
-.learn_more:hover, .submit_button:hover, .submit_button:focus, .submit_button:active, .submit_button:after, .custom_button:hover, .custom_button:focus, .custom_button:active, .custom_button:after, .visit_pro:hover, .adv-button:hover, .adv-button:focus, .adv-button:active, .adv-button:after, .visit_pro:focus, .visit_pro:active, .visit_pro:after, .learn_more:focus, .submit_button:focus, .custom_button:focus, .visit_pro:focus, .adv-button:focus, .learn_more:active, .submit_button:active, .custom_button:active, .visit_pro:active, .adv-button:active, .learn_more:after, .submit_button:after, .custom_button:after, .visit_pro:after, .adv-button:after {
+.learn_more:hover, .submit_button:hover, .learn_reverse:hover, .learn_reverse:active, .learn_reverse:focus, .submit_button:focus, .submit_button:active, .submit_button:after, .learn_reverse:after, .custom_button:hover, .custom_button:focus, .custom_button:active, .custom_button:after, .visit_pro:hover, .adv-button:hover, .adv-button:focus, .adv-button:active, .adv-button:after, .visit_pro:focus, .visit_pro:active, .visit_pro:after, .learn_more:focus, .submit_button:focus, .learn_reverse:focus, .custom_button:focus, .visit_pro:focus, .adv-button:focus, .learn_more:active, .submit_button:active, .learn_reverse:active, .custom_button:active, .visit_pro:active, .adv-button:active, .learn_more:after, .submit_button:after, .learn_reverse:after, .custom_button:after, .visit_pro:after, .adv-button:after {
   color: #fff;
   border: 2px solid #222222;
   background: #222222;
@@ -193,11 +222,15 @@
   -o-transition: all 0.15s ease-out 0.10s;
   transition: all 0.15s ease-out 0.10s; }
 
-.submit_button {
+.learn_reverse:hover, .learn_reverse:active, .learn_reverse:active, .learn_reverse:focus {
+  background: #030303 !important;
+  border-color: #030303 !important; }
+
+.submit_button, .learn_reverse {
   background: #222222 !important;
   color: #ffffff !important; }
 
-.submit_button:hover, .submit_button:focus, .submit_button:active, .submit_button:after {
+.submit_button:hover, .learn_reverse:hover, .learn_reverse:active, .learn_reverse:focus, .submit_button:focus, .learn_reverse:focus, .submit_button:active, .learn_reverse:active, .submit_button:after, .learn_reverse:after {
   color: #fff !important; }
 
 .custom_button {
@@ -234,11 +267,10 @@
 .adv_block, .adv-block-resume, .adv-block-home {
   width: 100%;
   margin: 0;
-  margin: 0;
   color: #FFFFFF;
   font-size: 50px;
   padding: 80px 0 80px 0;
-  background: url("../images/adv-keyboard.jpg"); }
+  background-image: url("../images/adv-keyboard.jpg"); }
   .adv_block h1, .adv-block-resume h1, .adv-block-home h1 {
     font-family: adv-font-2 !important;
     font-size: 35px; }
@@ -248,6 +280,12 @@
   .adv_block a, .adv-block-resume a, .adv-block-home a {
     margin-bottom: 30px;
     margin-top: 70px; }
+
+.adv-block-resume {
+  background-image: url("../images/adv-block-resume.jpg"); }
+
+.adv-block-home {
+  background-image: url("../images/adv-home1.jpg"); }
 
 .index-header-font h1 {
   padding-top: 25px;
@@ -316,7 +354,8 @@
   background: url("../images/about_header1.jpg"); }
 
 .resume-header {
-  background: url("../images/full-page-header.jpg"); }
+  background: url("../images/full-page-header.jpg");
+  height: 100vh !important; }
 
 .contact-page-header {
   background: url("../images/contact_header.jpg"); }
@@ -335,7 +374,7 @@
   min-height: 170px;
   max-height: 400px;
   max-width: 300px;
-  margin: 5px 15px 15px; }
+  margin-bottom: 15px; }
 
 .help_paragraph p {
   font-family: adv-font;
@@ -374,12 +413,6 @@
   -o-transition: all 0.25s ease-out 0.10s;
   transition: all 0.25s ease-out 0.10s; }
 
-.adv-block-resume {
-  background: url("../images/adv-block-resume.jpg"); }
-
-.adv-block-home {
-  background: url("../images/adv-home1.jpg"); }
-
 .div-animation {
   display: none; }
 
@@ -401,26 +434,26 @@
   padding-bottom: 70px !important; }
 
 #content-div {
- /* ul{
-    text-align: center;
-  }
-  .social-button{
-    margin: 5px;
-    display: inline-block;
-    text-align: center;
-    padding: 15px;
-    border-radius: 999px;
-    color: #FFFFFF;
-    background-color: #000000;
+  /* ul{
+     text-align: center;
+   }
+   .social-button{
+     margin: 5px;
+     display: inline-block;
+     text-align: center;
+     padding: 15px;
+     border-radius: 999px;
+     color: #FFFFFF;
+     background-color: #000000;
 
-    a{
-      text-align: center;
-    }
-  }
-  .social-button:hover{
-    color: #000000;
-    background-color: #ffffff;
-  }*/ }
+     a{
+       text-align: center;
+     }
+   }
+   .social-button:hover{
+     color: #000000;
+     background-color: #ffffff;
+   }*/ }
   #content-div li {
     display: inline-block; }
   #content-div .shortcut_item {

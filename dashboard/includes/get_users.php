@@ -12,7 +12,7 @@ class Get_user
     {
         $connection = new Database($host, $user, $pass);
 
-        if(!@mysql_select_db('dashboard')){
+        if(!@mysql_select_db('f_dashboard')){
             echo 'The table doesn\'t exist .' ;
         }else {
             $this->get_users();
@@ -255,7 +255,7 @@ class Get_user
     }
 
 }
-    $user = new Get_user('localhost','root', '');
+    $user = new Get_user('localhost','fouadfawzi', 'fouad01242451361210');
    // $user;
 //$connection->close();
 ?>

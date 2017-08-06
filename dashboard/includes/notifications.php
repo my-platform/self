@@ -24,7 +24,7 @@ class msg_notifications
 
     public function initiate()
     {
-        if (!@mysql_select_db('dashboard')) {
+        if (!@mysql_select_db('f_dashboard')) {
             echo 'The table doesn\'t exist .';
         } else {
             $this->msg_notification();

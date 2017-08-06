@@ -11,7 +11,7 @@
         <script src="bootstrap/js/effects.js"></script>
         <link href="bootstrap/scss/main.css" rel="stylesheet">
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!--<link href="bootstrap/css/bootstrap.css" rel="stylesheet">-->
         <link href="bootstrap/css/custom.css" rel="stylesheet">
 
         <link rel="stylesheet" href="bootstrap/font-awesome-4.6.3/css/font-awesome.min.css">
@@ -21,11 +21,11 @@
         <!--plugin-->
         <link rel="stylesheet" href="bootstrap/plugin/gallery_style.css">
         <link rel="stylesheet" href="bootstrap/plugin/slider_style.css">
-        <script src="bootstrap/js/jquery-2.1.4.min.js"></script>
+        <!--<script src="bootstrap/js/jquery-2.1.4.min.js"></script>-->
         <script src="bootstrap/plugin/SmoothScroll.js"></script>
         <script src="bootstrap/plugin/gallery_script.js"></script>
 
-        <link href="bootstrap/css/social-buttons.css" rel="stylesheet">
+       <!-- <link href="bootstrap/css/social-buttons.css" rel="stylesheet">-->
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <!--*****************Navbar**********************--->
         <link rel="stylesheet" href="bootstrap/plugin/Nav/bootstrap.min.css">
@@ -44,6 +44,11 @@
         <link rel="stylesheet" href="bootstrap/plugin1/theme/css/style.css">
         <link rel="stylesheet" href="bootstrap/plugin1/mobirise-gallery/style.css">
         <link rel="stylesheet" href="bootstrap/plugin1/mobirise/css/mbr-additional.css" type="text/css">-->
+        <!-- intimation fadein -->
+        <link href="bootstrap/plugin/FadeIn_Elements/aos.css" rel="stylesheet">
+        <script src="bootstrap/plugin/FadeIn_Elements/aos.js"></script>
+
+
 
 
 
@@ -121,9 +126,9 @@
                         </div>-->
                         <div class="row text-center div-animation">
                             <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-                                <div class="mbr-hero animated fadeInUp index-header-font">
-                                    <h1 class="header-text">WELCOME</h1>
-                                    <h3 class="">Welcome to my website,
+                                <div class="mbr-hero  index-header-font">
+                                    <h1 class="header-text" data-aos="fade-up">WELCOME</h1>
+                                    <h3 class=""data-aos="fade-up" data-aos-duration="800" >Welcome to my website,
                                         your visiting makes my day.<br>
                                         &nbsp;get ready to find out who I'm and what I can do </h3>
 

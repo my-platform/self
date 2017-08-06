@@ -3,7 +3,7 @@ require_once '../functions/functions.php';
 include '../includes/database_inc.php';
 
 if(!logged_in()) {
-    header('Location: ../pages/login.php');
+    header('Location: ../pages/login');
 }
 get_header();
 get_sidebar();
@@ -14,7 +14,8 @@ save_visitors();
 
 
 //get_visitors();
-if (!@mysql_select_db('dashboard')) {
+new Database('localhost','fouadfawzi', 'fouad01242451361210');
+if (!@mysql_select_db('f_dashboard')) {
     echo 'The table doesn\'t exist .';
 } else {
 

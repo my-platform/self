@@ -1,6 +1,6 @@
 <?php
 require_once 'database_inc.php';
-$connection = new Database('localhost', 'root', '');
+$connection = new Database('localhost', 'fouadfawzi', 'fouad01242451361210');
 
 
          function get_ip_address(){
@@ -26,7 +26,7 @@ $connection = new Database('localhost', 'root', '');
 
         }
 
-
+//get_ip_address();
 
 
 
@@ -62,6 +62,7 @@ function getOS() {
         '/webos/i'              =>  'Mobile'
     );
 
+
     foreach ($os_array as $regex => $value) {
 
         if (preg_match($regex, $user_agent)) {
@@ -73,6 +74,7 @@ function getOS() {
     return $os_platform;
 
 }
+//getOS();
 
 
 function getBrowser() {
@@ -105,7 +107,7 @@ function getBrowser() {
     return $browser;
 
 }
-
+//getBrowser();
 
 /*function operating_system_detection(){
     if ( isset( $_SERVER ) ) {
@@ -237,7 +239,7 @@ function getBrowser() {
       // echo $ip =  $ip_add;
         $time = time();
         $expired = $time - 120;
-        if (!@mysql_select_db('dashboard')) {
+        if (!@mysql_select_db('f_dashboard')) {
             echo 'The table doesn\'t exist .';
         } else {
             //online visitors
@@ -252,7 +254,7 @@ function getBrowser() {
                 $all_query = mysql_query($all_select);
                 if(mysql_num_rows($all_query) < 1){
                     $sql_save = "INSERT INTO `max_visit` (`id`,`value`,`date`, `time`)
-                          VALUES('', '0',now(), now())";
+                          VALUES(NULL, '0',now(), now())";
                     mysql_query($sql_save);
                 }
                 $max_sql = "SELECT * FROM  `max_visit` ";
@@ -303,4 +305,5 @@ function getBrowser() {
             }
         }
     }
+    //save_visitor();
 ?>

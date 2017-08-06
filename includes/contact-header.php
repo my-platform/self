@@ -30,6 +30,11 @@
     <link rel="stylesheet" href="bootstrap/plugin/Nav/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/plugin/Nav/style.css">
 
+
+    <link href="bootstrap/plugin/FadeIn_Elements/aos.css" rel="stylesheet">
+    <script src="bootstrap/plugin/FadeIn_Elements/aos.js"></script>
+
+
     <!--<script src="bootstrap/js/jquery-2.1.4.min.js"></script>-->
     <!--<script src="bootstrap/js/bootstrap.min.js"></script>-->
 
@@ -100,9 +105,9 @@
 
                     <div class="row text-center div-animation">
                         <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-                            <div class="mbr-hero animated fadeInUp header-font">
-                                <h1 class="header-text">GET IN TOUCH</h1>
-                                <h3 class="text-white">Contact me or send me a message</h3>
+                            <div class="mbr-hero  header-font"><!--animated fadeInUp--->
+                                <h1 class="header-text" data-aos="fade-up">GET IN TOUCH</h1>
+                                <h3 class="text-white" data-aos="fade-up" data-aos-duration="800">Contact me or send me a message</h3>
 
                             </div>
                         </div>

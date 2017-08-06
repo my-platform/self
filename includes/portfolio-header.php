@@ -29,6 +29,9 @@
     <link rel="stylesheet" href="bootstrap/plugin/Nav/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/plugin/Nav/style.css">
 
+    <link href="bootstrap/plugin/FadeIn_Elements/aos.css" rel="stylesheet">
+    <script src="bootstrap/plugin/FadeIn_Elements/aos.js"></script>
+
     <!--<script src="bootstrap/js/jquery-2.1.4.min.js"></script>-->
     <!--<script src="bootstrap/js/bootstrap.min.js"></script>-->
 
@@ -96,10 +99,10 @@
                      mbr-section--bg-adapted mbr-parallax-background" id="header1-1">
                 <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-left mbr-after-navbar ">
                     <div class="row text-center div-animation">
-                        <div class="col-md-6 col-md-offset-3 col-sm-12 mbr-hero animated fadeInUp portfolio-font">
+                        <div class="col-md-6 col-md-offset-3 col-sm-12 mbr-hero portfolio-font">
 
-                            <h1 class="">ACHIEVEMENTS</h1>
-                            <h3 class="">Look at what I've been accomplished, and projects I worked on during past years.
+                            <h1 class="" data-aos="fade-up">ACHIEVEMENTS</h1>
+                            <h3 class="" data-aos="fade-up" data-aos-duration="800">Look at what I've been accomplished, and projects I worked on during past years.
                                 &nbsp; </h3>
 
                         </div>

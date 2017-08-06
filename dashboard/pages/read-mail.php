@@ -3,13 +3,13 @@ require_once '../functions/functions.php';
 include'../includes/database_inc.php';
 
 if(!logged_in()) {
-    header('Location: ../pages/login.php');
+    header('Location: ../pages/login');
 }
 get_header();
 get_sidebar();
 get_bread();
 save_visitors();
-if (!@mysql_select_db('dashboard')) {
+if (!@mysql_select_db('f_dashboard')) {
     echo 'The table doesn\'t exist .';
 } else {
     if(isset($_GET['msg-id'])){
@@ -80,7 +80,7 @@ if (!@mysql_select_db('dashboard')) {
         <div class="row">
 
             <div class="col-md-3">
-                <a href="compose.php" class="btn btn-primary btn-block margin-bottom">Compose</a>
+                <a href="compose" class="btn btn-primary btn-block margin-bottom">Compose</a>
 
                 <div class="box box-solid">
                     <div class="box-header with-border">
@@ -94,14 +94,14 @@ if (!@mysql_select_db('dashboard')) {
                     </div>
                     <div class="box-body no-padding">
                         <ul class="nav nav-pills nav-stacked mail-links">
-                            <li  id="inbox-link"><a href="mailbox.php"><i class="fa fa-inbox"></i> Inbox
+                            <li  id="inbox-link"><a href="mailbox"><i class="fa fa-inbox"></i> Inbox
                                     <span class="label label-primary pull-right">12</span></a></li>
                             <li id="sent-link"><a href="#"><i class="fa fa-envelope-o"></i> Sent</a></li>
                             <li id="drafts-link"><a href="#"><i class="fa fa-file-text-o"></i> Drafts</a></li>
                             <li id="junk-link"><a href="#"><i class="fa fa-filter"></i> Junk <span
                                         class="label label-warning pull-right">65</span></a>
                             </li>
-                            <li id="trash-link"><a id="mail-trash" href="mail-trash.php"><i class="fa fa-trash-o"></i> Trash</a></li>
+                            <li id="trash-link"><a id="mail-trash" href="mail-trash"><i class="fa fa-trash-o"></i> Trash</a></li>
                         </ul>
                     </div>
                     <!-- /.box-body -->
@@ -135,9 +135,9 @@ if (!@mysql_select_db('dashboard')) {
                                 <button type="button" data-target="#readPopUpWindow" data-toggle="modal"
                                         class="btn btn-default btn-sm" data-container="body" title="Delete">
                                     <i class="fa fa-trash-o"></i></button>
-                                <a href="compose.php?rep-id=<?php global $id; echo $id;?>" type="button" class="btn btn-default btn-sm msg-replay" value="" data-toggle="tooltip" data-container="body" title="Reply">
+                                <a href="compose?rep-id=<?php global $id; echo $id;?>" type="button" class="btn btn-default btn-sm msg-replay" value="" data-toggle="tooltip" data-container="body" title="Reply">
                                     <i class="fa fa-reply"></i></a>
-                                <a href="compose.php?for-id=<?php global $id; echo $id;?>" type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-container="body" title="Forward">
+                                <a href="compose?for-id=<?php global $id; echo $id;?>" type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-container="body" title="Forward">
                                     <i class="fa fa-share"></i></a>
                             </div>
                             <!-- /.btn-group -->
@@ -232,8 +232,8 @@ if (!@mysql_select_db('dashboard')) {
                     <!-- /.box-footer -->
                     <div class="box-footer">
                         <div class="pull-right">
-                            <a href="compose.php?rep-id=<?php global $id; echo $id;?>"  type="button" class="btn btn-default"><i class="fa fa-reply"></i> Reply</a>
-                            <a href="compose.php?for-id=<?php global $id; echo $id;?>" type="button" class="btn btn-default"><i class="fa fa-share"></i> Forward</a>
+                            <a href="compose?rep-id=<?php global $id; echo $id;?>"  type="button" class="btn btn-default"><i class="fa fa-reply"></i> Reply</a>
+                            <a href="compose?for-id=<?php global $id; echo $id;?>" type="button" class="btn btn-default"><i class="fa fa-share"></i> Forward</a>
                         </div>
                         <button data-target="#readPopUpWindow" data-toggle="modal" type="button" class="btn btn-default"><i class="fa fa-trash-o"></i> Delete</button>
                         <button type="button" class="btn btn-default"><i class="fa fa-print"></i> Print</button>

@@ -90,7 +90,7 @@
 #flogo {
  margin-bottom : 500px;
 }
-
+/**
 #copyright {
 / / padding-top : 50 px;
 / / font-family : 'copyright';
@@ -99,7 +99,7 @@
 
 #copyright p {
     font-size: 12px;
-}
+}**/
 
 #social {
     padding-left: 30px;
@@ -114,11 +114,7 @@ padding:5px 8px 3px 8px;
 .face{
     padding:5px 10px 3px 10px ;
 }
-#footer-brand {
-    padding-bottom: 40px;
-    font-size: small;
-    color: gray;
-}
+
 
 body a {
     color: #04c6e9;
@@ -126,12 +122,6 @@ body a {
 
 }
 
-#footer_logo {
-padding-bottom: 40px;
-    width: 14%;
-    height: 7%;
-/ / text-align : center;
-}
 
 #header_logo {
     width: 155px;
@@ -149,27 +139,6 @@ padding-bottom: 40px;
 
 .btn-social-icon {
     color: black;
-}
-
-#footer_links {
-    font-size: 16px;
-    color: #c4c4c4;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-#footer_links a {
-    font-size: 16px;
-    font-family: Footer_links;
-    color: #c4c4c4;
-    text-decoration: none;
-
-}
-
-#footer_links a:hover {
-
-    color: #ffffff;
-
 }
 
 

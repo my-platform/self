@@ -6,7 +6,7 @@
 </div>
 <footer class="main-footer">
 
-    <strong>Copyright &copy; 2014-2016 <a href="http://almsaeedstudio.com">Fouad Fawzi</a>.</strong> All rights
+    <strong>Copyright &copy; 2017 <a href="home">Fouad Fawzi</a>.</strong> All rights
     reserved.
 </footer>
 <!-- Control Sidebar -->

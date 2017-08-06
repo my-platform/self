@@ -7,7 +7,7 @@
     <!-- <footer class="navbar navbar-inverse navbar-fixed-bottom  ">-->
     <div id="footer-brand">
         <a href="index"> <img id="footer_logo" src="bootstrap/images/New_Logo.png"></a><br/>
-        <ul id="footer_links">
+        <ul id="footer_links" >
             <li class="social-button-item"><a href="index">HOME</a> &nbsp; | &nbsp; </li>
             <li class="social-button-item"><a href="about">ABOUT</a> &nbsp; | &nbsp; </li>
             <li class="social-button-item"><a href="resume">RESUME</a> &nbsp; | &nbsp; </li>
@@ -16,12 +16,12 @@
         </ul>
 
 
-        <div id="copyright">
-            <p>© 2015 Fouad Fawzi. All rights reserved. / Web & Android
-                Developer </p></div>
+        <div class="copyright" >
+            <p>&copy; <span class="current_year"></span> <a class="copyright_link" href="index"><strong>Fouad Fawzi</strong></a>. All rights reserved. / Web & Android
+                Developer. </p></div>
         <br/>
 
-        <div id="social">
+        <div id="social" >
             <div class="social-button-item">
                 <a class="social-logo" target="_blank" href="https://www.facebook.com/fouadfawzi90">
                     <span class="fa-facebook fa"></span></a>

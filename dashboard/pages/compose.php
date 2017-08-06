@@ -3,13 +3,13 @@ require_once '../functions/functions.php';
 include '../includes/database_inc.php';
 
 if(!logged_in()) {
-    header('Location: ../pages/login.php');
+    header('Location: ../pages/login');
 }
 get_header();
 get_sidebar();
 get_bread();
 save_visitors();
-if (!@mysql_select_db('dashboard')) {
+if (!@mysql_select_db('f_dashboard')) {
     echo 'The table doesn\'t exist .';
 } else {
     if(isset($_GET['for-id'])){
@@ -77,7 +77,7 @@ if (!@mysql_select_db('dashboard')) {
     <section class="content">
         <div class="row">
             <div class="col-md-3">
-                <a href="mailbox.php" class="btn btn-primary btn-block margin-bottom">Back to Inbox</a>
+                <a href="mailbox" class="btn btn-primary btn-block margin-bottom">Back to Inbox</a>
 
                 <div class="box box-solid">
                     <div class="box-header with-border">
@@ -90,13 +90,13 @@ if (!@mysql_select_db('dashboard')) {
                     </div>
                     <div class="box-body no-padding">
                         <ul class="nav nav-pills nav-stacked">
-                            <li><a href="mailbox.php"><i class="fa fa-inbox"></i> Inbox
+                            <li><a href="mailbox"><i class="fa fa-inbox"></i> Inbox
                                     <span class="label label-primary pull-right">12</span></a></li>
                             <li><a href="#"><i class="fa fa-envelope-o"></i> Sent</a></li>
                             <li><a href="#"><i class="fa fa-file-text-o"></i> Drafts</a></li>
                             <li><a href="#"><i class="fa fa-filter"></i> Junk <span class="label label-warning pull-right">65</span></a>
                             </li>
-                            <li><a href="mail-trash.php"><i class="fa fa-trash-o"></i> Trash</a></li>
+                            <li><a href="mail-trash"><i class="fa fa-trash-o"></i> Trash</a></li>
                         </ul>
                     </div>
                     <!-- /.box-body -->

@@ -6,12 +6,12 @@
         <div id="content" class="col-md-10 col-md-offset-1 col-xs-12 ">
             <div class="col-md-10 col-md-offset-1 col-xs-12 ">
                 <div class="title col-md-4 col-xs-4">
-                    <h2 class="title">Skills Summary</h2>
+                    <h2 class="title" data-aos="fade-up">Skills Summary</h2>
                 </div>
 
                 <div class=" col-md-8 col-md-offset-4  col-xs-12">
-                    <div class="row">
-                        <div class="col-md-6 col-xs-6 ">
+                    <div class="row" >
+                        <div class="col-md-6 col-xs-6 " data-aos="fade-up">
                             <ul class="resume-list">
                                 <li><p>PHP</p></li>
                                 <li><p>MySQL</p></li>
@@ -26,7 +26,7 @@
                                 <li><p>Responsive Design</p></li>
                             </ul>
                         </div>
-                        <div class="col-md-6  col-xs-6">
+                        <div class="col-md-6  col-xs-6"data-aos="fade-up" data-aos-duration="800">
                             <ul class="resume-list">
                                 <li><p>Photoshop</p></li>
                                 <li><p>Python</p></li>
@@ -57,12 +57,12 @@
     <div class="row ind-sec2">
         <div class="col-md-8 col-md-offset-2 col-xs-12">
             <div class="title col-md-4 col-xs-12">
-                <h2 class="title">Experience</h2>
+                <h2 class="title" data-aos="fade-up">Experience</h2>
             </div>
             <div class="details col-md-8  col-xs-12">
-                <p class="Experience-head">Accounting System</p>
+                <p class="Experience-head" data-aos="fade-up">Accounting System</p>
 
-                <p class="description">
+                <p data-aos="fade-up" class="description">
                     <B>May 2012 - Aug 2012 Freelance</B> <br/>
                     "Supermarket Accounting system,
                     it's a desktop application build by Java SE and Oracle SQL database
@@ -70,9 +70,9 @@
                     and 3 year experience in Oracle SQL ".
                 </p>
 
-                <p class="Experience-head1"> Mobile remote control and monitoring</p>
+                <p data-aos="fade-up" class="Experience-head1"> Mobile remote control and monitoring</p>
 
-                <p class="description">
+                <p data-aos="fade-up" class="description">
                     <B>SSME Organization 2013 - 2014</B><br/>
                     "Android application is a part of the project "Robot and securing elderly"
                     that can control and
@@ -80,9 +80,9 @@
                     in the world via internet by the camera and control unit that fixed at the robot"
                 </p>
 
-                <p class="Experience-head1"> Team leader</p>
+                <p data-aos="fade-up" class="Experience-head1"> Team leader</p>
 
-                <p class="description">
+                <p data-aos="fade-up" class="description">
                     <B>SSME Organization 2013 - 2014</B><br/>
                     "At Robot and securing elderly project"
                 </p>
@@ -100,17 +100,17 @@
     <div class="row ind-sec1">
         <div class="col-md-8 col-md-offset-2 col-xs-12 ">
             <div class="title col-md-4 col-xs-12">
-                <h2 class="title">Qualifications</h2>
+                <h2 class="title" data-aos="fade-up">Qualifications</h2>
             </div>
             <div class="details col-md-8  col-xs-12">
-                <p class="Experience-head"> MET Academy for Engineering and Technology</p>
+                <p class="Experience-head" data-aos="fade-up"> MET Academy for Engineering and Technology</p>
 
-                <p class="description">
+                <p class="description" data-aos="fade-up">
                     "2009 - 2014 Engineering of Computer and Control Systems"
                 </p>
-                <p class="Experience-head1"> High School</p>
+                <p class="Experience-head1" data-aos="fade-up"> High School</p>
 
-                <p class="description">
+                <p class="description" data-aos="fade-up">
                     "2005 - 2008 Ashraf Gaweesh high school "
                 </p>
 

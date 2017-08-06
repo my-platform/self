@@ -17,7 +17,7 @@ public function Connect($host, $user, $pass){
 }
 
 }
- new Database('localhost','root','')
- 
+ new Database('localhost','fouadfawzi','fouad01242451361210');
+
 
  ?>

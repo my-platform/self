@@ -26,11 +26,11 @@ header('Location: ../pages/index');
                         <div class="box-body">
                             <div class="input-group margin-bottom">
                                 <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                <input id="admin_username" type="text" name="username" class="form-control" placeholder="User name">
+                                <input id="admin_username" type="text" name="username_c" class="form-control" placeholder="User name">
                             </div>
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                <input id="admin_password" name="password" type="password" class="form-control" placeholder="password">
+                                <input id="admin_password" name="password_c" type="password" class="form-control" placeholder="password">
 
                             </div>
 

@@ -61,9 +61,9 @@
                             <span class="feedback">* please enter your message </span>
                         </div>
                     </div>
-                    <div class="row margin-top">
+                    <div class="row margin-top fa-align-right">
 
-                        <a id="send-message" class="learn_more ">SEND MESSAGE</a>
+                        <a  id="send-message" class="learn_more ">SEND MESSAGE</a>
 
                     </div>
                 </div>
