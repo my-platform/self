@@ -64,7 +64,7 @@ $(document).ready(function () {
         url: '../includes/notifications.php',
         data: {key: 'msg_show'},
         success: function (data) {
-            msg_controll(data)
+        //    msg_controll(data)
 
         }});
     ///////////// drop down messages //////////////
@@ -110,16 +110,14 @@ $(document).ready(function () {
                 if($.trim(val) == 0){
                     $('.msg-label').css('display', 'none');
                 }else{
-                    $('.msg-label').css('display', 'inline-block');;
+                    $('.msg-label').css('display', 'inline-block');
 
                 }
                 //$('.badge').css('display', 'inline-block');
                 //  alert(data)*/
             }});
     }
-    setInterval(function () {
-        show_notification();
-    },1000);
 
+    show_notification();
 
 });

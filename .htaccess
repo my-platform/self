@@ -21,6 +21,8 @@ RewriteRule ^([^\.]+)$ $1.php [NC,L]
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
 ExpiresActive On
+ExpiresByType bootstrap/images/header_home1.jpg  "access plus 1 year"
+ExpiresByType bootstrap/scss/main.css   "access plus 1 year"
 ExpiresByType bootstrap/css/bootstrap.min.css "access plus 1 year"
 ExpiresByType bootstrap/css/custom.css "access plus 1 year"
 ExpiresByType bootstrap/font-awesome-4.6.3/css/font-awesome.min.css  "access plus 1 year"
@@ -36,7 +38,6 @@ ExpiresByType bootstrap/images/b1.jpg  "access plus 1 year"
 ExpiresByType bootstrap/images/b2.jpg  "access plus 1 year"
 ExpiresByType bootstrap/images/g1.jpg  "access plus 1 year"
 ExpiresByType bootstrap/images/g2.jpg  "access plus 1 year"
-ExpiresByType bootstrap/images/header_home1.jpg "access plus 1 year"
 ExpiresByType bootstrap/bootstrap/images/user.jpg  "access plus 1 year"
 ExpiresByType bootstrap/js/bootstrap.min.js "access plus 1 year"
 ExpiresByType bootstrap/js/effects.js  "access plus 1 year"

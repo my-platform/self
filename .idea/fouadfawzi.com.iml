@@ -4,5 +4,149 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://F:/db_seed/vendor/barryvdh/laravel-ide-helper" />
+          <root url="file://F:/db_seed/vendor/barryvdh/reflection-docblock" />
+          <root url="file://F:/db_seed/vendor/composer" />
+          <root url="file://F:/db_seed/vendor/dnoegel/php-xdg-base-dir" />
+          <root url="file://F:/db_seed/vendor/doctrine/inflector" />
+          <root url="file://F:/db_seed/vendor/doctrine/instantiator" />
+          <root url="file://F:/db_seed/vendor/erusev/parsedown" />
+          <root url="file://F:/db_seed/vendor/fzaninotto/faker" />
+          <root url="file://F:/db_seed/vendor/hamcrest/hamcrest-php" />
+          <root url="file://F:/db_seed/vendor/jakub-onderka/php-console-color" />
+          <root url="file://F:/db_seed/vendor/jakub-onderka/php-console-highlighter" />
+          <root url="file://F:/db_seed/vendor/laravel/framework" />
+          <root url="file://F:/db_seed/vendor/laravel/tinker" />
+          <root url="file://F:/db_seed/vendor/league/flysystem" />
+          <root url="file://F:/db_seed/vendor/mockery/mockery" />
+          <root url="file://F:/db_seed/vendor/monolog/monolog" />
+          <root url="file://F:/db_seed/vendor/mtdowling/cron-expression" />
+          <root url="file://F:/db_seed/vendor/myclabs/deep-copy" />
+          <root url="file://F:/db_seed/vendor/nesbot/carbon" />
+          <root url="file://F:/db_seed/vendor/nikic/php-parser" />
+          <root url="file://F:/db_seed/vendor/paragonie/random_compat" />
+          <root url="file://F:/db_seed/vendor/phpdocumentor/reflection-common" />
+          <root url="file://F:/db_seed/vendor/phpdocumentor/reflection-docblock" />
+          <root url="file://F:/db_seed/vendor/phpdocumentor/type-resolver" />
+          <root url="file://F:/db_seed/vendor/phpspec/prophecy" />
+          <root url="file://F:/db_seed/vendor/phpunit/php-code-coverage" />
+          <root url="file://F:/db_seed/vendor/phpunit/php-file-iterator" />
+          <root url="file://F:/db_seed/vendor/phpunit/php-text-template" />
+          <root url="file://F:/db_seed/vendor/phpunit/php-timer" />
+          <root url="file://F:/db_seed/vendor/phpunit/php-token-stream" />
+          <root url="file://F:/db_seed/vendor/phpunit/phpunit" />
+          <root url="file://F:/db_seed/vendor/phpunit/phpunit-mock-objects" />
+          <root url="file://F:/db_seed/vendor/psr/log" />
+          <root url="file://F:/db_seed/vendor/psy/psysh" />
+          <root url="file://F:/db_seed/vendor/ramsey/uuid" />
+          <root url="file://F:/db_seed/vendor/sebastian/code-unit-reverse-lookup" />
+          <root url="file://F:/db_seed/vendor/sebastian/comparator" />
+          <root url="file://F:/db_seed/vendor/sebastian/diff" />
+          <root url="file://F:/db_seed/vendor/sebastian/environment" />
+          <root url="file://F:/db_seed/vendor/sebastian/exporter" />
+          <root url="file://F:/db_seed/vendor/sebastian/global-state" />
+          <root url="file://F:/db_seed/vendor/sebastian/object-enumerator" />
+          <root url="file://F:/db_seed/vendor/sebastian/recursion-context" />
+          <root url="file://F:/db_seed/vendor/sebastian/resource-operations" />
+          <root url="file://F:/db_seed/vendor/sebastian/version" />
+          <root url="file://F:/db_seed/vendor/swiftmailer/swiftmailer" />
+          <root url="file://F:/db_seed/vendor/symfony/class-loader" />
+          <root url="file://F:/db_seed/vendor/symfony/console" />
+          <root url="file://F:/db_seed/vendor/symfony/css-selector" />
+          <root url="file://F:/db_seed/vendor/symfony/debug" />
+          <root url="file://F:/db_seed/vendor/symfony/event-dispatcher" />
+          <root url="file://F:/db_seed/vendor/symfony/finder" />
+          <root url="file://F:/db_seed/vendor/symfony/http-foundation" />
+          <root url="file://F:/db_seed/vendor/symfony/http-kernel" />
+          <root url="file://F:/db_seed/vendor/symfony/polyfill-mbstring" />
+          <root url="file://F:/db_seed/vendor/symfony/process" />
+          <root url="file://F:/db_seed/vendor/symfony/routing" />
+          <root url="file://F:/db_seed/vendor/symfony/translation" />
+          <root url="file://F:/db_seed/vendor/symfony/var-dumper" />
+          <root url="file://F:/db_seed/vendor/symfony/yaml" />
+          <root url="file://F:/db_seed/vendor/tijsverkoyen/css-to-inline-styles" />
+          <root url="file://F:/db_seed/vendor/vlucas/phpdotenv" />
+          <root url="file://F:/db_seed/vendor/webmozart/assert" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://F:/db_seed/vendor/barryvdh/laravel-ide-helper" />
+          <root url="file://F:/db_seed/vendor/barryvdh/reflection-docblock" />
+          <root url="file://F:/db_seed/vendor/composer" />
+          <root url="file://F:/db_seed/vendor/dnoegel/php-xdg-base-dir" />
+          <root url="file://F:/db_seed/vendor/doctrine/inflector" />
+          <root url="file://F:/db_seed/vendor/doctrine/instantiator" />
+          <root url="file://F:/db_seed/vendor/erusev/parsedown" />
+          <root url="file://F:/db_seed/vendor/fzaninotto/faker" />
+          <root url="file://F:/db_seed/vendor/hamcrest/hamcrest-php" />
+          <root url="file://F:/db_seed/vendor/jakub-onderka/php-console-color" />
+          <root url="file://F:/db_seed/vendor/jakub-onderka/php-console-highlighter" />
+          <root url="file://F:/db_seed/vendor/laravel/framework" />
+          <root url="file://F:/db_seed/vendor/laravel/tinker" />
+          <root url="file://F:/db_seed/vendor/league/flysystem" />
+          <root url="file://F:/db_seed/vendor/mockery/mockery" />
+          <root url="file://F:/db_seed/vendor/monolog/monolog" />
+          <root url="file://F:/db_seed/vendor/mtdowling/cron-expression" />
+          <root url="file://F:/db_seed/vendor/myclabs/deep-copy" />
+          <root url="file://F:/db_seed/vendor/nesbot/carbon" />
+          <root url="file://F:/db_seed/vendor/nikic/php-parser" />
+          <root url="file://F:/db_seed/vendor/paragonie/random_compat" />
+          <root url="file://F:/db_seed/vendor/phpdocumentor/reflection-common" />
+          <root url="file://F:/db_seed/vendor/phpdocumentor/reflection-docblock" />
+          <root url="file://F:/db_seed/vendor/phpdocumentor/type-resolver" />
+          <root url="file://F:/db_seed/vendor/phpspec/prophecy" />
+          <root url="file://F:/db_seed/vendor/phpunit/php-code-coverage" />
+          <root url="file://F:/db_seed/vendor/phpunit/php-file-iterator" />
+          <root url="file://F:/db_seed/vendor/phpunit/php-text-template" />
+          <root url="file://F:/db_seed/vendor/phpunit/php-timer" />
+          <root url="file://F:/db_seed/vendor/phpunit/php-token-stream" />
+          <root url="file://F:/db_seed/vendor/phpunit/phpunit" />
+          <root url="file://F:/db_seed/vendor/phpunit/phpunit-mock-objects" />
+          <root url="file://F:/db_seed/vendor/psr/log" />
+          <root url="file://F:/db_seed/vendor/psy/psysh" />
+          <root url="file://F:/db_seed/vendor/ramsey/uuid" />
+          <root url="file://F:/db_seed/vendor/sebastian/code-unit-reverse-lookup" />
+          <root url="file://F:/db_seed/vendor/sebastian/comparator" />
+          <root url="file://F:/db_seed/vendor/sebastian/diff" />
+          <root url="file://F:/db_seed/vendor/sebastian/environment" />
+          <root url="file://F:/db_seed/vendor/sebastian/exporter" />
+          <root url="file://F:/db_seed/vendor/sebastian/global-state" />
+          <root url="file://F:/db_seed/vendor/sebastian/object-enumerator" />
+          <root url="file://F:/db_seed/vendor/sebastian/recursion-context" />
+          <root url="file://F:/db_seed/vendor/sebastian/resource-operations" />
+          <root url="file://F:/db_seed/vendor/sebastian/version" />
+          <root url="file://F:/db_seed/vendor/swiftmailer/swiftmailer" />
+          <root url="file://F:/db_seed/vendor/symfony/class-loader" />
+          <root url="file://F:/db_seed/vendor/symfony/console" />
+          <root url="file://F:/db_seed/vendor/symfony/css-selector" />
+          <root url="file://F:/db_seed/vendor/symfony/debug" />
+          <root url="file://F:/db_seed/vendor/symfony/event-dispatcher" />
+          <root url="file://F:/db_seed/vendor/symfony/finder" />
+          <root url="file://F:/db_seed/vendor/symfony/http-foundation" />
+          <root url="file://F:/db_seed/vendor/symfony/http-kernel" />
+          <root url="file://F:/db_seed/vendor/symfony/polyfill-mbstring" />
+          <root url="file://F:/db_seed/vendor/symfony/process" />
+          <root url="file://F:/db_seed/vendor/symfony/routing" />
+          <root url="file://F:/db_seed/vendor/symfony/translation" />
+          <root url="file://F:/db_seed/vendor/symfony/var-dumper" />
+          <root url="file://F:/db_seed/vendor/symfony/yaml" />
+          <root url="file://F:/db_seed/vendor/tijsverkoyen/css-to-inline-styles" />
+          <root url="file://F:/db_seed/vendor/vlucas/phpdotenv" />
+          <root url="file://F:/db_seed/vendor/webmozart/assert" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://F:/db_seed/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://F:/db_seed/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

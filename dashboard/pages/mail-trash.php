@@ -325,4 +325,5 @@ if (!@mysql_select_db('f_dashboard')) {
 logout_confirmation();
 get_footer();
 ?>
+<script src="../js/messages.js"></script>
 

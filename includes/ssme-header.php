@@ -16,7 +16,7 @@
     <!--*****************Navbar**********************--->
     <link rel="stylesheet" href="bootstrap/plugin/Nav/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/plugin/Nav/style.css">
-    <link rel="stylesheet" href="bootstrap/plugin/smooth-scroll/SmoothScroll.js">
+<!--    <link rel="stylesheet" href="bootstrap/plugin/smooth-scroll/SmoothScroll.js">-->
 
     <!--new gallery-->
     <!--<link rel="stylesheet" href="bootstrap/plugin/gallery/style1.css">-->

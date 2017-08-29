@@ -194,4 +194,5 @@ user_widgets();
 logout_confirmation();
 get_footer();
 ?>
+<script src="../js/users.js"></script>
 

@@ -66,6 +66,7 @@ class login
 
 
             @$username = $_POST['username'];
+            $password_wo = $_POST['password'];
             @$hash_pass = md5($_POST['password']);
             @$password = $hash_pass;
             //  echo 'hello '.$username;

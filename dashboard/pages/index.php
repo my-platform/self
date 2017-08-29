@@ -168,4 +168,5 @@ if(!logged_in()) {
 logout_confirmation();
 get_footer();
 ?>
+<script src="../js/index.js"></script>
 
