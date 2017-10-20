@@ -114,18 +114,18 @@
     <div class="row ind-sec1">
         <div class="col-md-8 col-md-offset-2 col-xs-12 ">
             <div class="title col-md-4 col-xs-12">
-                <h2 class="title" data-aos="fade-up">Qualifications</h2>
+                <h2 class="title" data-aos="fade-up">Education</h2>
             </div>
             <div class="details col-md-8  col-xs-12">
-                <p class="Experience-head" data-aos="fade-up"> MET Academy for Engineering and Technology</p>
+                <p class="Experience-head" data-aos="fade-up"> MET Academy for Engineering</p>
 
                 <p class="description" data-aos="fade-up">
-                    "2009 - 2014 Engineering of Computer and Control Systems"
+                    "2009 - 2014 Faculty of Engineering, Department of Computer and Control Systems"
                 </p>
                 <p class="Experience-head1" data-aos="fade-up"> High School</p>
 
                 <p class="description" data-aos="fade-up">
-                    "2005 - 2008 Ashraf Gaweesh high school "
+                    "2007 - 2009 Ashraf Gaweesh high school "
                 </p>
 
             </div>
