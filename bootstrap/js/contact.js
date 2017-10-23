@@ -1,5 +1,30 @@
 $(document).ready(function () {
 //$('.feedback').css('display', 'none');
+
+        /* for sending notification to the dashboard */
+    function show_notification(){
+        $.ajax({
+            type: 'POST',
+            url: 'dashboard/includes/notifications.php',
+            data: {key: 'msg-notification'},
+            success: function (data) {
+                //  $('.label-value').css('display', 'inline-block');
+//alert();                $('.msg-label').html(data);
+             /*   $('.msg-label').html(data);
+                //  $('.msg-label').html(data);
+                var val = $('.msg-label').html();
+                // alert(val);
+                if($.trim(val) == 0){
+                    $('.msg-label').css('display', 'none');
+                }else{
+                    $('.msg-label').css('display', 'inline-block');
+
+                }*/
+                //$('.badge').css('display', 'inline-block');
+                //  alert(data)*/
+            }});
+    }
+
     function validate_Email(email){
         var pattern = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
         return pattern.test(email);
@@ -69,7 +94,9 @@ $(document).ready(function () {
                                     setInterval(function () {
                                         $('#bread_msg').fadeOut();
                                     }, 2000);
-
+                                    ////////////// send notification //////////////////////
+                                    show_notification();
+                                    /* End sending notification */
                                 },2000);
                             }
                         });
@@ -89,4 +116,5 @@ $(document).ready(function () {
             $(this).next().fadeIn();
         }
     });
+    //show_notification();
 });

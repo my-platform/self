@@ -1,6 +1,6 @@
 <?php
 require_once '../functions/functions.php';
-include '../includes/database_inc.php';
+require '../includes/database_inc.php';
 
 if(!logged_in()) {
     header('Location: ../pages/login');

@@ -11,7 +11,7 @@ if (isset($_POST['key']) || isset($_POST['messages']) || isset($_POST['msg_membe
     @$key = $_POST['key'];
     @$key2 = $_POST['messages'];
     @$msg_visitor = $_POST['msg_member'];
-    echo(@$update_menu = $_POST['update_menu']);
+    @$update_menu = $_POST['update_menu'];
     //@$notification = $_POST['msg-notification'];
 }
 

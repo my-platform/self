@@ -206,14 +206,15 @@
 <!-- ./wrapper -->
 
 <!-- jQuery 2.2.3 -->
-<script src="../js/jquery-3.2.1.js"></script>
+<script src="../../bootstrap/js/jquery.js"></script>
 
 <!--<script src="../js/jquery-2.1.1.js"></script>-->
 
 <!--custom-->
 <script src="../js/slider.js"></script>
 <script src="../js/notifications.js"></script>
-<!--<script src="../../plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>-->
+<!--<script src="../../bootstrap/js/contact.js"></script>
+--><!--<script src="../../plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>-->
 
 <!--<script src="../js/try.js"></script>-->
 

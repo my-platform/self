@@ -20,13 +20,14 @@ $(document).ready(function () {
                 success: function (data) {
                     // alert(data);
                     //$('.msg-label').html(data);
-                    $('.dropdown-messages').html(data);
+
+                        $('.dropdown-messages').html(data);
                 }});
             show_notification();
             $('.sql-error').html(response);
         });
     });
-    ///*setInterval(function () {
+    setInterval(function () {
         $.ajax({
             type: 'POST',
             url: '../includes/messages.php',
@@ -34,9 +35,11 @@ $(document).ready(function () {
             success: function (data) {
                // alert(data);
                 //$('.msg-label').html(data);
-                $('.dropdown-messages').html(data);
+
+                    $('.dropdown-messages').html(data);
+
             }});
-  //  },1000);*/
+    },1000);
 
 
     $('.test-notify-msg').click(function(){
@@ -87,13 +90,11 @@ $(document).ready(function () {
             data: {update_menu: 'update_menu'},
             success: function (data) {
                 //$('.msg-not-num').fadeOut();
-               // $('.msg-label').css('display', 'none');
+                // $('.msg-label').css('display', 'none');
                 // alert(data);
                 // $('.msg-not-num').html(data);
-
-            }});
-
-
+            }
+        });
     });
     function show_notification(){
         $.ajax({
@@ -113,11 +114,14 @@ $(document).ready(function () {
                     $('.msg-label').css('display', 'inline-block');
 
                 }
+               // alert('works');
                 //$('.badge').css('display', 'inline-block');
                 //  alert(data)*/
             }});
     }
-
+setInterval(function () {
     show_notification();
+},1000);
+
 
 });
